@@ -1,0 +1,19 @@
+\select@language {brazil}
+\contentsline {figure}{\numberline {1}{\ignorespaces Cenas: (a) natural; (b) sint\IeC {\'e}tica.\relax }}{18}{figure.caption.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}{subfigure.1.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Amostragem espacial e temporal de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo.\relax }}{18}{figure.caption.8}
+\contentsline {figure}{\numberline {3}{\ignorespaces Componentes no espa\IeC {\c c}o RBG: (a) imagem original; (b) vermelho; (c) verde; (d) azul.\relax }}{20}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{20}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{20}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{20}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{20}{subfigure.3.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces Bloco 10x10 \textit {pixels} da imgem de teste Lena, equivalente a matriz \ref {lena}\relax }}{23}{figure.caption.10}
+\contentsline {figure}{\numberline {5}{\ignorespaces Escala arbitr\IeC {\'a}ria redimensionando com uma ou ambas as transformadas locais. Nota-se que a dimens\IeC {\~a}o \IeC {\'e} dada em blocos (por exemplo, o tamanho da primeira imagem \IeC {\'e} de $I$ blocos por $I$ blocos, onde cada cada bloco \IeC {\'e} de tamanho 8x8, o tamanho da segunda imagem ainda \IeC {\'e} $I$ blocos por $I$ blocos, mas o tamanho de cada bloco \IeC {\'e} $NxN$, etc \cite {salazar2007complexity}.\relax }}{24}{figure.caption.11}
+\contentsline {figure}{\numberline {6}{\ignorespaces Etapas de codifica\IeC {\c c}\IeC {\~a}o baseada em DCT \cite {wallace1991jpeg}.\relax }}{26}{figure.caption.12}
+\contentsline {figure}{\numberline {7}{\ignorespaces Etapas de decodifica\IeC {\c c}\IeC {\~a}o baseada em DCT \cite {wallace1991jpeg}.\relax }}{26}{figure.caption.13}
+\contentsline {figure}{\numberline {8}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos coeficientes da DCT para o codificador de entropia \cite {wallace1991jpeg}.\relax }}{28}{figure.caption.14}
+\contentsline {figure}{\numberline {9}{\ignorespaces Estrutura t\IeC {\'\i }pica de um codificador H.264 \cite {richardson2011h}.\relax }}{28}{figure.caption.15}
+\contentsline {figure}{\numberline {10}{\ignorespaces Estrutura t\IeC {\'\i }pica de um decodificador H.264 \cite {richardson2011h}.\relax }}{28}{figure.caption.16}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{31}{figure.caption.17}
+\contentsline {figure}{\numberline {12}{\ignorespaces \textit {Kit} de desenvolvimento TMS320C5515 eZdsp(\textit {Texas Instrument}).\relax }}{33}{figure.caption.18}

@@ -1,0 +1,191 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.5 }
+
+\bibitem[Acharya 2002]{acharya2002integrated}
+\abntrefinfo{Acharya}{ACHARYA}{2002}
+{ACHARYA, T. \emph{Integrated color interpolation and color space conversion
+  algorithm from 8-bit bayer pattern RGB color space to 12-bit YCrCb color
+  space}. Google Patents, 2002.
+US Patent 6,392,699.
+Dispon{\'\i}vel em: \url{https://www.google.com/patents/US6392699}.}
+
+\bibitem[Bandyopadhyay, Chaulya e Mishra 2010]{bandyopadhyay2010wireless}
+\abntrefinfo{Bandyopadhyay, Chaulya e Mishra}{BANDYOPADHYAY; CHAULYA;
+  MISHRA}{2010}
+{BANDYOPADHYAY, L.; CHAULYA, S.; MISHRA, P. Wireless communication in
+  underground mines.
+\emph{RFID-Based Sensor Networking}, Springer, 2010.}
+
+\bibitem[Barkand, Damiano e Shumaker 2006]{barkand2006through}
+\abntrefinfo{Barkand, Damiano e Shumaker}{BARKAND; DAMIANO; SHUMAKER}{2006}
+{BARKAND, T.~D.; DAMIANO, N.~W.; SHUMAKER, W. Through-the-earth, two-way, mine
+  emergency, voice communication systems. In:  IEEE. \emph{Industry
+  Applications Conference, 2006. 41st IAS Annual Meeting. Conference Record of
+  the 2006 IEEE}. [S.l.], 2006. v.~2, p. 955--958.}
+
+\bibitem[Chang e Messerschmitt 1995]{chang1995manipulation}
+\abntrefinfo{Chang e Messerschmitt}{CHANG; MESSERSCHMITT}{1995}
+{CHANG, S.-F.; MESSERSCHMITT, D.~G. Manipulation and compositing of mc-dct
+  compressed video.
+\emph{Selected Areas in Communications, IEEE Journal on}, IEEE, v.~13, n.~1, p.
+  1--11, 1995.}
+
+\bibitem[Dugad e Ahuja 2001]{dugad2001fast}
+\abntrefinfo{Dugad e Ahuja}{DUGAD; AHUJA}{2001}
+{DUGAD, R.; AHUJA, N. A fast scheme for image size change in the compressed
+  domain.
+\emph{Circuits and Systems for Video Technology, IEEE Transactions on}, IEEE,
+  v.~11, n.~4, p. 461--474, 2001.}
+
+\bibitem[Forooshani et al. 2013]{forooshani2013survey}
+\abntrefinfo{Forooshani et al.}{FOROOSHANI et al.}{2013}
+{FOROOSHANI, A.~E. et al. A survey of wireless communications and propagation
+  modeling in underground mines.
+\emph{Communications Surveys \& Tutorials, IEEE}, IEEE, v.~15, n.~4, p.
+  1524--1545, 2013.}
+
+\bibitem[Garcia 2013]{garcia2013tecnicas}
+\abntrefinfo{Garcia}{GARCIA}{2013}
+{GARCIA, D.~C. T{\'e}cnicas de super-resolu{\c{c}}{\~a}o para sistemas de video
+  de m{\'u}ltiplas vistas em resolu{\c{c}}{\~a}o mista.
+2013.}
+
+\bibitem[Gonzalez, Woods e Eddins 2004]{gonzalez2004digital}
+\abntrefinfo{Gonzalez, Woods e Eddins}{GONZALEZ; WOODS; EDDINS}{2004}
+{GONZALEZ, R.~C.; WOODS, R.~E.; EDDINS, S.~L. \emph{Digital image processing
+  using MATLAB}. [S.l.]: Pearson Education India, 2004.}
+
+\bibitem[ITU 1993]{T.81}
+\abntrefinfo{ITU}{ITU}{1993}
+{ITU. \emph{ISO/IEC 10918-1 : 1993(E) CCIT Recommendation T.81}. 1993.
+Dispon{\'\i}vel em: \url{http://www.w3.org/Graphics/JPEG/itu-t81.pdf}.}
+
+\bibitem[Khayam 2003]{khayam2003discrete}
+\abntrefinfo{Khayam}{KHAYAM}{2003}
+{KHAYAM, S.~A. The discrete cosine transform (dct): theory and application.
+\emph{Michigan State University}, 2003.}
+
+\bibitem[Martucci 1995]{martucci1995image}
+\abntrefinfo{Martucci}{MARTUCCI}{1995}
+{MARTUCCI, S.~A. Image resizing in the discrete cosine transform domain. In:
+  IEEE. \emph{Image Processing, 1995. Proceedings., International Conference
+  on}. [S.l.], 1995. v.~2, p. 244--247.}
+
+\bibitem[Meixedo 2008]{meixedo2008metodologias}
+\abntrefinfo{Meixedo}{MEIXEDO}{2008}
+{MEIXEDO, J. M.~R.
+\emph{Metodologias de projecto de baixo consumo para implementa{\c{c}}oes em
+  FPGA}.
+Tese (Doutorado) --- Universidade do Porto, 2008.}
+
+\bibitem[Mukherjee e Mitra 2002]{mukherjee2002image}
+\abntrefinfo{Mukherjee e Mitra}{MUKHERJEE; MITRA}{2002}
+{MUKHERJEE, J.; MITRA, S.~K. Image resizing in the compressed domain using
+  subband dct.
+\emph{Circuits and Systems for Video Technology, IEEE Transactions on}, IEEE,
+  v.~12, n.~7, p. 620--627, 2002.}
+
+\bibitem[Park, Park e Oh 2003]{park2003m}
+\abntrefinfo{Park, Park e Oh}{PARK; PARK; OH}{2003}
+{PARK, H.; PARK, Y.; OH, S.-K. L/m-fold image resizing in block-dct domain
+  using symmetric convolution.
+\emph{Image Processing, IEEE Transactions on}, IEEE, v.~12, n.~9, p.
+  1016--1034, 2003.}
+
+\bibitem[Patil et al. 2006]{patil2006fast2}
+\abntrefinfo{Patil et al.}{PATIL et al.}{2006}
+{PATIL, V. et al. A fast arbitrary down-sizing algorithm for video transcoding.
+  In:  IEEE. \emph{Image Processing, 2006 IEEE International Conference on}.
+  [S.l.], 2006. p. 857--860.}
+
+\bibitem[Raab e Joughin 1995]{raab1995signal}
+\abntrefinfo{Raab e Joughin}{RAAB; JOUGHIN}{1995}
+{RAAB, F.~H.; JOUGHIN, I.~R. Signal processing for through-the-earth radio
+  communication.
+\emph{Communications, IEEE Transactions on}, IEEE, v.~43, n.~12, p. 2995--3003,
+  1995.}
+
+\bibitem[Richardson 2011]{richardson2011h}
+\abntrefinfo{Richardson}{RICHARDSON}{2011}
+{RICHARDSON, I.~E. \emph{The H. 264 advanced video compression standard}.
+  [S.l.]: John Wiley \& Sons, 2011.}
+
+\bibitem[Salazar e Tran 2007]{salazar2007complexity}
+\abntrefinfo{Salazar e Tran}{SALAZAR; TRAN}{2007}
+{SALAZAR, C.; TRAN, T.~D. A complexity scalable universal dct domain image
+  resizing algorithm.
+\emph{Circuits and Systems for Video Technology, IEEE Transactions on}, IEEE,
+  v.~17, n.~4, p. 495--499, 2007.}
+
+\bibitem[Sayood 2012]{sayood2012introduction}
+\abntrefinfo{Sayood}{SAYOOD}{2012}
+{SAYOOD, K. \emph{Introduction to data compression}. [S.l.]: Newnes, 2012.}
+
+\bibitem[Scharstein e Szeliski 2002]{scharstein2002taxonomy}
+\abntrefinfo{Scharstein e Szeliski}{SCHARSTEIN; SZELISKI}{2002}
+{SCHARSTEIN, D.; SZELISKI, R. A taxonomy and evaluation of dense two-frame
+  stereo correspondence algorithms.
+\emph{International journal of computer vision}, Springer, v.~47, n.~1-3, p.
+  7--42, 2002.}
+
+\bibitem[Shannon 2001]{shannon2001mathematical}
+\abntrefinfo{Shannon}{SHANNON}{2001}
+{SHANNON, C.~E. A mathematical theory of communication.
+\emph{ACM SIGMOBILE Mobile Computing and Communications Review}, ACM, v.~5,
+  n.~1, p. 3--55, 2001.}
+
+\bibitem[Silva 2007]{da2007estudo}
+\abntrefinfo{Silva}{SILVA}{2007}
+{SILVA, A. M.~C. da.
+\emph{Um Estudo Sobre o Padr{\~a}o H. 264/AVC de Compress{\~a}o de V{\'\i}deo}.
+Tese (Doutorado) --- UNIVERSIDADE CAT{\'O}LICA DE PELOTAS, 2007.}
+
+\bibitem[Ukrit, Umamageswari e Suresh 2011]{ukrit2011survey}
+\abntrefinfo{Ukrit, Umamageswari e Suresh}{UKRIT; UMAMAGESWARI; SURESH}{2011}
+{UKRIT, M.~F.; UMAMAGESWARI, A.; SURESH, D.~G. A survey on lossless compression
+  for medical images.
+\emph{International Journal of Computer Applications}, Citeseer, v.~31, n.~8,
+  p. 47--50, 2011.}
+
+\bibitem[Verg{\"u}tz 2013]{vergutz2013combinaccao}
+\abntrefinfo{Verg{\"u}tz}{VERG{\"U}TZ}{2013}
+{VERG{\"U}TZ, S. Uma combina{\c{c}}{\~a}o entre os crit{\'e}rios objetivo e
+  subjetivo na classifica{\c{c}}{\~a}o de imagens mamogr{\'a}ficas comprimidas
+  pelo m{\'e}todo fractal.
+2013.}
+
+\bibitem[Wallace 1991]{wallace1991jpeg}
+\abntrefinfo{Wallace}{WALLACE}{1991}
+{WALLACE, G.~K. The jpeg still picture compression standard.
+\emph{Communications of the ACM}, AcM, v.~34, n.~4, p. 30--44, 1991.}
+
+\bibitem[Wang et al. 2008]{wang2008jpeg}
+\abntrefinfo{Wang et al.}{WANG et al.}{2008}
+{WANG, C.-Y. et al. Jpeg-based image coding algorithm at low bit rates with
+  down-sampling and interpolation. In:  IEEE. \emph{Wireless Communications,
+  Networking and Mobile Computing, 2008. WiCOM'08. 4th International Conference
+  on}. [S.l.], 2008. p.~1--5.}
+
+\bibitem[Wang, Chien e Chang 2010]{wang2010adaptive}
+\abntrefinfo{Wang, Chien e Chang}{WANG; CHIEN; CHANG}{2010}
+{WANG, R.-J.; CHIEN, M.-C.; CHANG, P.-C. Adaptive down-sampling video coding.
+  In:  INTERNATIONAL SOCIETY FOR OPTICS AND PHOTONICS. \emph{IS\&T/SPIE
+  Electronic Imaging}. [S.l.], 2010. p. 75420P--75420P.}
+
+\bibitem[Wheeler 1961]{wheeler1961radio}
+\abntrefinfo{Wheeler}{WHEELER}{1961}
+{WHEELER, H.~A. Radio wave propagation in the earth's crust.
+\emph{Journal of Research of the National Bureau of Standards}, v.~65, n.~2, p.
+  189--191, 1961.}
+
+\bibitem[Young, Gerbrands e Vliet 1998]{young1998fundamentals}
+\abntrefinfo{Young, Gerbrands e Vliet}{YOUNG; GERBRANDS; VLIET}{1998}
+{YOUNG, I.~T.; GERBRANDS, J.~J.; VLIET, L.~J. V. \emph{Fundamentals of image
+  processing}. [S.l.]: Delft University of Technology Delft, The Netherlands,
+  1998.}
+
+\end{thebibliography}
