@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.9)  12 NOV 2015 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.9)  12 NOV 2015 16:09
 entering extended mode
 **C:/Users/Vanessa/Documents/GitHub/TCC-Andre-Dantas/Latex/tcc.tex
 (C:/Users/Vanessa/Documents/GitHub/TCC-Andre-Dantas/Latex/tcc.tex
@@ -1395,7 +1395,31 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip289
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+Package: csquotes 2015/07/18 v5.1f context-sensitive quotations (JAW)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count322
+)
+\csq@reset=\count323
+\csq@gtype=\count324
+\csq@glevel=\count325
+\csq@qlevel=\count326
+\csq@maxlvl=\count327
+\csq@tshold=\count328
+\csq@ltx@everypar=\toks37
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+File: csquotes.def 2015/07/18 v5.1f csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+File: csquotes.cfg 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
@@ -1454,6 +1478,10 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 \tcc@idxfile=\write4
 
 Writing index file tcc.idx 
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 (tcc.aux
 
 LaTeX Warning: Label `fig:original' multiply defined.
@@ -1498,7 +1526,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count322
+\c@section@level=\count329
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1516,17 +1544,17 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             ! on input line 9.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
+\scratchcounter=\count330
 \scratchdimen=\dimen286
 \scratchbox=\box60
-\nofMPsegments=\count324
-\nofMParguments=\count325
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count326
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count333
 \MPscratchDim=\dimen287
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks38
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks39
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1622,11 +1650,11 @@ Dictionary: translator-basic-dictionary, Language: Spanish
 ("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2015/10/15 v2.6m siunitx: Abbreviated units
 )
-\c@lstlisting=\count329
+\c@lstlisting=\count336
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 9.
-\c__siunitx_mathsf_int=\count330
+\c__siunitx_mathsf_int=\count337
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 9.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
@@ -1659,7 +1687,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmss on input line 9.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c__siunitx_mathtt_int=\count331
+\c__siunitx_mathtt_int=\count338
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 9.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
@@ -1803,14 +1831,14 @@ STRAGEM_VIDEO.png>]
 File: figuras/MANDRIL.png Graphic file (type png)
 
 <use figuras/MANDRIL.png>
-Package pdftex.def Info: figuras/MANDRIL.png used on input line 84.
+Package pdftex.def Info: figuras/MANDRIL.png used on input line 83.
 (pdftex.def)             Requested size: 181.99722pt x 161.03908pt.
 
 <figuras/COMPONENTE_VERMELHA.png, id=254, 516.42938pt x 456.95718pt>
 File: figuras/COMPONENTE_VERMELHA.png Graphic file (type png)
 
 <use figuras/COMPONENTE_VERMELHA.png>
-Package pdftex.def Info: figuras/COMPONENTE_VERMELHA.png used on input line 88.
+Package pdftex.def Info: figuras/COMPONENTE_VERMELHA.png used on input line 87.
 
 (pdftex.def)             Requested size: 181.99722pt x 161.03908pt.
 
@@ -1818,14 +1846,14 @@ Package pdftex.def Info: figuras/COMPONENTE_VERMELHA.png used on input line 88.
 File: figuras/COMPONENTE_VERDE.png Graphic file (type png)
 
 <use figuras/COMPONENTE_VERDE.png>
-Package pdftex.def Info: figuras/COMPONENTE_VERDE.png used on input line 92.
+Package pdftex.def Info: figuras/COMPONENTE_VERDE.png used on input line 91.
 (pdftex.def)             Requested size: 181.99722pt x 161.03908pt.
 
 <figuras/COMPONENTE_AZUL.png, id=256, 516.42938pt x 456.95718pt>
 File: figuras/COMPONENTE_AZUL.png Graphic file (type png)
 
 <use figuras/COMPONENTE_AZUL.png>
-Package pdftex.def Info: figuras/COMPONENTE_AZUL.png used on input line 96.
+Package pdftex.def Info: figuras/COMPONENTE_AZUL.png used on input line 95.
 (pdftex.def)             Requested size: 181.99722pt x 161.03908pt.
  [19] [20 <./figuras/MANDRIL.png (PNG copy)> <./figuras/COMPONENTE_VERMELHA.png
  (PNG copy)> <./figuras/COMPONENTE_VERDE.png (PNG copy)> <./figuras/COMPONENTE_
@@ -1833,7 +1861,7 @@ AZUL.png (PNG copy)>] [21] [22]
 <figuras/BLOCO.png, id=297, 8.28094pt x 8.28094pt>
 File: figuras/BLOCO.png Graphic file (type png)
  <use figuras/BLOCO.png>
-Package pdftex.def Info: figuras/BLOCO.png used on input line 223.
+Package pdftex.def Info: figuras/BLOCO.png used on input line 222.
 (pdftex.def)             Requested size: 33.12366pt x 33.12366pt.
 
 [23 <./figuras/BLOCO.png>]
@@ -1841,63 +1869,63 @@ Package pdftex.def Info: figuras/BLOCO.png used on input line 223.
 File: figuras/DCT_RES.pdf Graphic file (type pdf)
 
 <use figuras/DCT_RES.pdf>
-Package pdftex.def Info: figuras/DCT_RES.pdf used on input line 237.
+Package pdftex.def Info: figuras/DCT_RES.pdf used on input line 236.
 (pdftex.def)             Requested size: 361.85498pt x 166.24547pt.
  [24 <./figuras/DCT_RES.pdf>] [25]
 <figuras/ENCODER-JPEG.pdf, id=371, 825.19768pt x 211.56984pt>
 File: figuras/ENCODER-JPEG.pdf Graphic file (type pdf)
 
 <use figuras/ENCODER-JPEG.pdf>
-Package pdftex.def Info: figuras/ENCODER-JPEG.pdf used on input line 285.
+Package pdftex.def Info: figuras/ENCODER-JPEG.pdf used on input line 284.
 (pdftex.def)             Requested size: 453.86012pt x 116.36377pt.
 
 <figuras/DECODER-JPEG.pdf, id=374, 807.12767pt x 225.12236pt>
 File: figuras/DECODER-JPEG.pdf Graphic file (type pdf)
 
 <use figuras/DECODER-JPEG.pdf>
-Package pdftex.def Info: figuras/DECODER-JPEG.pdf used on input line 292.
+Package pdftex.def Info: figuras/DECODER-JPEG.pdf used on input line 291.
 (pdftex.def)             Requested size: 443.92159pt x 123.81767pt.
  [26 <./figuras/ENCODER-JPEG.pdf> <./figuras/DECODER-JPEG.pdf
 
 pdfTeX warning: pdflatex.EXE (file ./figuras/DECODER-JPEG.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (0.80467pt too wide) in paragraph at lines 325--329
+Overfull \hbox (0.80467pt too wide) in paragraph at lines 324--328
 \T1/lmr/m/n/12 onde: $\OML/lmm/m/it/12 F[]\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 u; 
 v\OT1/lmr/m/n/12 )$ \T1/lmr/m/n/12 щ a ma-triz de co-e-fi-ci-en-tes des-quan-ti
 -za-dos da DCT (apro-xi-ma-чуo de F(u,v)),
  []
 
-<figuras/ZIG-ZAG.png, id=416, 528.47438pt x 264.99pt>
+<figuras/ZIG-ZAG.png, id=415, 528.47438pt x 264.99pt>
 File: figuras/ZIG-ZAG.png Graphic file (type png)
 
 <use figuras/ZIG-ZAG.png>
-Package pdftex.def Info: figuras/ZIG-ZAG.png used on input line 334.
+Package pdftex.def Info: figuras/ZIG-ZAG.png used on input line 333.
 (pdftex.def)             Requested size: 290.6618pt x 145.74495pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] <figuras/H264_CODIFICADOR.png, id=430, 868.74562pt x 354.57469pt>
+[27] <figuras/H264_CODIFICADOR.png, id=429, 868.74562pt x 354.57469pt>
 File: figuras/H264_CODIFICADOR.png Graphic file (type png)
 
 <use figuras/H264_CODIFICADOR.png>
-Package pdftex.def Info: figuras/H264_CODIFICADOR.png used on input line 349.
+Package pdftex.def Info: figuras/H264_CODIFICADOR.png used on input line 348.
 (pdftex.def)             Requested size: 390.93192pt x 159.55713pt.
  [28 <./figuras/ZIG-ZAG.png> <./figuras/H264_CODIFICADOR.png>]
-<figuras/H264_DECODIFICADOR.png, id=441, 851.43094pt x 335.75438pt>
+<figuras/H264_DECODIFICADOR.png, id=440, 851.43094pt x 335.75438pt>
 File: figuras/H264_DECODIFICADOR.png Graphic file (type png)
 
 <use figuras/H264_DECODIFICADOR.png>
-Package pdftex.def Info: figuras/H264_DECODIFICADOR.png used on input line 360.
+Package pdftex.def Info: figuras/H264_DECODIFICADOR.png used on input line 359.
 
 (pdftex.def)             Requested size: 383.14038pt x 151.08807pt.
  [29 <./figuras/H264_DECODIFICADOR.png>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 393.
+LaTeX Warning: Command \' invalid in math mode on input line 392.
 
 ) (editaveis/materiaisMetodos.tex [30]
-<figuras/BLOCOS.png, id=464, 434.37282pt x 308.65312pt>
+<figuras/BLOCOS.png, id=463, 434.37282pt x 308.65312pt>
 File: figuras/BLOCOS.png Graphic file (type png)
 
 <use figuras/BLOCOS.png>
@@ -1906,7 +1934,7 @@ Package pdftex.def Info: figuras/BLOCOS.png used on input line 9.
  [31
 
  <./figuras/BLOCOS.png>] [32]
-<figuras/DSP.jpg, id=477, 602.25pt x 495.8525pt>
+<figuras/DSP.jpg, id=476, 602.25pt x 495.8525pt>
 File: figuras/DSP.jpg Graphic file (type jpg)
  <use figuras/DSP.jpg>
 Package pdftex.def Info: figuras/DSP.jpg used on input line 54.
@@ -1950,13 +1978,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 26263 strings out of 493636
- 465926 string characters out of 3143750
- 539554 words of memory out of 3000000
- 29005 multiletter control sequences out of 15000+200000
+ 27083 strings out of 493636
+ 477794 string characters out of 3143750
+ 564438 words of memory out of 3000000
+ 29813 multiletter control sequences out of 15000+200000
  93747 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 49i,20n,47p,10454b,1050s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,20n,47p,10454b,1098s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
@@ -1974,9 +2002,9 @@ ic/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmsy8.pfb>
-Output written on tcc.pdf (41 pages, 2719160 bytes).
+Output written on tcc.pdf (41 pages, 2719990 bytes).
 PDF statistics:
- 789 PDF objects out of 1000 (max. 8388607)
+ 788 PDF objects out of 1000 (max. 8388607)
  181 named destinations out of 1000 (max. 500000)
  366 words of extra memory for PDF output out of 10000 (max. 10000000)
 

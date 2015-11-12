@@ -2,7 +2,7 @@
 
 \section{Imagens Digitais}
 
-Segundo \citeonline{young1998fundamentals}, uma imagem pode ser representada como uma função de duas variáveis reais, por exemplo, \textit{a(x,y)} com \textit{a} sendo a amplitude (ex.: brilho) da imagem nas coordenadas reais \textit{(x,y)}. As amplitudes da imagem serão sempre dadas por um conjunto de números reais ou inteiros, sendo este último o resultado de um processo de quantização, que converte uma faixa de números reais, por exemplo de 0,0 a 100,0\%, em um número discreto de níveis.
+Segundo \citeonline{young1998fundamentals}, uma imagem pode ser representada como uma função de duas variáveis reais, por exemplo, \textit{a(x,y)} com \textit{a} sendo a amplitude (ex.: brilho) da imagem nas coordenadas reais de posição\textit{(x,y)}. As amplitudes da imagem serão sempre dadas por um conjunto de números reais ou inteiros, sendo este último o resultado de um processo de quantização, que converte uma faixa de números reais, por exemplo de 0,0 a 100,0\%, em um número discreto de níveis.
 
 De acordo com o mesmo autor, imagens digitais a(m,n), descritas em um espaço discreto, são obtidas a partir de imagens analógicas a(x,y), por sua vez descritas em um espaço contínuo,  aLabel través do processo de amostragem, que é frequentemente citado como digitalização. A equação \ref{eq1} ilustra uma possível representação matricial para uma imagem digital.
 \vspace{-1cm}
@@ -22,7 +22,7 @@ De acordo com o mesmo autor, imagens digitais a(m,n), descritas em um espaço di
 
 \subsection{Imagens Monocromáticas}
 	
-	De acordo com \citeonline{gonzalez2004digital}, o processo de digitalização das imagens requer uma amostragem espacial, este processo irá definir as quantidades $M$ de linhas e $N$ de colunas que caracterizam o espaço discreto em que a imagem está contida, além do número $L$, que no caso das imagens monocromáticas é o número de tons de cinza que cada \textit{pixel} (elemento da imagem) pode assumir. $M$ e $N$ devem ser números inteiros e positivos. Entretanto, devido ao processamento, armazenamento e considerações do hardware de amostragem, o número de níveis de cinzento é tipicamente uma potência inteira de 2:
+	De acordo com \citeonline{gonzalez2004digital}, o processo de digitalização das imagens requer uma amostragem espacial, este processo irá definir as quantidades $M$ de linhas e $N$ de colunas que caracterizam o espaço discreto em que a imagem está contida, além do número $L$, que no caso das imagens monocromáticas é o número de tons de cinza que cada \textit{pixel} (elemento da imagem) pode assumir. $M$ e $N$ devem ser números inteiros e positivos. Entretanto, devido ao processamento, armazenamento e considerações do hardware de amostragem, o número de níveis de cinza é tipicamente uma potência inteira de 2:
 \vspace{-1cm}
 \begin{center}
 	\begin{equation}
@@ -64,9 +64,8 @@ Segundo \cite{garcia2013tecnicas}, para se representar cenas naturais e sintéti
 
 \subsection{Conceito de Resolução} \label{resolucao}
 
-%Ainda de acordo com \citeonline{gonzalez2004digital}, temos que definir o conceito de resolução espacial e de tons de cinza. Sabe-se que a resolução espacial é o menor detalhe discernível em uma imagem. Suponha que deseja-se construir um gráfico com linhas verticais de largura W, e que o espaço entre essas linhas possua a mesma largura W. Um par de linhas é constituído por uma linha vertical e seu respectivo espaço adjacente. Portanto, a largura de um par de linhas é 2W e existem 1/2W pares de linha por unidade de distância. Ou seja, a resolução espacial representa o nível de detalhe que uma imagem comporta, ou ainda , quantifica quão próximas as linhas podem ficar umas das outras, sendo que o principal fator determinante da resolução espacial de uma imagem é o processo de amostragem. Já a resolução de tons de cinza (''\textit{Gray-level resolution}''), assim como a espacial, é definida como a menor mudança discernível entre os tons de cinza, no entanto medir essas mudanças é um processo com um nível de subjetividade maior. Devido a considerações sobre o \textit{hardware}, têm-se que o número de níveis de cinza é uma potência de 2, como já foi dito. Na maioria dos casos utiliza-se 8 bits ou 16 bits (em aplicações em que é necessária uma gama maior de níveis). Em certos casos pode-se deparar com imagens digitalizadas com 10 ou 12 bits de exatidão, mas estes casos são exceções a regra geral.    
 
-Ainda de acordo com \citeonline{gonzalez2004digital}, temos que definir o conceito de resolução espacial e de tons de cinza. Sabe-se que a resolução espacial está relacionada ao menor detalhe discernível em uma imagem. Suponha que deseja-se construir um gráfico com linhas verticais de largura W, e que o espaço entre essas linhas possuam a mesma largura W. Um par de linhas é constituído por uma linha vertical e seu respectivo espaço adjacente. Portanto, a largura de um par de linhas é 2W e existem 1/2W pares de linha por unidade de distância. Ou seja, a resolução espacial representa o nível de detalhe que uma imagem comporta, ou ainda, quantifica quão próximas as linhas podem ficar umas das outras, sendo que o principal fator determinante da resolução espacial de uma imagem é o processo de amostragem. Já a resolução de tons de cinza \textit{hardware}, assim como a espacial, é definida como a menor mudança discernível entre os tons de cinza. No entanto medir essas mudanças é um processo com um nível de subjetividade maior. Devido a considerações sobre o hardware, tem-se que o número de níveis de cinza é uma potência de 2, como já foi dito. Na maioria dos casos utilizam-se 8 \textit{bits} ou 16 \textit{bits} (em aplicações em que é necessária uma gama maior de níveis). Em certos casos pode-se deparar com imagens digitalizadas com 10 ou 12 \textit{bits} de exatidão, mas estes casos são exceções a regra geral.
+Ainda de acordo com \citeonline{gonzalez2004digital}, temos que definir o conceito de resolução espacial e de tons de cinza. Sabe-se que a resolução espacial está relacionada ao menor detalhe discernível em uma imagem. Suponha que deseja-se construir um gráfico com linhas verticais de largura W, e que o espaço entre essas linhas possuam a mesma largura W. Um par de linhas é constituído por uma linha vertical e seu respectivo espaço adjacente. Portanto, a largura de um par de linhas é 2W e existem 1/2W pares de linha por unidade de distância. Ou seja, a resolução espacial representa o nível de detalhe que uma imagem comporta, ou ainda quantifica quão próximas as linhas podem ficar umas das outras, sendo que o principal fator determinante da resolução espacial de uma imagem é o processo de amostragem. Já a resolução de tons de cinza \textit{hardware}, assim como a espacial, é definida como a menor mudança discernível entre os tons de cinza. No entanto medir essas mudanças é um processo com um nível de subjetividade maior. Devido a considerações sobre o \textit{hardware}, tem-se que o número de níveis de cinza é uma potência de 2, como já foi dito. Na maioria dos casos utilizam-se 8 \textit{bits} ou 16 \textit{bits} (em aplicações em que é necessária uma gama maior de níveis). Em certos casos pode-se deparar com imagens digitalizadas com 10 ou 12 \textit{bits} de exatidão, mas estes casos são exceções a regra geral.
 
 
 \subsection{Espaço de Cores}
@@ -99,9 +98,9 @@ No espaço de cores RGB, a cor das amostras da imagem é representadas por três
     \label{fig:RGB}%
 \end{figure}
 
-Para o mesmo autor, o espaço de cor RGB é bem adequado para capturar e exibir imagens coloridas. Obter uma imagem RGB envolve filtrar os componentes vermelho, verde e azul da cena e capturar cada um com um conjunto de sensores separado. Para exibir as cores de uma imagem RGB ilumina-se separadamente as componentes vermelha, verde e azul de cada pixel de acordo com a intensidade de cada componente. A partir de uma certa distância de visualização, os componentes separados se fundem para dar a aparência da cor ''verdadeira''. 
+Para o mesmo autor, o espaço de cor RGB é bem adequado para capturar e exibir imagens coloridas. Obter uma imagem RGB envolve filtrar os componentes vermelho, verde e azul da cena e capturar cada um com um conjunto de sensores separado. Para exibir as cores de uma imagem RGB ilumina-se separadamente as componentes vermelha, verde e azul de cada pixel de acordo com a intensidade de cada componente. A partir de uma certa distância de visualização, os componentes separados se fundem para dar a aparência da cor \enquote{verdadeira}. 
 
-\subsubsection{YCrCb}
+\subsubsection{O sistema de cores YCrCb}
 O sistema visual humano é menos sensível a cor do que à luminância. No espaço RGB as três cores são igualmente importantes e, assim, são normalmente armazenadas todas com a mesma resolução, mas é possível representar uma imagem colorida mais eficientemente através da separação da luminância a partir da informação da cor \cite{richardson2011h}.
 
 O YCrCb é um espaço de cor definido pela CCIR (\textit{International Consultative Committee on Broadcasting}), também referido como o espaço de cor CCIR 601 \cite{acharya2002integrated}. YCrCb define a informação  das imagens coloridas  em termos da luminância (componente Y) e de dois valores de crominância diferentes (Cr-crominância de cores vermelhas e Cb-crominância de cores azul) e não como uma combinação de cores como no espaço RGB. Quando cada pixel é representado assim, ao contrário do espaço de cor RGB em que cada pixel tem, tipicamente, 24 bits de informação (8 bits para cada plano de cor), cada pixel pode ser representado por apenas 12 bits devido a redundância da informação de crominância. Para isso, primeiro deve-se converter do espaço RGB (24 \textit{bits}/\textit{pixel}) para YCrCb (24 \textit{bits}/\textit{pixel}), da seguinte maneira:
@@ -155,7 +154,7 @@ E a transformada inversa (ou IDCT, do inglês \textit{Inverse discrete cosine tr
 	X = A^TYA \hspace{5mm} (IDCT)
 \end{equation}
 
-\noindent onde a matriz $X$ é a matriz de amostras, a $Y$ são os respectivos coeficientes das transformada e a matriz $A$ é a matriz de transformação. Os elementos de $A$ podem ser calculados como mostrado abaixo: \cite{richardson2011h}
+\noindent onde a matriz $X$ é a imagem no domínio espacial, a $Y$ são os respectivos coeficientes das transformada e a matriz $A$ é a matriz de transformação. Os elementos de $A$ podem ser calculados como mostrado abaixo: \cite{richardson2011h}
 \vspace{-3mm}
 \begin{equation}
 \begin{matrix}
@@ -241,18 +240,18 @@ De acordo com \citeonline{martucci1995image}, a DCT utilizada na compressão de 
 
 \section{Compressão e Codificação de Imagens e Vídeos Digitais}
 
-O termo ''compressão de dados'' refere-se ao processo de redução do montante de dados exigidos para representar uma dada quantidade de informação. Deve-se esclarecer que denominamos ''dados'' aos meios pelos quais uma informação é transmitida \cite{richardson2011h}.
+O termo \enquote{compressão de dados} refere-se ao processo de redução do montante de dados exigidos para representar uma dada quantidade de informação. Deve-se esclarecer que denominamos \enquote{dados} aos meios pelos quais uma informação é transmitida \cite{richardson2011h}.
 
 \subsection{Compressão Sem Perdas}
 Técnicas de compressão sem perdas, como o seu nome indica, não envolvem perda de informações. Se os dados sofreram compressão do tipo sem perdas, pode-se recuperar exatamente os dados originais a partir  os dados comprimidos \cite{ukrit2011survey}.
 
-Compressão de texto é uma área importante para a compressão sem perdas. É muito importante que a reconstrução seja idêntica à do texto original, pois diferenças muito pequenas podem resultar em orações com significados muito diferentes. Considere as frases ''Não, enviem dinheiro'' e ''Não enviem dinheiro.'' Um argumento semelhante vale para arquivos de computador e para certos tipos de dados, tais como registros bancários \cite{sayood2012introduction}.
+Compressão de texto é uma área importante para a compressão sem perdas. É muito importante que a reconstrução seja idêntica a do texto original, pois diferenças muito pequenas podem resultar em orações com significados muito diferentes. Considere as frases \enquote{Não, enviem dinheiro} e \enquote{Não enviem dinheiro}. Um argumento semelhante vale para arquivos de computador e para certos tipos de dados, tais como registros bancários \cite{sayood2012introduction}.
 
-Se os dados comprimidos vão ser processados (para se obter mais informação) ou ''melhorados'' é importante que a integridade seja preservada. Por exemplo, suponhamos que uma imagem radiológica seja comprimida de uma forma com perdas, e a diferença entre a imagem reconstruída e o original seja visualmente indetectável. Se esta imagem foi mais tarde reforçada, as diferenças anteriormente indetectáveis podem causar o aparecimento de artefatos que poderiam enganar seriamente o radiologista \cite{sayood2012introduction}.
+Se os dados comprimidos vão ser processados (para se obter mais informação) ou \enquote{melhorados} é importante que a integridade seja preservada. Por exemplo, suponhamos que uma imagem radiológica seja comprimida de uma forma com perdas, e a diferença entre a imagem reconstruída e o original seja visualmente indetectável. Se esta imagem foi mais tarde reforçada, as diferenças anteriormente indetectáveis podem causar o aparecimento de artefatos que poderiam enganar seriamente o radiologista \cite{sayood2012introduction}.
 
 \subsubsection{Entropia}
 
-Segundo \cite{shannon2001mathematical}, considerando uma fonte discreta de informação. Para cada estado possível $i$ haverá um conjunto de probabilidades ($P_i(j)$) de produzir os $j$ possíveis símbolos . Assim, há uma entropia ($H(j)$) para cada estado. A entropia da fonte será definida como a média desses $H$s, ponderados de acordo com a probabilidade de ocorrência dos estados em questão, como mostrado a seguir:
+Segundo \cite{shannon2001mathematical}, considerando uma fonte discreta de informação, para cada estado possível $i$ haverá um conjunto de probabilidades ($P_i(j)$) de produzir os $j$ possíveis símbolos . Assim, há uma entropia ($H(j)$) para cada estado. A entropia da fonte será definida como a média desses $H$s, ponderados de acordo com a probabilidade de ocorrência dos estados em questão, como mostrado a seguir:
 
 \begin{equation}
 \label{ENTROPIA}
@@ -264,19 +263,19 @@ Segundo \cite{shannon2001mathematical}, considerando uma fonte discreta de infor
 
 De acordo com mesmo autor, se a base do algoritmo na equação \ref{ENTROPIA} for 2, a entropia representará uma medida de \textit{bits} por símbolos, sendo essa a medida do número médio de \textit{bits} necessários para codificar a saída da fonte. 
 
-A quantidade de informação nova transmitida por um símbolo diminui na medida em que a probabilidade de ocorrência deste símbolo aumenta. Então, os codificadores que exploram a redundância entrópica têm por objetivo transmitir o máximo de informação possível por símbolo codificado e, deste modo, representar
+A quantidade de informação nova transmitida por um símbolo diminui na medida em que a probabilidade de ocorrência deste símbolo aumenta. Então, os codificadores que exploram a redundância entrópica tem por objetivo transmitir o máximo de informação possível por símbolo codificado e, deste modo, representar
 mais informações com um número menor de bits. A codificação de entropia, como é chamada, utiliza diferentes técnicas e algoritmos de compressão sem perdas para atingir este objetivo \cite{da2007estudo}.
 
 \subsection{Compressão com perdas}
 
 Técnicas de compressão com perdas envolvem alguma perda de informações, assim, dados que tenham sido comprimidos utilizando técnicas com perdas geralmente não podem ser recuperados ou reconstruídos exatamente. Em troca de aceitar essa distorção na reconstrução, podemos geralmente obter taxas de compressão muito mais elevadas do que com compressão sem perdas  \cite{sayood2012introduction}.
 
-De acordo com o mesmo autor, em muitas aplicações nota-se que a diferença entre a informação reconstruida e a original pode ser aceitável.. Por exemplo, na compressão de video, diferenças entre os sinais original e reconstruído podem ser toleradas, contanto que elas não resultem em artefactos inconvenientes. Assim, sequências de vídeo são geralmente comprimidas usando compressão com perdas.
+De acordo com o mesmo autor, em muitas aplicações nota-se que a diferença entre a informação reconstruída e a original pode ser aceitável. Por exemplo, na compressão de video, diferenças entre os sinais original e reconstruído podem ser toleradas, contanto que elas não resultem em artefatos inconvenientes. Assim, sequências de vídeo são geralmente comprimidas usando compressão com perdas.
 
 \subsection{Padrão JPEG} \label{JPEG}
- O padrão JPEG é um método de compressão, com perdas, comumente empregado para imagens de tons contínuos, devido à sua alta eficácia e baixa complexidade computacional \cite{wang2008jpeg}.
+ O padrão JPEG é um método de compressão com perdas, comumente empregado para imagens de tons contínuos, devido à sua alta eficácia e baixa complexidade computacional \cite{wang2008jpeg}.
  
-Este padrão é definido pelo \citeonline{T.81}, sendo largamente utilizado em máquinas fotográficas, scanners e páginas da internet. Ainda nessa seção discutiremos mais sobre o algoritmo deste padrão.
+Este padrão é definido pelo \citeonline{T.81}, sendo largamente utilizado em máquinas fotográficas, scanners e páginas da internet. 
 
 De acordo \citeonline{wallace1991jpeg}, o algoritmo do padrão JPEG é descrito pelo fluxograma nas imagens \ref{ENCODER_JPEG} e \ref{DECODER_JPEG}.
 
@@ -294,9 +293,9 @@ De acordo \citeonline{wallace1991jpeg}, o algoritmo do padrão JPEG é descrito 
 	\label{DECODER_JPEG}
 \end{figure}
   
- A primeira etapa pela qual a imagem passa na codificação é a FDCT, que nada mais é que uma transformada como já dito na sessão \ref{DCT} . Já na última etapa, na saída do decodificador, a IDCT, que de acordo com o mesmo autor, nada mais é que uma outra transformada matemática que faz o inverso da FDCT, converte coeficientes em amostras da imagem. 
+ A primeira etapa pela qual a imagem passa na codificação é a FDCT. Já na última etapa, na saída do decodificador, a IDCT, que de acordo com o mesmo autor, nada mais é que uma outra transformada matemática que faz o inverso da FDCT, converte coeficientes em amostras da imagem. 
 
-De acordo \citeonline{wallace1991jpeg}, após a saída do FDCT, cada um dos 64 coeficientes (blocos 8x8) da DCT  são quantizados uniformemente em conjunto com uma matriz de normalização de 64 elementos, que deve ser indicada pela aplicação (ou usuário) como uma entrada para o codificador. Cada elemento pode variar entre 1 e 255, o que indica o tamanho de degrau do quantizador do seu coeficiente DCT respectivo. A finalidade de quantização (\textit{quantizer}) é conseguir uma compressão adicional, apenas por representar os coeficientes de DCT com uma precisão suficiente para atingir a desejada qualidade de imagem. Dito de outra forma, o objetivo desta etapa de processamento é descartar informações que não é visualmente significativa. É a principal fonte de perda de informação em codificadores baseados em DCT.
+De acordo \citeonline{wallace1991jpeg}, após a saída do FDCT, cada um dos 64 coeficientes (blocos 8x8) da DCT  é quantizado uniformemente em conjunto com uma matriz de normalização de 64 elementos, que deve ser indicada pela aplicação (ou usuário) como uma entrada para o codificador. Cada elemento pode variar entre 1 e 255, o que indica o tamanho de degrau do quantizador do seu coeficiente DCT respectivo. A finalidade de quantização (\textit{quantizer}) é conseguir uma compressão adicional, apenas por representar os coeficientes de DCT com uma precisão suficiente para atingir a desejada qualidade de imagem. Dito de outra forma, o objetivo desta etapa de processamento é descartar informações que não são visualmente significativas. 
 
 A quantização de uma matriz é definida como a divisão de cada um de seus elementos por um respectivo coeficiente de quantização (definido pela matriz de normalização), seguido de arredondamento para o inteiro mais próximo:
 \vspace{-3mm}
@@ -309,7 +308,7 @@ onde:
 			$F(u,v)$ é a matriz de coeficientes da DCT,
 			$F^Q(u,v)$ é a matriz de coeficientes quantizados da DCT e
 			$Q(u,v)$ é a matriz de normalização,
-			e o operador $\left \lfloor . \right \rfloor$ executa o arredondamento para o menor valor inteiro mais próximo. Sendo assim, a operação $\left \lfloor . +0,5 \right \rfloor$ executa o arredondamento para o valor inteiro mais próximo.
+			e o operador $\left \lfloor . \right \rfloor$ executa o arredondamento para o menor valor inteiro mais próximo. Sendo assim, a operação $\left \lfloor  +0,5 \right \rfloor$ executa o arredondamento para o valor inteiro mais próximo.
 
 			
 
@@ -327,7 +326,7 @@ onde:
 			$F^Q(u,v)$ é a matriz de coeficientes quantizados da DCT e
 			$Q(u,v)$ é a matriz de normalização.
 
-Depois da quantização, o coeficiente DC é tratado separadamente dos 63 coeficientes AC. O coeficiente DC é uma medida do valor médio das 64 amostras de imagem. Como há correlação geralmente forte entre os coeficientes DC dos blocos 8x8 adjacentes, os coeficientes de DCT quantificados são codificados como a diferença de o termo DC do bloco anterior na ordem de codificação (zig-zag), como mostrado na Figura \ref{ZIG_ZAG} . Este tratamento especial vale a pena, pois coeficientes DC freqüentemente contêm uma fração significativa do total de energia imagem \cite{wallace1991jpeg}.
+Depois da quantização, o coeficiente DC é tratado separadamente dos 63 coeficientes AC. O coeficiente DC é uma medida do valor médio das 64 amostras de imagem. Como há correlação geralmente forte entre os coeficientes DC dos blocos 8x8 adjacentes, os coeficientes de DCT quantificados são codificados como a diferença de o termo DC do bloco anterior na ordem de codificação (zig-zag), como mostrado na Figura \ref{ZIG_ZAG} . Este tratamento especial vale a pena, pois coeficientes DC frequentemente contêm uma fração significativa do total de energia imagem \cite{wallace1991jpeg}.
 
 \begin{figure}[h]
 	\centering
@@ -338,7 +337,7 @@ Depois da quantização, o coeficiente DC é tratado separadamente dos 63 coefic
 
 A etapa final de codificação é a codificação de entropia.  Esta etapa realiza a compressão sem perdas adicionais, codificando os coeficientes quantificados da DCT de forma mais compacta com base nas suas características estatísticas.
 
-\subsection{H.264/AVC}
+\subsection{Sistema H.264/AVC}
 
 H.264/AVC é um padrão da indústria para codificação de vídeo, mas também é um formato popular para vídeo codificado, assim como um conjunto de ferramentas para a compressão de vídeo \cite{richardson2011h}. Esse padrão foi publicado pela ITU juntamento com a ISO e é conhecido por vários nomes, como: \textit{H.264}, \textit{MPEG-4 Part 10} e \textit{Advanced Video Coding (AVC)}. Desenvolvido por uma equipe composta de centenas de especialistas de compressão de vídeo, o \textit{Joint Video Team}, um esforço colaborativo entre a\textit{Moving Picture Experts Group (MPEG)} e o \textit{Video Coding Experts Group (VCEG)}.
 
@@ -351,7 +350,7 @@ A estrutura de um típico codec H.264 é mostradas nas figuras \ref{H264_ENCODER
 	\label{H264_ENCODER}
 \end{figure}
 
-As imagens são processadas em unidades de macroblocos (MB), que correspondem a blocos de 16x16 \textit{pixels} \cite{richardson2011h}. No codificador, é gerada uma previsão para cada macrobloco a partir de blocos já codificados. Em seguida a previsão é subtraída do macrobloco gerando o macrobloco residual, que é transformado, quantizado e codificado por codificação de entropia, em processos similares aos descritos na seção \ref{JPEG} .
+As imagens são processadas em unidades de macroblocos (MB), que correspondem a blocos de 16x16 \textit{pixels} \cite{richardson2011h}. No codificador, é gerada uma previsão para cada macrobloco a partir de blocos já codificados. Em seguida, a previsão é subtraída do macrobloco gerando o macrobloco residual, que é transformado, quantizado e codificado por codificação de entropia, em processos similares aos descritos na seção \ref{JPEG} .
 
 Ainda, conforme o mesmo autor, sabe-se que a predição, ou previsão, do macrobloco atual gerada no codificador acontece a partir de dados previamente codificados, seja usando a informação da próprio quadro (\textit{frame}) atual (predição intra-quadro) ou utilizando informação de quadros anteriormente codificados (predição inter-quadros).
   
@@ -362,7 +361,7 @@ Ainda, conforme o mesmo autor, sabe-se que a predição, ou previsão, do macrob
 	\label{H264_DECODER}
 \end{figure}
 
-No decodificador, um macrobloco é decodificado (operação inversa a codificação de entropia) , desquantizado e passa pela transformada inversa de modo a formar um macrobloco residual descodificado (similar ao macrobloco residual gerado no codificador). Ainda no decodificador é gerada a mesma previsão que foi criado no codificador que é somada ao macrobloco residual decodificado para então produzir uma aproximação do macrobloco original da imagem \cite{richardson2011h}.
+No decodificador, um macrobloco é decodificado (operação inversa à codificação de entropia), desquantizado e passa pela transformada inversa de modo a formar um macrobloco residual descodificado (similar ao macrobloco residual gerado no codificador). Ainda no decodificador é gerada a mesma previsão que foi criada no codificador que é somada ao macrobloco residual decodificado para então produzir uma aproximação do macrobloco original da imagem \cite{richardson2011h}.
 
 \section{Métricas de Qualidade}
 Uma vez que tenhamos desenvolvido um esquema de compressão de dados, precisamos ser capazes de medir o seu desempenho. Devido ao grande número de diferentes áreas de aplicação, condições diferentes têm sido desenvolvidas para descrever e medir o desempenho \cite{sayood2012introduction}.
@@ -386,7 +385,7 @@ processo de degradação, ou seja, a imagem original e a imagem comprimida. Um v
 \end{center} 	
 onde $Y_{out}$ representa a imagem reconstruida, $Y_{in}$ representa a imagem, $N$ representa o número total de linhas de \textit{pixels} da imagem, $M$ o número de colunas  e $Y(i,j,m)$ é o valor  da luminância (0-255) na posição $(i,j)$ da imagem.
 
-Já para avaliarmos a degradação em uma sequência de vídeo toma-se a PSNR médio das imagens que compõe a sequência, dado por:
+Já para avaliar a degradação em uma sequência de vídeo toma-se a PSNR médio das imagens que compõe a sequência, dado por:
 \vspace{-5mm}
 \begin{center}
 	\begin{equation}
