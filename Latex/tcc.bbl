@@ -3,7 +3,13 @@
 \begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.5 }
+\abntbstabout{v-1.9.2 }
+
+\bibitem{garcia2013tecnicas}
+\abntrefinfo{Garcia}{GARCIA}{2013}
+{GARCIA, D.~C. T{\'e}cnicas de super-resolu{\c{c}}{\~a}o para sistemas de video
+  de m{\'u}ltiplas vistas em resolu{\c{c}}{\~a}o mista.
+2013.}
 
 \bibitem{salazar2007complexity}
 \abntrefinfo{Salazar e Tran}{SALAZAR; TRAN}{2007}
@@ -28,6 +34,13 @@
   modeling in underground mines.
 \emph{Communications Surveys \& Tutorials, IEEE}, IEEE, v.~15, n.~4, p.
   1524--1545, 2013.}
+
+\bibitem{mining2012}
+\abntrefinfo{KANG, Um e Oh}{KANG; UM; OH}{2000}
+{KANG, M.; UM, D.-Y.; OH, W.-J. The digital image acquisition of
+  high-resolution by enhancement the multiple images.
+\emph{ASPRS-Proceedings-Launching the Geospational Information Age,
+  Washington}, 2000.}
 
 \bibitem{barkand2006through}
 \abntrefinfo{Barkand, Damiano e Shumaker}{BARKAND; DAMIANO; SHUMAKER}{2006}
@@ -74,12 +87,6 @@
 \emph{International journal of computer vision}, Springer, v.~47, n.~1-3, p.
   7--42, 2002.}
 
-\bibitem{garcia2013tecnicas}
-\abntrefinfo{Garcia}{GARCIA}{2013}
-{GARCIA, D.~C. T{\'e}cnicas de super-resolu{\c{c}}{\~a}o para sistemas de video
-  de m{\'u}ltiplas vistas em resolu{\c{c}}{\~a}o mista.
-2013.}
-
 \bibitem{acharya2002integrated}
 \abntrefinfo{Acharya}{ACHARYA}{2002}
 {ACHARYA, T. \emph{Integrated color interpolation and color space conversion
@@ -87,6 +94,11 @@
   space}. Google Patents, 2002.
 US Patent 6,392,699.
 Dispon{\'\i}vel em: \url{https://www.google.com/patents/US6392699}.}
+
+\bibitem{diniz2010digital}
+\abntrefinfo{Diniz, Silva e Netto}{DINIZ; SILVA; NETTO}{2010}
+{DINIZ, P.~S.; SILVA, E.~A. D.; NETTO, S.~L. \emph{Digital signal processing:
+  system analysis and design}. [S.l.]: Cambridge University Press, 2010.}
 
 \bibitem{T.81}
 \abntrefinfo{ITU}{ITU}{1993}
@@ -180,6 +192,40 @@ Tese (Doutorado) --- UNIVERSIDADE CAT{\'O}LICA DE PELOTAS, 2007.}
   subjetivo na classifica{\c{c}}{\~a}o de imagens mamogr{\'a}ficas comprimidas
   pelo m{\'e}todo fractal.
 2013.}
+
+\bibitem{baker2002limits}
+\abntrefinfo{Baker e Kanade}{BAKER; KANADE}{2002}
+{BAKER, S.; KANADE, T. Limits on super-resolution and how to break them.
+\emph{Pattern Analysis and Machine Intelligence, IEEE Transactions on}, IEEE,
+  v.~24, n.~9, p. 1167--1183, 2002.}
+
+\bibitem{park2003super}
+\abntrefinfo{Park, Park e Kang}{PARK; PARK; KANG}{2003}
+{PARK, S.~C.; PARK, M.~K.; KANG, M.~G. Super-resolution image reconstruction: a
+  technical overview.
+\emph{Signal Processing Magazine, IEEE}, IEEE, v.~20, n.~3, p. 21--36, 2003.}
+
+\bibitem{farsiu2004advances}
+\abntrefinfo{Farsiu et al.}{FARSIU et al.}{2004}
+{FARSIU, S. et al. Advances and challenges in super-resolution.
+\emph{International Journal of Imaging Systems and Technology}, Wiley Online
+  Library, v.~14, n.~2, p. 47--57, 2004.}
+
+\bibitem{figueira2013super}
+\abntrefinfo{Figueira e OLIVEIRA}{FIGUEIRA; OLIVEIRA}{2013}
+{FIGUEIRA, N.~M.; OLIVEIRA, L. C.~d. Super-resolu{\c{c}}{\~a}o: t{\'e}cnicas
+  existentes e possibilidade de emprego {\`a}s imagens do vant vt-15.
+\emph{Revista Militar de Ci{\^e}ncia e Tecnologia}, v.~30, p. 3--19, 2013.}
+
+\bibitem{milanfar2010super}
+\abntrefinfo{Milanfar}{MILANFAR}{2010}
+{MILANFAR, P. \emph{Super-resolution imaging}. [S.l.]: CRC Press, 2010.}
+
+\bibitem{freeman2002example}
+\abntrefinfo{Freeman, Jones e Pasztor}{FREEMAN; JONES; PASZTOR}{2002}
+{FREEMAN, W.~T.; JONES, T.~R.; PASZTOR, E.~C. Example-based super-resolution.
+\emph{Computer Graphics and Applications, IEEE}, IEEE, v.~22, n.~2, p. 56--65,
+  2002.}
 
 \bibitem{meixedo2008metodologias}
 \abntrefinfo{Meixedo}{MEIXEDO}{2008}
