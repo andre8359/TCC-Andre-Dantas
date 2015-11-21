@@ -5,6 +5,15 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem{imagensTeste}
+\abntrefinfo{Maimone}{MAIMONE}{2014}
+{MAIMONE, M. \emph{The Computer Vision Homepage}. 2014.}
+
+\bibitem{scuri1999fundamentos}
+\abntrefinfo{Scuri}{SCURI}{1999}
+{SCURI, A.~E. Fundamentos da imagem digital.
+\emph{Pontif{\'\i}cia Universidade Cat{\'o}lica do Rio de Janeiro}, 1999.}
+
 \bibitem{garcia2013tecnicas}
 \abntrefinfo{Garcia}{GARCIA}{2013}
 {GARCIA, D.~C. T{\'e}cnicas de super-resolu{\c{c}}{\~a}o para sistemas de video
@@ -27,6 +36,13 @@
 \abntrefinfo{Richardson}{RICHARDSON}{2011}
 {RICHARDSON, I.~E. \emph{The H. 264 advanced video compression standard}.
   [S.l.]: John Wiley \& Sons, 2011.}
+
+\bibitem{kang2000digital}
+\abntrefinfo{KANG, Um e Oh}{KANG; UM; OH}{2000}
+{KANG, M.; UM, D.-Y.; OH, W.-J. The digital image acquisition of
+  high-resolution by enhancement the multiple images.
+\emph{ASPRS-Proceedings-Launching the Geospational Information Age,
+  Washington}, 2000.}
 
 \bibitem{forooshani2013survey}
 \abntrefinfo{Forooshani et al.}{FOROOSHANI et al.}{2013}
@@ -94,6 +110,12 @@
   space}. Google Patents, 2002.
 US Patent 6,392,699.
 Dispon{\'\i}vel em: \url{https://www.google.com/patents/US6392699}.}
+
+\bibitem{itu16601}
+\abntrefinfo{ITU-R}{ITU-R}{}
+{ITU-R, R.~B. 601-5: Studio encoding parameters of digital television for
+  standard 4: 3 and wide.
+\emph{Screen}, v.~16, n.~9.}
 
 \bibitem{diniz2010digital}
 \abntrefinfo{Diniz, Silva e Netto}{DINIZ; SILVA; NETTO}{2010}
@@ -168,10 +190,10 @@ Dispon{\'\i}vel em: \url{http://www.w3.org/Graphics/JPEG/itu-t81.pdf}.}
 {SAYOOD, K. \emph{Introduction to data compression}. [S.l.]: Newnes, 2012.}
 
 \bibitem{shannon2001mathematical}
-\abntrefinfo{Shannon}{SHANNON}{2001}
+\abntrefinfo{Shannon}{SHANNON}{1948}
 {SHANNON, C.~E. A mathematical theory of communication.
 \emph{ACM SIGMOBILE Mobile Computing and Communications Review}, ACM, v.~5,
-  n.~1, p. 3--55, 2001.}
+  n.~1, p. 3--55, 1948.}
 
 \bibitem{da2007estudo}
 \abntrefinfo{Silva}{SILVA}{2007}
@@ -227,11 +249,8 @@ Tese (Doutorado) --- UNIVERSIDADE CAT{\'O}LICA DE PELOTAS, 2007.}
 \emph{Computer Graphics and Applications, IEEE}, IEEE, v.~22, n.~2, p. 56--65,
   2002.}
 
-\bibitem{meixedo2008metodologias}
-\abntrefinfo{Meixedo}{MEIXEDO}{2008}
-{MEIXEDO, J. M.~R.
-\emph{Metodologias de projecto de baixo consumo para implementa{\c{c}}oes em
-  FPGA}.
-Tese (Doutorado) --- Universidade do Porto, 2008.}
+\bibitem{raspberryOrg}
+\abntrefinfo{Foundation}{FOUNDATION}{2015}
+{FOUNDATION, R.~P. \emph{Raspberry pi}. 2015.}
 
 \end{thebibliography}

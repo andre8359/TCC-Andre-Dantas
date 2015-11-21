@@ -1,29 +1,35 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Cenas: (a) natural; (b) sint\IeC {\'e}tica.\relax }}{18}{figure.caption.7}
+\contentsline {figure}{\numberline {1}{\ignorespaces Cenas: (a) natural; (b) sint\IeC {\'e}tica. Fonte: \cite {imagensTeste}.\relax }}{18}{figure.caption.7}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}{subfigure.1.2}
 \contentsline {figure}{\numberline {2}{\ignorespaces Amostragem espacial e temporal de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo.\relax }}{18}{figure.caption.8}
-\contentsline {figure}{\numberline {3}{\ignorespaces Componentes no espa\IeC {\c c}o RBG: (a) imagem original; (b) vermelho; (c) verde; (d) azul.\relax }}{20}{figure.caption.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{20}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{20}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{20}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{20}{subfigure.3.4}
-\contentsline {figure}{\numberline {4}{\ignorespaces (a) decima\IeC {\c c}\IeC {\~a}o $I_D(u,v)$ de uma imagem $I^D(u,v)$ de tamanho 8x8 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de decima\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} convolu\IeC {\'\i }da com o filtro $H_D(z1,z2)$, gerando uma vers\IeC {\~a}o passabaixas $I^D_{PB1}$, e depois decimada por um fator M, gerando uma vers\IeC {\~a}o $I(u,v)$ de menor resolu\IeC {\c c}\IeC {\~a}o \cite {garcia2013tecnicas}. \relax }}{22}{figure.caption.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{22}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{22}{subfigure.4.2}
-\contentsline {figure}{\numberline {5}{\ignorespaces (a) interpola\IeC {\c c}\IeC {\~a}o $I^I(u,v)$ de uma imagem $I(u,v)$ de tamanho 2x2 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de interpola\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} interpolada por um fator $M$ e depois convolu\IeC {\'\i }da com o $H_I$, gerando uma vers\IeC {\~a}o em maior resolu\IeC {\c c}\IeC {\~a}o de $I(u,v)$ \cite {garcia2013tecnicas}. \relax }}{23}{figure.caption.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{23}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{23}{subfigure.5.2}
-\contentsline {figure}{\numberline {6}{\ignorespaces Bloco 10x10 \textit {pixels} da imgem de teste Lena, equivalente a matriz \ref {lena}\relax }}{24}{figure.caption.12}
-\contentsline {figure}{\numberline {7}{\ignorespaces Escala arbitr\IeC {\'a}ria redimensionando com uma ou ambas as transformadas locais. Nota-se que a dimens\IeC {\~a}o \IeC {\'e} dada em blocos (por exemplo, o tamanho da primeira imagem \IeC {\'e} de $I$ blocos por $I$ blocos, onde cada cada bloco \IeC {\'e} de tamanho 8x8, o tamanho da segunda imagem ainda \IeC {\'e} $I$ blocos por $I$ blocos, mas o tamanho de cada bloco \IeC {\'e} $NxN$, etc \cite {salazar2007complexity}.\relax }}{25}{figure.caption.13}
-\contentsline {figure}{\numberline {8}{\ignorespaces Etapas de codifica\IeC {\c c}\IeC {\~a}o baseada em DCT \cite {wallace1991jpeg}.\relax }}{27}{figure.caption.14}
-\contentsline {figure}{\numberline {9}{\ignorespaces Etapas de decodifica\IeC {\c c}\IeC {\~a}o baseada em DCT \cite {wallace1991jpeg}.\relax }}{28}{figure.caption.15}
-\contentsline {figure}{\numberline {10}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos coeficientes da DCT para o codificador de entropia \cite {wallace1991jpeg}.\relax }}{29}{figure.caption.16}
-\contentsline {figure}{\numberline {11}{\ignorespaces Estrutura t\IeC {\'\i }pica de um codificador H.264 \cite {richardson2011h}.\relax }}{30}{figure.caption.17}
-\contentsline {figure}{\numberline {12}{\ignorespaces Estrutura t\IeC {\'\i }pica de um decodificador H.264 \cite {richardson2011h}.\relax }}{30}{figure.caption.18}
-\contentsline {figure}{\numberline {13}{\ignorespaces (esquerda) uma cena est\IeC {\'a}tica de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \IeC {\'e} capturada com baixa luminosidade; (direita) ap\IeC {\'o}s equaliza\IeC {\c c}\IeC {\~a}o de histograma a placa do autom\IeC {\'o}vel continua ileg\IeC {\'\i }vel devido ao ru\IeC {\'\i }do natural da imagem \cite {kang2000digital}.\relax }}{33}{figure.caption.19}
-\contentsline {figure}{\numberline {14}{\ignorespaces Legibilidade da placa como resultado da m\IeC {\'e}dia do conjunto cada vez maior de quadros \cite {kang2000digital}.\relax }}{34}{figure.caption.20}
-\contentsline {figure}{\numberline {15}{\ignorespaces (esquerda) a regi\IeC {\~a}o de interesse \IeC {\'e} capturada em uma cena din\IeC {\^a}mica; (direita) a SR estima a cena subjacente a partir de 50 imagens. A reconstru\IeC {\c c}\IeC {\~a}o possui o triplo da resolu\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} imagem original \cite {kang2000digital}.\relax }}{34}{figure.caption.21}
-\contentsline {figure}{\numberline {16}{\ignorespaces Super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos: a imagem interpolada $I_0^B$ recebe informa\IeC {\c c}\IeC {\~o}es de alta frequ\IeC {\^e}ncia a partir de uma imagem em alta resolu\IeC {\c c}\IeC {\~a}o $I_j$ separada em vers\IeC {\~o}es com componentes de baixa e alta frequ\IeC {\^e}ncia, $I_j^B$ e $I_j^A$ \cite {garcia2013tecnicas}.\relax }}{35}{figure.caption.22}
-\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{37}{figure.caption.23}
-\contentsline {figure}{\numberline {18}{\ignorespaces \textit {Kit} de desenvolvimento TMS320C5515 eZdsp(\textit {Texas Instrument}).\relax }}{39}{figure.caption.24}
+\contentsline {figure}{\numberline {3}{\ignorespaces Imagens com mesmo tamanho real e diferentes resolu\IeC {\c c}\IeC {\~o}es. Fonte \cite {scuri1999fundamentos}.\relax }}{19}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}{subfigure.3.2}
+\contentsline {figure}{\numberline {4}{\ignorespaces Componentes no espa\IeC {\c c}o RBG: (a) imagem original; (b) vermelho; (c) verde; (d) azul. Fonte: \cite {imagensTeste}.\relax }}{20}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{20}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{20}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{20}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{20}{subfigure.4.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces (a) decima\IeC {\c c}\IeC {\~a}o $I_D(u,v)$ de uma imagem $I^D(u,v)$ de tamanho 8x8 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de decima\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} convolu\IeC {\'\i }da com o filtro $H_D(z1,z2)$, gerando uma vers\IeC {\~a}o passabaixas $I^D_{PB1}$, e depois decimada por um fator M, gerando uma vers\IeC {\~a}o $I(u,v)$ de menor resolu\IeC {\c c}\IeC {\~a}o. Fonte: \cite {garcia2013tecnicas}. \relax }}{22}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{22}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{22}{subfigure.5.2}
+\contentsline {figure}{\numberline {6}{\ignorespaces (a) interpola\IeC {\c c}\IeC {\~a}o $I^I(u,v)$ de uma imagem $I(u,v)$ de tamanho 2x2 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de interpola\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} interpolada por um fator $M$ e depois convolu\IeC {\'\i }da com o $H_I$, gerando uma vers\IeC {\~a}o em maior resolu\IeC {\c c}\IeC {\~a}o de $I(u,v)$. Fonte: \cite {garcia2013tecnicas}. \relax }}{23}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{23}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{23}{subfigure.6.2}
+\contentsline {figure}{\numberline {7}{\ignorespaces Bloco 10x10 \textit {pixels} da imgem de teste Lena, equivalente a matriz \ref {lena}. Fonte: \cite {imagensTeste}.\relax }}{25}{figure.caption.13}
+\contentsline {figure}{\numberline {8}{\ignorespaces Escala arbitr\IeC {\'a}ria redimensionando com uma ou ambas as transformadas locais. Nota-se que a dimens\IeC {\~a}o \IeC {\'e} dada em blocos (por exemplo, o tamanho da primeira imagem \IeC {\'e} de $I$ blocos por $I$ blocos, onde cada cada bloco \IeC {\'e} de tamanho 8x8, o tamanho da segunda imagem ainda \IeC {\'e} $I$ blocos por $I$ blocos, mas o tamanho de cada bloco \IeC {\'e} $NxN$. Fonte: \cite {salazar2007complexity}.\relax }}{26}{figure.caption.14}
+\contentsline {figure}{\numberline {9}{\ignorespaces Etapas de codifica\IeC {\c c}\IeC {\~a}o baseada em DCT. Fonte: \cite {wallace1991jpeg}.\relax }}{28}{figure.caption.15}
+\contentsline {figure}{\numberline {10}{\ignorespaces Etapas de decodifica\IeC {\c c}\IeC {\~a}o baseada em DCT. Fonte: \cite {wallace1991jpeg}.\relax }}{29}{figure.caption.16}
+\contentsline {figure}{\numberline {11}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos coeficientes da DCT para o codificador de entropia. Fonte: \cite {wallace1991jpeg}.\relax }}{30}{figure.caption.17}
+\contentsline {figure}{\numberline {12}{\ignorespaces Estrutura t\IeC {\'\i }pica de um codificador H.264 \cite {richardson2011h}.\relax }}{31}{figure.caption.18}
+\contentsline {figure}{\numberline {13}{\ignorespaces Estrutura t\IeC {\'\i }pica de um decodificador H.264 \cite {richardson2011h}.\relax }}{31}{figure.caption.19}
+\contentsline {figure}{\numberline {14}{\ignorespaces (a) uma cena est\IeC {\'a}tica de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \IeC {\'e} capturada com baixa luminosidade; (b) ap\IeC {\'o}s equaliza\IeC {\c c}\IeC {\~a}o de histograma a placa do autom\IeC {\'o}vel continua ileg\IeC {\'\i }vel devido ao ru\IeC {\'\i }do natural da imagem. Fonte: \cite {kang2000digital}. \relax }}{33}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{33}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{33}{subfigure.14.2}
+\contentsline {figure}{\numberline {15}{\ignorespaces Legibilidade da placa como resultado da m\IeC {\'e}dia do conjunto cada vez maior de quadros. Fonte: \cite {kang2000digital}.\relax }}{34}{figure.caption.21}
+\contentsline {figure}{\numberline {16}{\ignorespaces (a) regi\IeC {\~a}o de interesse \IeC {\'e} capturada em uma cena din\IeC {\^a}mica; (b) a SR estima a cena subjacente a partir de 50 imagens. A reconstru\IeC {\c c}\IeC {\~a}o possui o triplo da resolu\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} imagem original. Fonte: \cite {kang2000digital}. \relax }}{34}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{34}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{34}{subfigure.16.2}
+\contentsline {figure}{\numberline {17}{\ignorespaces Super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos: a imagem interpolada $I_0^B$ recebe informa\IeC {\c c}\IeC {\~o}es de alta frequ\IeC {\^e}ncia a partir de uma imagem em alta resolu\IeC {\c c}\IeC {\~a}o $I_j$ separada em vers\IeC {\~o}es com componentes de baixa e alta frequ\IeC {\^e}ncia, $I_j^B$ e $I_j^A$. Fonte: \cite {garcia2013tecnicas}.\relax }}{35}{figure.caption.23}
+\contentsline {figure}{\numberline {18}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{37}{figure.caption.24}
