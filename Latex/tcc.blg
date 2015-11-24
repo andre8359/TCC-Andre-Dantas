@@ -17,6 +17,8 @@ Warning--entry type for "imagensTeste" isn't style-file defined
 --line 363 of file BIBLIO.bib
 Warning--entry type for "raspberryOrg" isn't style-file defined
 --line 371 of file BIBLIO.bib
+Warning--entry type for "element14" isn't style-file defined
+--line 379 of file BIBLIO.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -26,45 +28,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 42 entries,
+You've used 43 entries,
             6706 wiz_defined-function locations,
-            1425 strings with 15794 characters,
-and the built_in function-call counts, 33788 in all, are:
-= -- 2736
-> -- 1060
+            1428 strings with 15856 characters,
+and the built_in function-call counts, 34308 in all, are:
+= -- 2770
+> -- 1072
 < -- 164
-+ -- 540
-- -- 316
-* -- 2410
-:= -- 4321
-add.period$ -- 141
-call.type$ -- 42
-change.case$ -- 441
-chr.to.int$ -- 102
-cite$ -- 41
-duplicate$ -- 1912
-empty$ -- 2439
-format.name$ -- 1620
-if$ -- 7883
++ -- 544
+- -- 320
+* -- 2440
+:= -- 4393
+add.period$ -- 144
+call.type$ -- 43
+change.case$ -- 447
+chr.to.int$ -- 103
+cite$ -- 42
+duplicate$ -- 1938
+empty$ -- 2493
+format.name$ -- 1640
+if$ -- 8009
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 746
-newline$ -- 202
-num.names$ -- 164
-pop$ -- 1034
+missing$ -- 762
+newline$ -- 206
+num.names$ -- 168
+pop$ -- 1056
 preamble$ -- 1
-purify$ -- 166
+purify$ -- 169
 quote$ -- 0
-skip$ -- 1974
+skip$ -- 2008
 stack$ -- 1
-substring$ -- 1507
-swap$ -- 906
+substring$ -- 1524
+swap$ -- 916
 text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2
 warning$ -- 0
-while$ -- 274
+while$ -- 279
 width$ -- 0
-write$ -- 582
-(There were 2 warnings)
+write$ -- 593
+(There were 3 warnings)

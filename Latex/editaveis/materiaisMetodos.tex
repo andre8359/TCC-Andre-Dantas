@@ -1,8 +1,6 @@
 \chapter[Materiais e Métodos]{Materiais e Métodos}
 
-Utilizou-se das metodologias de pesquisa e escolha dos componentes que serão utilizados para desenvolvimento do sistema. Neste trabalho, nos atentaremos a propor o sistema embarcado capaz de realizar as operações necessárias para cumprir os objetivos descritos na Seção \ref{OBJETIVOS}.
-
-Na busca de uma solução para o sistema proposto, desmembrou-se o diagrama (Figura \ref{fig:blocos}) a fim de modularizar o processo. Primeiramente, a aquisição do vídeo e a codificação dos dados para envio (definições das especificações de comunicão, tais como número de portadoras, tipo de modulação, codificação de linha e canal) não seram tratados neste trabalho, assim como a recepção e decodificação desses dados. 
+Na busca de uma solução para o sistema proposto, desmembrou-se o diagrama (Figura \ref{fig:blocos}) a fim de modularizar o processo. Primeiramente, a aquisição, envio e recepção dos dados, assim como as especificações de comunicação (número de portadoras, tipo de modulação, codificação de linha e canal) não foram tratados neste trabalho. 
 
 
 \begin{figure}[h]
@@ -11,12 +9,58 @@ Na busca de uma solução para o sistema proposto, desmembrou-se o diagrama (Fig
 	\caption{Diagrama de blocos proposto para solução.}
 	\label{fig:blocos}
 \end{figure}
+
 \section{Transmissor}
 
-Para o transmissor, escolheu-se o \textit{kit} de desenvolvimento \textit{Raspberry Pi 2 Model B}. O \textit{Raspberry Pi 2} é um dos dispositivos mais populares atualmente entre estudantes, profissionais e hobbistas da área de Eletrônica. Segundo, o próprio site da \textit{Raspberry Pi
-Foundation} \cite{raspberryOrg}, o dispositivo é um computador do tamanho de um cartão de crédito, de baixo custo, capaz de se concectar a um monitor de computador ou televisão e é capaz ,através de um cartão de memória SD, rodar um sistema operacional baseado em Linux, sendo
-um dos mais populares o Raspbian (distribuição Debian voltada especificamente para o
-Raspberry Pi).
+\subsection{\textit{Hardware}}
+Para o transmissor, escolheu-se o \textit{kit} de desenvolvimento \textit{Raspberry Pi 2 Model B}, mostrado na Figura \ref{fig:rasp} O \textit{Raspberry Pi 2} é um dos dispositivos mais populares atualmente entre estudantes, profissionais e hobbistas da área de Eletrônica. Segundo o próprio site da \textit{Raspberry Pi Foundation} \cite{raspberryOrg}, o dispositivo é um computador do tamanho de um cartão de crédito, de baixo custo, capaz de se conectar a um monitor de computador ou televisão e  rodar um sistema operacional baseado em Linux, sendo um dos mais populares o \textit{Raspbian} (distribuição \textit{Debian} voltada especificamente para o \textit{Raspberry Pi}).
 
-A capacidade de rodar sistemas operacionais baseados em distribuições Linux, nos dá a possibilidade de utilizar \textit{frameworks} não
-é a única razão pela qual o Raspberry Pi é amplamente utilizado
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.5]{figuras/rpi2b.jpg}
+	\caption{ \textit{Kit} de desenvolvimentoto \textit{Raspberry Pi 2 Model B} \cite{element14}.}
+	\label{fig:rasp}
+\end{figure}
+
+A capacidade de rodar sistemas operacionais baseados em distribuições Linux foi uma característica decisiva na escolha do \textit{kit} de desenvolvimento, pois dá ao desenvolvedor a possibilidade de utilizar \textit{frameworks} e \textit{codecs} já disponíveis no mercado, além da alta capacidade de processamento disponível dos quatro núcleos ARM e do processador gráfico dedicado. Há também módulos de aquisição e exibição de vídeo desenvolvidos e otimizados especialmente para a arquitetura deste dispositivo, o que pode facilitar o desenvolvimento futuro do bloco de aquisição e possibilita a exibição local caso necessária. Segue um abanhado geral das características desta placa  \cite{raspberryOrg} :
+\begin{itemize}
+\item CPU de quatro núcleos ARM Cortex-A7 com frequência de processamento de 900 MHz;
+\item  1 GB de memória RAM (contra 512 MB do modelo B+);
+\item 4 portas USB;
+\item 40 pinos GPIO (do inglês,\textit{General Purpouse Input/Output});
+\item Porta Full HDMI;
+\item Porta \textit{Ethernet};
+\item Audio jack de 3.5mm e entrada de vídeo combinados;
+\item Interface de câmera (CSI);
+\item Interface para display (DSI);
+\item Slot para Micro cartão SD;
+\item Núcleo de gráficos VideoCore IV 3D;
+\end{itemize}
+
+Dentre os 40 pinos GPIO, têm-se pinos com funções dedicadas como: tensões de entrada e referência, além de diversos tipos de comunicações (I2C, SPI, serial, etc), como mostrado na Figura \ref{fig:rasp_gpio}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.3]{figuras/GPIO_Pi2.png}
+	\caption{ Mapa de pinos do Raspberry Pi 2 Modelo B \cite{element14}.}
+	\label{fig:rasp_gpio}
+\end{figure}
+
+Uma das grandes desvantagens de utilizar este \textit{kit} no desenvolvimento do transmissor é a ausência de um conversor digital analógico (DAC -\textit{ Digital-to-Analog Converte}), necessário nas etapa de envio do sinal.
+
+\subsection{\textit{Software}}
+
+No transmissor trabalhou-se na separação e redimensionamento dos quadro ímpares e, também na compressão das sequências de vídeo. Para isso desenvolveu-se um \textit{script } na linguagem \textit{Python}, com utilização de \textit{FFmpeg}, um \textit{multimedia framework} de código aberto, que por sua vez, é  capaz de codificar e decodificar em diversos padrões, incluindo os dois propostos no trabalho (JPEG e H.246/AVC). Optou-se por essa linguagem devido a alta integração com o \textit{hardware} proposto, integração com \textit{frameworks} para cálculos cientificos (\textit{SciPy}) e experiência prévia do desenvolvedor. O detalhamento das tecnologias utilizadas se encontram no apêndice \ref{apen:tec}.
+
+    Os métodos de codificação criados para o transmissor, recebem um parâmetro relacionado com coeficiente de quantização citado nas Seções \ref{JPEG} e \ref{H264}, que definem o nível de quantização utilizado no processo de codificação. 
+
+\section{Receptor}
+
+\subsection{\textit{Hardware}}
+
+    Devido a posição em que o receptor estará (na superfície da mina) não será necessário nenhum \textit{hardware} específico, visto que não estará exposto as condições adversas de dentro da mina. Assim para o protótipo proposto neste trabalho utilizou-se um computador pessoal.
+
+\subsection{\textit{Software}}
+
+    No decodificador foi necessário escrever um \textit{script}, em \textit{Octave}, que implementa-se o algoritmo de super-resolução proposto, recebendo como entrada as sequências de vídeo vindas do transmissor e gerando as mesmas sequências de vídeo super resolvidas. Optou-se pela linguagem \textit{Octave}, pois ele é otimizada para o trato de matrizes e também devido a experiência prévia do desenvolvedor. O detalhamento das tecnologias utilizadas se encontram no apêndice \ref{apen:tec}. 
+

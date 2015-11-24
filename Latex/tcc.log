@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.11.18)  21 NOV 2015 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.11.18)  23 NOV 2015 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1817,9 +1817,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] [12
 
 ]) (./fixos/indiceAutomatico.tex
-(./tcc.toc) [13] [14
+(./tcc.toc
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 39.
+ [13]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 47.
+) [14]) (./editaveis/introducao.tex [15
 
-]) (./editaveis/introducao.tex [15
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 25.
@@ -1835,21 +1840,21 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 ] [17
 
 ]
-<figuras/CENA_NATURAL.png, id=290, 513.92pt x 513.92pt>
+<figuras/CENA_NATURAL.png, id=325, 513.92pt x 513.92pt>
 File: figuras/CENA_NATURAL.png Graphic file (type png)
 
 <use figuras/CENA_NATURAL.png>
 Package pdftex.def Info: figuras/CENA_NATURAL.png used on input line 46.
 (pdftex.def)             Requested size: 181.99722pt x 181.9998pt.
 
-<figuras/CENA_SINTETICA.jpg, id=291, 435.6275pt x 381.425pt>
+<figuras/CENA_SINTETICA.jpg, id=326, 435.6275pt x 381.425pt>
 File: figuras/CENA_SINTETICA.jpg Graphic file (type jpg)
 
 <use figuras/CENA_SINTETICA.jpg>
 Package pdftex.def Info: figuras/CENA_SINTETICA.jpg used on input line 50.
 (pdftex.def)             Requested size: 181.99722pt x 159.34767pt.
 
-<figuras/AMOSTRAGEM_VIDEO.png, id=296, 610.53094pt x 349.305pt>
+<figuras/AMOSTRAGEM_VIDEO.png, id=331, 610.53094pt x 349.305pt>
 File: figuras/AMOSTRAGEM_VIDEO.png Graphic file (type png)
 
 <use figuras/AMOSTRAGEM_VIDEO.png>
@@ -1857,28 +1862,28 @@ Package pdftex.def Info: figuras/AMOSTRAGEM_VIDEO.png used on input line 60.
 (pdftex.def)             Requested size: 396.84041pt x 227.04555pt.
  [18 <./figuras/CENA_NATURAL.png> <./figuras/CENA_SINTETICA.jpg> <./figuras/AMO
 STRAGEM_VIDEO.png>]
-<figuras/resolucao_1a.png, id=308, 192.72pt x 192.72pt>
+<figuras/resolucao_1a.png, id=344, 192.72pt x 192.72pt>
 File: figuras/resolucao_1a.png Graphic file (type png)
 
 <use figuras/resolucao_1a.png>
 Package pdftex.def Info: figuras/resolucao_1a.png used on input line 75.
 (pdftex.def)             Requested size: 181.99722pt x 181.99783pt.
 
-<figuras/resolucao_1b.png, id=309, 189.70876pt x 192.72pt>
+<figuras/resolucao_1b.png, id=345, 189.70876pt x 192.72pt>
 File: figuras/resolucao_1b.png Graphic file (type png)
 
 <use figuras/resolucao_1b.png>
 Package pdftex.def Info: figuras/resolucao_1b.png used on input line 79.
 (pdftex.def)             Requested size: 181.99722pt x 184.8885pt.
  [19 <./figuras/resolucao_1a.png> <./figuras/resolucao_1b.png>] <figuras/MANDRI
-L.png, id=325, 516.42938pt x 456.95718pt>
+L.png, id=360, 516.42938pt x 456.95718pt>
 File: figuras/MANDRIL.png Graphic file (type png)
 
 <use figuras/MANDRIL.png>
 Package pdftex.def Info: figuras/MANDRIL.png used on input line 99.
 (pdftex.def)             Requested size: 181.99722pt x 161.03908pt.
 
-<figuras/COMPONENTE_VERMELHA.png, id=326, 516.42938pt x 456.95718pt>
+<figuras/COMPONENTE_VERMELHA.png, id=361, 516.42938pt x 456.95718pt>
 File: figuras/COMPONENTE_VERMELHA.png Graphic file (type png)
 
 <use figuras/COMPONENTE_VERMELHA.png>
@@ -1886,14 +1891,14 @@ Package pdftex.def Info: figuras/COMPONENTE_VERMELHA.png used on input line 103
 .
 (pdftex.def)             Requested size: 181.99722pt x 161.03908pt.
 
-<figuras/COMPONENTE_VERDE.png, id=327, 516.42938pt x 456.95718pt>
+<figuras/COMPONENTE_VERDE.png, id=362, 516.42938pt x 456.95718pt>
 File: figuras/COMPONENTE_VERDE.png Graphic file (type png)
 
 <use figuras/COMPONENTE_VERDE.png>
 Package pdftex.def Info: figuras/COMPONENTE_VERDE.png used on input line 107.
 (pdftex.def)             Requested size: 181.99722pt x 161.03908pt.
 
-<figuras/COMPONENTE_AZUL.png, id=328, 516.42938pt x 456.95718pt>
+<figuras/COMPONENTE_AZUL.png, id=363, 516.42938pt x 456.95718pt>
 File: figuras/COMPONENTE_AZUL.png Graphic file (type png)
 
 <use figuras/COMPONENTE_AZUL.png>
@@ -1906,35 +1911,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-<figuras/decimacao_1.png, id=355, 455.7025pt x 287.0725pt>
+<figuras/decimacao_1.png, id=390, 455.7025pt x 287.0725pt>
 File: figuras/decimacao_1.png Graphic file (type png)
 
 <use figuras/decimacao_1.png>
 Package pdftex.def Info: figuras/decimacao_1.png used on input line 172.
 (pdftex.def)             Requested size: 181.99722pt x 114.65175pt.
 
-<figuras/decimacao_2.png, id=356, 481.8pt x 94.3525pt>
+<figuras/decimacao_2.png, id=391, 481.8pt x 94.3525pt>
 File: figuras/decimacao_2.png Graphic file (type png)
 
 <use figuras/decimacao_2.png>
 Package pdftex.def Info: figuras/decimacao_2.png used on input line 176.
 (pdftex.def)             Requested size: 181.99722pt x 35.64124pt.
  [22 <./figuras/decimacao_1.png> <./figuras/decimacao_2.png>] <figuras/interpol
-acao_1.png, id=371, 454.69875pt x 258.9675pt>
+acao_1.png, id=406, 454.69875pt x 258.9675pt>
 File: figuras/interpolacao_1.png Graphic file (type png)
 
 <use figuras/interpolacao_1.png>
 Package pdftex.def Info: figuras/interpolacao_1.png used on input line 204.
 (pdftex.def)             Requested size: 181.99722pt x 103.65628pt.
 
-<figuras/interpolacao_2.png, id=372, 465.74pt x 80.3pt>
+<figuras/interpolacao_2.png, id=407, 465.74pt x 80.3pt>
 File: figuras/interpolacao_2.png Graphic file (type png)
 
 <use figuras/interpolacao_2.png>
 Package pdftex.def Info: figuras/interpolacao_2.png used on input line 208.
 (pdftex.def)             Requested size: 181.99722pt x 31.37813pt.
  [23 <./figuras/interpolacao_1.png> <./figuras/interpolacao_2.png>] <figuras/le
-na_quadrado.jpg, id=393, 803.0pt x 602.25pt>
+na_quadrado.jpg, id=428, 803.0pt x 602.25pt>
 File: figuras/lena_quadrado.jpg Graphic file (type jpg)
 
 <use figuras/lena_quadrado.jpg>
@@ -1945,21 +1950,21 @@ Package pdftex.def Info: figuras/lena_quadrado.jpg used on input line 259.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [24] [25 <./figuras/lena_quadrado.jpg>]
-<figuras/DCT_RES.pdf, id=430, 603.08699pt x 277.07365pt>
+<figuras/DCT_RES.pdf, id=466, 603.08699pt x 277.07365pt>
 File: figuras/DCT_RES.pdf Graphic file (type pdf)
 
 <use figuras/DCT_RES.pdf>
 Package pdftex.def Info: figuras/DCT_RES.pdf used on input line 310.
 (pdftex.def)             Requested size: 361.85498pt x 166.24547pt.
  [26 <./figuras/DCT_RES.pdf>] [27]
-<figuras/ENCODER-JPEG.pdf, id=477, 825.19792pt x 211.56943pt>
+<figuras/ENCODER-JPEG.pdf, id=512, 825.19792pt x 211.56943pt>
 File: figuras/ENCODER-JPEG.pdf Graphic file (type pdf)
 
 <use figuras/ENCODER-JPEG.pdf>
 Package pdftex.def Info: figuras/ENCODER-JPEG.pdf used on input line 358.
 (pdftex.def)             Requested size: 453.86026pt x 116.36353pt.
 
-<figuras/DECODER-JPEG.pdf, id=480, 807.12743pt x 225.12206pt>
+<figuras/DECODER-JPEG.pdf, id=515, 807.12743pt x 225.12206pt>
 File: figuras/DECODER-JPEG.pdf Graphic file (type pdf)
 
 <use figuras/DECODER-JPEG.pdf>
@@ -1970,14 +1975,14 @@ Package pdftex.def Info: figuras/DECODER-JPEG.pdf used on input line 365.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <./figuras/ENCODER-JPEG.pdf>] [29 <./figuras/DECODER-JPEG.pdf>]
-<figuras/ZIG-ZAG.png, id=569, 528.47438pt x 264.99pt>
+<figuras/ZIG-ZAG.png, id=604, 528.47438pt x 264.99pt>
 File: figuras/ZIG-ZAG.png Graphic file (type png)
 
 <use figuras/ZIG-ZAG.png>
 Package pdftex.def Info: figuras/ZIG-ZAG.png used on input line 407.
 (pdftex.def)             Requested size: 290.6618pt x 145.74495pt.
 
-<figuras/H264_CODIFICADOR.png, id=576, 868.74562pt x 354.57469pt>
+<figuras/H264_CODIFICADOR.png, id=611, 868.74562pt x 354.57469pt>
 File: figuras/H264_CODIFICADOR.png Graphic file (type png)
 
 <use figuras/H264_CODIFICADOR.png>
@@ -1987,7 +1992,7 @@ Package pdftex.def Info: figuras/H264_CODIFICADOR.png used on input line 422.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/H264_DECODIFICADOR.png, id=581, 851.43094pt x 335.75438pt>
+<figuras/H264_DECODIFICADOR.png, id=616, 851.43094pt x 335.75438pt>
 File: figuras/H264_DECODIFICADOR.png Graphic file (type png)
 
 <use figuras/H264_DECODIFICADOR.png>
@@ -2004,21 +2009,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Command \' invalid in math mode on input line 466.
 
 ) (./editaveis/algoritmoProposto.tex [32]
-<figuras/SR_img_1a.png, id=616, 310.15875pt x 326.21875pt>
+<figuras/SR_img_1a.png, id=651, 310.15875pt x 326.21875pt>
 File: figuras/SR_img_1a.png Graphic file (type png)
 
 <use figuras/SR_img_1a.png>
 Package pdftex.def Info: figuras/SR_img_1a.png used on input line 9.
 (pdftex.def)             Requested size: 181.99722pt x 191.42207pt.
 
-<figuras/SR_img_1b.png, id=617, 310.15875pt x 328.22626pt>
+<figuras/SR_img_1b.png, id=652, 310.15875pt x 328.22626pt>
 File: figuras/SR_img_1b.png Graphic file (type png)
 
 <use figuras/SR_img_1b.png>
 Package pdftex.def Info: figuras/SR_img_1b.png used on input line 13.
 (pdftex.def)             Requested size: 181.99722pt x 192.60005pt.
 
-<figuras/SR_img_2.png, id=620, 831.105pt x 319.1925pt>
+<figuras/SR_img_2.png, id=655, 831.105pt x 319.1925pt>
 File: figuras/SR_img_2.png Graphic file (type png)
 
 <use figuras/SR_img_2.png>
@@ -2028,14 +2033,14 @@ Package pdftex.def Info: figuras/SR_img_2.png used on input line 20.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/img_SR_3a.png, id=623, 373.395pt x 374.39874pt>
+<figuras/img_SR_3a.png, id=658, 373.395pt x 374.39874pt>
 File: figuras/img_SR_3a.png Graphic file (type png)
 
 <use figuras/img_SR_3a.png>
 Package pdftex.def Info: figuras/img_SR_3a.png used on input line 29.
 (pdftex.def)             Requested size: 181.99722pt x 182.4858pt.
 
-<figuras/img_SR_3b.png, id=624, 375.4025pt x 373.395pt>
+<figuras/img_SR_3b.png, id=659, 375.4025pt x 373.395pt>
 File: figuras/img_SR_3b.png Graphic file (type png)
 
 <use figuras/img_SR_3b.png>
@@ -2047,48 +2052,104 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [33
 
- <./figuras/SR_img_1a.png> <./figuras/SR_img_1b.png>]
-Underfull \vbox (badness 2384) has occurred while \output is active []
-
- [34 <./figuras/SR_img_2.png> <./figuras/img_SR_3a.png> <./figuras/img_SR_3b.pn
-g>]
-<figuras/superresolucao_4.png, id=649, 903.375pt x 342.27875pt>
+ <./figuras/SR_img_1a.png> <./figuras/SR_img_1b.png>] [34 <./figuras/SR_img_2.p
+ng> <./figuras/img_SR_3a.png> <./figuras/img_SR_3b.png>]
+<figuras/superresolucao_4.png, id=685, 903.375pt x 342.27875pt>
 File: figuras/superresolucao_4.png Graphic file (type png)
 
 <use figuras/superresolucao_4.png>
-Package pdftex.def Info: figuras/superresolucao_4.png used on input line 49.
+Package pdftex.def Info: figuras/superresolucao_4.png used on input line 51.
 (pdftex.def)             Requested size: 451.6864pt x 171.13895pt.
-) (./editaveis/materiaisMetodos.tex [35 <./figuras/superresolucao_4.png>] [36
+
+<figuras/resolucao_mista.png, id=689, 979.66pt x 167.62625pt>
+File: figuras/resolucao_mista.png Graphic file (type png)
+
+<use figuras/resolucao_mista.png>
+Package pdftex.def Info: figuras/resolucao_mista.png used on input line 63.
+(pdftex.def)             Requested size: 440.84293pt x 75.4311pt.
+ [35 <./figuras/superresolucao_4.png> <./figuras/resolucao_mista.png (PNG copy)
+>]
+<figuras/fluxo_super_resolucao.png, id=696, 1275.76625pt x 650.43pt>
+File: figuras/fluxo_super_resolucao.png Graphic file (type png)
+
+<use figuras/fluxo_super_resolucao.png>
+Package pdftex.def Info: figuras/fluxo_super_resolucao.png used on input line 8
+0.
+(pdftex.def)             Requested size: 382.73283pt x 195.1305pt.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 90.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 94.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 94.
+
+) (./editaveis/materiaisMetodos.tex [36 <./figuras/fluxo_super_resolucao.png>]
+[37] [38
 
 ]
-<figuras/diagrama_blocos_solucao.jpg, id=663, 594.22pt x 458.71375pt>
+<figuras/diagrama_blocos_solucao.jpg, id=715, 594.22pt x 458.71375pt>
 File: figuras/diagrama_blocos_solucao.jpg Graphic file (type jpg)
 
 <use figuras/diagrama_blocos_solucao.jpg>
 Package pdftex.def Info: figuras/diagrama_blocos_solucao.jpg used on input line
- 10.
+ 8.
 (pdftex.def)             Requested size: 415.95117pt x 321.09743pt.
- [37 <./figuras/diagrama_blocos_solucao.jpg>]) (./editaveis/conclusao.tex [38] 
-[39
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 15.
+
+<figuras/rpi2b.jpg, id=718, 630.355pt x 459.7175pt>
+File: figuras/rpi2b.jpg Graphic file (type jpg)
+ <use figuras/rpi2b.jpg>
+Package pdftex.def Info: figuras/rpi2b.jpg used on input line 20.
+(pdftex.def)             Requested size: 315.17673pt x 229.85818pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39 <./figuras/diagrama_blocos_solucao.jpg>] [40 <./figuras/rpi2b.jpg>]
+<figuras/GPIO_Pi2.png, id=732, 959.585pt x 1027.84pt>
+File: figuras/GPIO_Pi2.png Graphic file (type png)
+
+<use figuras/GPIO_Pi2.png>
+Package pdftex.def Info: figuras/GPIO_Pi2.png used on input line 44.
+(pdftex.def)             Requested size: 287.87772pt x 308.35437pt.
+ [41 <./figuras/GPIO_Pi2.png>])
+(./editaveis/conclusao.tex [42] [43
 
 ]
 Overfull \hbox (47.04288pt too wide) in paragraph at lines 26--54
  [][] 
  []
 
-) (./tcc.bbl (./tcc.brf)
+) (./editaveis/textoepostexto.tex [44] [45
+
+] [46]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [40]
-bibitemlist
-[41
 
-] [42]) (./editaveis/anexos.tex)
+bibitemlist
+[47
+
+] [48]) (./editaveis/apendices.tex [49] [50
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 4.
+
+[51
+
+] [52])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[43]
+[53
+
+]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -2100,27 +2161,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (./tcc.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package rerunfilecheck Info: File `tcc.brf' has not changed.
+(rerunfilecheck)             Checksum: 1E1784F55AB06A784D18342C67FF9D14;5757.
 
-
-Package rerunfilecheck Warning: File `tcc.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: B516AD6907355E28146590A3E473AC0D;5430
-(rerunfilecheck)             After:  FFE842FE64530AA9A700A9764A7A77C1;5430.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 26604 strings out of 493105
- 470117 string characters out of 6137071
- 560056 words of memory out of 5000000
- 29321 multiletter control sequences out of 15000+600000
- 99215 words of font info for 77 fonts, out of 8000000 for 9000
+ 26712 strings out of 493105
+ 471818 string characters out of 6137071
+ 561326 words of memory out of 5000000
+ 29382 multiletter control sequences out of 15000+600000
+ 114670 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,20n,47p,10413b,1096s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,20n,47p,10413b,1097s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2133,13 +2189,14 @@ nts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 hare/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on tcc.pdf (45 pages, 3855359 bytes).
+m/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on tcc.pdf (55 pages, 4236859 bytes).
 PDF statistics:
- 1052 PDF objects out of 1200 (max. 8388607)
- 907 compressed objects within 10 object streams
- 233 named destinations out of 1000 (max. 500000)
- 469 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1199 PDF objects out of 1200 (max. 8388607)
+ 1035 compressed objects within 11 object streams
+ 263 named destinations out of 1000 (max. 500000)
+ 577 words of extra memory for PDF output out of 10000 (max. 10000000)
 
