@@ -42,16 +42,15 @@
 \contentsline {subsection}{\numberline {4.2.1}\textit {Hardware}}{42}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}\textit {Software}}{42}{subsection.4.2.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Preliminares}}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Cronograma}{43}{section.5.1}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{43}{chapter.5}
 \contentsline {part}{\partnumberline {I}\MakeTextUppercase {Texto e P\IeC {\'o}s Texto}}{45}{part.1}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{47}{section*.33}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{47}{section*.32}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{51}{section*.34}
+\contentsline {part}{\uppercase {Ap\^endices}}{51}{section*.33}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}

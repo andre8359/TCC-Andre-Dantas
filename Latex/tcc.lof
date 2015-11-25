@@ -32,8 +32,8 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{34}{subfigure.16.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{34}{subfigure.16.2}
 \contentsline {figure}{\numberline {17}{\ignorespaces Super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos: a imagem interpolada $I_0^B$ recebe informa\IeC {\c c}\IeC {\~o}es de alta frequ\IeC {\^e}ncia a partir de uma imagem em alta resolu\IeC {\c c}\IeC {\~a}o $I_j$ separada em vers\IeC {\~o}es com componentes de baixa e alta frequ\IeC {\^e}ncia, $I_j^B$ e $I_j^A$. Fonte: \cite {garcia2013tecnicas}.\relax }}{35}{figure.caption.23}
-\contentsline {figure}{\numberline {18}{\ignorespaces Arquitetura de codifica\IeC {\c c}\IeC {\~a}o em resolu\IeC {\c c}\IeC {\~a}o mista.\relax }}{35}{figure.caption.24}
+\contentsline {figure}{\numberline {18}{\ignorespaces Arquitetura de codifica\IeC {\c c}\IeC {\~a}o em resolu\IeC {\c c}\IeC {\~a}o mista.\relax }}{36}{figure.caption.24}
 \contentsline {figure}{\numberline {19}{\ignorespaces Fluxograma do algoritmo de super-resolu\IeC {\c c}\IeC {\~a}o proposta.\relax }}{36}{figure.caption.25}
 \contentsline {figure}{\numberline {20}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{39}{figure.caption.26}
 \contentsline {figure}{\numberline {21}{\ignorespaces \textit {Kit} de desenvolvimentoto \textit {Raspberry Pi 2 Model B} \cite {element14}.\relax }}{40}{figure.caption.27}
-\contentsline {figure}{\numberline {22}{\ignorespaces Mapa de pinos do Raspberry Pi 2 Modelo B \cite {element14}.\relax }}{41}{figure.caption.28}
+\contentsline {figure}{\numberline {22}{\ignorespaces Mapa de pinos do \textit {Raspberry Pi} 2 Modelo B \cite {element14}.\relax }}{41}{figure.caption.28}

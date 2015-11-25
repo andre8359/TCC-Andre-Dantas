@@ -2,6 +2,7 @@
 
 O algoritmo proposto para a solução descrita neste sistema baseia-se em uma técnica clássica de super-resolução \cite{garcia2013tecnicas}. O termo super-resolução (SR) é usado para descrever processos que procuram acrescentar informações de alta frequência a uma imagem interpolada a partir de uma ou mais imagens disponíveis \cite{baker2002limits,park2003super,farsiu2004advances}. Este conjunto de imagens pode ser formado por imagens decimadas ou adquiridas por múltiplos sensores capturando uma mesma cena durante determinado período de tempo. Para cenas estáticas (Figuras \ref{fig:SR_1} e \ref{fig:SR_2}), as observações são relacionadas por deslocamentos globais em nível de \textit{subpixel}, geralmente ocorrendo devido a posições relativas das câmeras ou movimento do próprio sensor. Para cenas dinâmicas, as observações são relacionadas a deslocamentos de \textit{subpixel} devidos ao movimento local dos próprios objetos juntamente com os deslocamentos globais, conforme pode ser visualizado na Figura \ref{fig:SR_3}. Em ambos os casos, a super-resolução é utilizada para gerar uma imagem com maior resolução espacial a partir de um conjunto de imagens em baixa resolução ou de frames de uma sequência de vídeo \cite{figueira2013super}\cite{milanfar2010super}.
 \\
+
 \begin{figure}[h]
     \centering
     \subfloat[]{
@@ -15,6 +16,7 @@ O algoritmo proposto para a solução descrita neste sistema baseia-se em uma t�
 	    \label{fig:SR_1}
 \end{figure}
 
+\clearpage
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.45]{figuras/SR_img_2.png}
