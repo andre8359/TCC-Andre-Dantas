@@ -31,9 +31,46 @@
 \contentsline {figure}{\numberline {16}{\ignorespaces (a) regi\IeC {\~a}o de interesse \IeC {\'e} capturada em uma cena din\IeC {\^a}mica; (b) a SR estima a cena subjacente a partir de 50 imagens. A reconstru\IeC {\c c}\IeC {\~a}o possui o triplo da resolu\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} imagem original. Fonte: \cite {kang2000digital}. \relax }}{34}{figure.caption.22}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{34}{subfigure.16.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{34}{subfigure.16.2}
-\contentsline {figure}{\numberline {17}{\ignorespaces Super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos: a imagem interpolada $I_0^B$ recebe informa\IeC {\c c}\IeC {\~o}es de alta frequ\IeC {\^e}ncia a partir de uma imagem em alta resolu\IeC {\c c}\IeC {\~a}o $I_j$ separada em vers\IeC {\~o}es com componentes de baixa e alta frequ\IeC {\^e}ncia, $I_j^B$ e $I_j^A$. Fonte: \cite {garcia2013tecnicas}.\relax }}{35}{figure.caption.23}
-\contentsline {figure}{\numberline {18}{\ignorespaces Arquitetura de codifica\IeC {\c c}\IeC {\~a}o em resolu\IeC {\c c}\IeC {\~a}o mista.\relax }}{36}{figure.caption.24}
-\contentsline {figure}{\numberline {19}{\ignorespaces Fluxograma do algoritmo de super-resolu\IeC {\c c}\IeC {\~a}o proposta.\relax }}{36}{figure.caption.25}
-\contentsline {figure}{\numberline {20}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{39}{figure.caption.26}
-\contentsline {figure}{\numberline {21}{\ignorespaces \textit {Kit} de desenvolvimentoto \textit {Raspberry Pi 2 Model B} \cite {element14}.\relax }}{40}{figure.caption.27}
-\contentsline {figure}{\numberline {22}{\ignorespaces Mapa de pinos do \textit {Raspberry Pi} 2 Modelo B \cite {element14}.\relax }}{41}{figure.caption.28}
+\contentsline {figure}{\numberline {17}{\ignorespaces Exemplo de separa\IeC {\c c}\IeC {\~a}o de quadro em componentes de baixa e alta frequ\IeC {\^e}ncia.\relax }}{35}{figure.caption.23}
+\contentsline {figure}{\numberline {18}{\ignorespaces Forma geral da super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos \cite {hung2013realce}.\relax }}{35}{figure.caption.24}
+\contentsline {figure}{\numberline {19}{\ignorespaces Super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos: a imagem interpolada $I_0^B$ recebe informa\IeC {\c c}\IeC {\~o}es de alta frequ\IeC {\^e}ncia a partir de uma imagem em alta resolu\IeC {\c c}\IeC {\~a}o $I_j$ separada em vers\IeC {\~o}es com componentes de baixa e alta frequ\IeC {\^e}ncia, $I_j^B$ e $I_j^A$. Fonte: \cite {garcia2013tecnicas}.\relax }}{36}{figure.caption.25}
+\contentsline {figure}{\numberline {20}{\ignorespaces Arquitetura de codifica\IeC {\c c}\IeC {\~a}o em resolu\IeC {\c c}\IeC {\~a}o mista.\relax }}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {21}{\ignorespaces Fluxograma do algoritmo de super-resolu\IeC {\c c}\IeC {\~a}o proposta \cite {garcia2013tecnicas}.\relax }}{37}{figure.caption.27}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{39}{figure.caption.28}
+\contentsline {figure}{\numberline {23}{\ignorespaces \textit {Kit} de desenvolvimentoto \textit {Raspberry Pi 2 Model B} \cite {element14}.\relax }}{40}{figure.caption.29}
+\contentsline {figure}{\numberline {24}{\ignorespaces Mapa de pinos do \textit {Raspberry Pi} 2 Modelo B \cite {element14}.\relax }}{41}{figure.caption.30}
+\contentsline {figure}{\numberline {25}{\ignorespaces Sequ\IeC {\^e}ncias de v\IeC {\'\i }deo : (a)\textit {akiyo}, (b)\textit {foreman}, (c)\textit {bowing}, (d)\textit {carphone}, (e)\textit {crew}, (f)\textit {flower}, (g)\textit {footbal} e (h)\textit {mobile}.\relax }}{44}{figure.caption.31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{44}{subfigure.25.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{44}{subfigure.25.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{44}{subfigure.25.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{44}{subfigure.25.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{44}{subfigure.25.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{44}{subfigure.25.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{44}{subfigure.25.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{44}{subfigure.25.8}
+\contentsline {figure}{\numberline {26}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Football}, com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2.\relax }}{46}{figure.caption.32}
+\contentsline {figure}{\numberline {27}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Crew}, com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2.\relax }}{46}{figure.caption.33}
+\contentsline {figure}{\numberline {28}{\ignorespaces \textit {Foreman} - Quadro 6, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 21.950 dB), (c)Imagem Super-resolvida (PSNR = 21.776 dB).\relax }}{49}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{49}{subfigure.28.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{49}{subfigure.28.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{49}{subfigure.28.3}
+\contentsline {figure}{\numberline {29}{\ignorespaces \textit {Football} - Quadro 4, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.847 dB), (c)Imagem Super-resolvida (PSNR = 17.176 dB).\relax }}{50}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{50}{subfigure.29.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{50}{subfigure.29.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{50}{subfigure.29.3}
+\contentsline {figure}{\numberline {30}{\ignorespaces \textit {Mobile} - Quadro 4, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.532 dB), (c)Imagem Super-resolvida (PSNR = 17.902 dB).\relax }}{51}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{51}{subfigure.30.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{51}{subfigure.30.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{51}{subfigure.30.3}
+\contentsline {figure}{\numberline {31}{\ignorespaces \textit {Foreman} - Quadro 30, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 26.399 dB), (c)Imagem Super-resolvida (PSNR = 31.503 dB).\relax }}{52}{figure.caption.39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{subfigure.31.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}{subfigure.31.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{52}{subfigure.31.3}
+\contentsline {figure}{\numberline {32}{\ignorespaces \textit {Football} - Quadro 3, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 22.946 dB), (c)Imagem Super-resolvida (PSNR = 24.286 dB).\relax }}{53}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}{subfigure.32.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}{subfigure.32.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{53}{subfigure.32.3}
+\contentsline {figure}{\numberline {33}{\ignorespaces \textit {Mobile} - Quadro 33, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 18.756 dB), (c)Imagem Super-resolvida (PSNR = 21.211 dB).\relax }}{54}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}{subfigure.33.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}{subfigure.33.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{54}{subfigure.33.3}

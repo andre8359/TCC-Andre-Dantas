@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tcc.aux
 The style file: abntex2-num.bst
@@ -14,11 +14,11 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: BIBLIO.bib
 Warning--entry type for "imagensTeste" isn't style-file defined
---line 363 of file BIBLIO.bib
+--line 385 of file BIBLIO.bib
 Warning--entry type for "raspberryOrg" isn't style-file defined
---line 371 of file BIBLIO.bib
+--line 393 of file BIBLIO.bib
 Warning--entry type for "element14" isn't style-file defined
---line 379 of file BIBLIO.bib
+--line 401 of file BIBLIO.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -28,45 +28,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 43 entries,
+You've used 46 entries,
             6706 wiz_defined-function locations,
-            1428 strings with 15856 characters,
-and the built_in function-call counts, 34308 in all, are:
-= -- 2770
-> -- 1072
+            1441 strings with 16494 characters,
+and the built_in function-call counts, 35772 in all, are:
+= -- 2854
+> -- 1108
 < -- 164
-+ -- 544
-- -- 320
-* -- 2440
-:= -- 4393
-add.period$ -- 144
-call.type$ -- 43
-change.case$ -- 447
-chr.to.int$ -- 103
-cite$ -- 42
-duplicate$ -- 1938
-empty$ -- 2493
-format.name$ -- 1640
-if$ -- 8009
++ -- 555
+- -- 332
+* -- 2524
+:= -- 4605
+add.period$ -- 153
+call.type$ -- 46
+change.case$ -- 467
+chr.to.int$ -- 106
+cite$ -- 45
+duplicate$ -- 2022
+empty$ -- 2633
+format.name$ -- 1700
+if$ -- 8347
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 762
-newline$ -- 206
-num.names$ -- 168
-pop$ -- 1056
+missing$ -- 810
+newline$ -- 220
+num.names$ -- 180
+pop$ -- 1124
 preamble$ -- 1
-purify$ -- 169
+purify$ -- 178
 quote$ -- 0
-skip$ -- 2008
+skip$ -- 2100
 stack$ -- 1
-substring$ -- 1524
-swap$ -- 916
+substring$ -- 1574
+swap$ -- 940
 text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2
 warning$ -- 0
-while$ -- 279
+while$ -- 294
 width$ -- 0
-write$ -- 593
+write$ -- 626
 (There were 3 warnings)

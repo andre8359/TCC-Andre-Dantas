@@ -438,6 +438,7 @@ Ainda, conforme o mesmo autor, sabe-se que a predição do macrobloco atual gera
 No decodificador, um macrobloco é decodificado (operação inversa à codificação de entropia), desquantizado e passa pela transformada inversa de modo a formar um macrobloco residual descodificado (similar ao macrobloco residual gerado no codificador). Ainda no decodificador é gerada a mesma predição que foi criada no codificador que é somada ao macrobloco residual decodificado para então produzir uma aproximação do macrobloco original da imagem \cite{richardson2011h}.
 
 \section{Métricas de Qualidade}
+\label{metricas}
 Uma vez que tenhamos desenvolvido um esquema de compressão de dados, precisamos ser capazes de medir o seu desempenho. Devido ao grande número de diferentes áreas de aplicação, condições diferentes têm sido desenvolvidas para descrever e medir o desempenho \cite{sayood2012introduction}.
 
 Um método comum utilizado como medida de desempenho para diversas técnicas de compressão de imagens é a relação sinal de pico/ruído (PSNR, do inglês \textit{Peak Signal Noise Ratio}), que é a relação entre o máximo possível de potência de um sinal pela potência do ruído, quando comparamos um sinal antes e depois de um

@@ -44,6 +44,12 @@
 \emph{ASPRS-Proceedings-Launching the Geospational Information Age,
   Washington}, 2000.}
 
+\bibitem{hung2013realce}
+\abntrefinfo{Hung}{HUNG}{2013}
+{HUNG, E.~M. Realce de v{\'\i}deo para seq{\"u}{\^e}ncias de qualidade e
+  resolu{\c{c}}{\~a}o vari{\'a}veis.
+2013.}
+
 \bibitem{element14}
 \abntrefinfo{Community}{COMMUNITY}{2015}
 {COMMUNITY, E. \emph{Raspberry pi 2 Model B GPIO Header}. 2015.}
@@ -54,13 +60,6 @@
   modeling in underground mines.
 \emph{Communications Surveys \& Tutorials, IEEE}, IEEE, v.~15, n.~4, p.
   1524--1545, 2013.}
-
-\bibitem{mining2012}
-\abntrefinfo{KANG, Um e Oh}{KANG; UM; OH}{2000}
-{KANG, M.; UM, D.-Y.; OH, W.-J. The digital image acquisition of
-  high-resolution by enhancement the multiple images.
-\emph{ASPRS-Proceedings-Launching the Geospational Information Age,
-  Washington}, 2000.}
 
 \bibitem{barkand2006through}
 \abntrefinfo{Barkand, Damiano e Shumaker}{BARKAND; DAMIANO; SHUMAKER}{2006}
@@ -247,14 +246,31 @@ Tese (Doutorado) --- UNIVERSIDADE CAT{\'O}LICA DE PELOTAS, 2007.}
 \abntrefinfo{Milanfar}{MILANFAR}{2010}
 {MILANFAR, P. \emph{Super-resolution imaging}. [S.l.]: CRC Press, 2010.}
 
+\bibitem{rezio2013superresoluccao}
+\abntrefinfo{R{\'e}zio, Schwartz e Pedrini}{R{\'E}ZIO; SCHWARTZ; PEDRINI}{2013}
+{R{\'E}ZIO, A. C.~C.; SCHWARTZ, W.~R.; PEDRINI, H.
+  \emph{Superresolu{\c{c}}{\~a}o de imagens baseada em aprendizado utilizando
+  descritores de caracter{\'\i}sticas}. 2013.}
+
 \bibitem{freeman2002example}
 \abntrefinfo{Freeman, Jones e Pasztor}{FREEMAN; JONES; PASZTOR}{2002}
 {FREEMAN, W.~T.; JONES, T.~R.; PASZTOR, E.~C. Example-based super-resolution.
 \emph{Computer Graphics and Applications, IEEE}, IEEE, v.~22, n.~2, p. 56--65,
   2002.}
 
+\bibitem{silva2009super}
+\abntrefinfo{Silva}{SILVA}{2009}
+{SILVA, F. B.~d. Super-resolu{\c{c}}{\~a}o utilizando quadros chave em
+  sequ{\^e}ncias de v{\'\i}deo de resolu{\c{c}}{\~a}o mista.
+2009.}
+
 \bibitem{raspberryOrg}
 \abntrefinfo{Foundation}{FOUNDATION}{2015}
 {FOUNDATION, R.~P. \emph{Raspberry pi}. 2015.}
+
+\bibitem{bjontegaard2001calcuation}
+\abntrefinfo{Bjontegaard}{BJONTEGAARD}{2001}
+{BJONTEGAARD, G. Calcuation of average psnr differences between rd-curves.
+\emph{Doc. VCEG-M33 ITU-T Q6/16, Austin, TX, USA, 2-4 April 2001}, 2001.}
 
 \end{thebibliography}

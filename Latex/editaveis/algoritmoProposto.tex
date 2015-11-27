@@ -37,16 +37,36 @@ O algoritmo proposto para a solução descrita neste sistema baseia-se em uma t�
 	    \label{fig:SR_3}
 \end{figure}
 
-    Presupõe-se que a simples interpolação dessas imagens não seja suficiente para representar a cena de interesse com nitidez, fazendo-se necessário processar e combinar as diversas imagens disponíveis. É possível que todas as imagens possuam a mesma resolução, de forma que a super-resolução seja através da combinação dessas imagens (super-resolução por combinação de múltiplas imagens), ou que a imagem de interesse em baixa resolução seja processada a partir de um banco de imagens em alta resolução (super-resolução por exemplos) \cite{garcia2013tecnicas}. Neste trabalho trataremos apenas do segundo tipo de super-resolução.
+    Pressupõe-se que a simples interpolação dessas imagens não seja suficiente para representar a cena de interesse com nitidez, fazendo-se necessário processar e combinar as diversas imagens disponíveis. É possível que todas as imagens possuam a mesma resolução, de forma que a super-resolução seja através da combinação dessas imagens (super-resolução por combinação de múltiplas imagens), ou que a imagem de interesse em baixa resolução seja processada a partir de um banco de imagens em alta resolução (super-resolução por exemplos) \cite{garcia2013tecnicas}. Neste trabalho trataremos apenas do segundo tipo de super-resolução.
 
 
 \section{Super-resolução por exemplos}
 \label{SR_exemp}
-A técnica de super-resolução baseada em exemplos busca informações de alta frequência em uma base de dados com imagens em alta resolução para adicioná-los a uma imagem interpolada. A princípio, não há relação direta entre a base de dados e a imagem de entrada, de forma que o algoritmo pode atender a uma ampla gama de imagens em baixa resolução, com um grande banco de dados \cite{freeman2002example}. Esta técnica baseia-se no fato que a coleção de imagens que capturam cenas reais, por exemplo, possui variabilidade muito menor do que a coleção de imagens aleatórias \cite{garcia2013tecnicas}.
+No método de super-resolução baseado em exemplos, o objetivo consiste em estimar as informações, que não estão presentes na imagem original de baixa resolução, a partir de um conjunto de amostras de imagens \cite{rezio2013superresoluccao}. A princípio, não há relação direta entre a base de dados e a imagem de entrada, de forma que o algoritmo pode atender a uma ampla gama de imagens em baixa resolução, com um grande banco de dados \cite{freeman2002example}.
 
-Na super-resolução baseada em exemplos, gera-se para cada imagem em alta resolução $I_j$ uma versão com componentes de baixa frequência, $I_j^B$, e uma versão de componentes de alta frequência, $I_j^A$, onde $I_j^A$ = $I_j$ - $I_j^B$. Assim considera-se a imagem interpolada $I_0$ correspondente somente as componentes de baixa frequência ($I_0 = I_0^B$ ), o que permite obter uma relação entre a imagem de entrada ($I_0$) e as imagens de referência ($I_j$) \cite{garcia2013tecnicas}.
 
-$I_0^B, I_j^B$ e $I_0^A$ são divididas em blocos regulares, e procura-se em $I^B_j$ pelo bloco mais semelhante a cada um dos blocos de $I_0^B$. De acordo com a posição do bloco escolhido em $I_j^B$, extrai-se o bloco em $I_j^A$. Este bloco de alta frequência é então somado a $I_0$, acrescentando detalhes que foram perdidos após da decimação. Tal processo é ilustrado na Figura \ref{fig:SR_4}.
+Na super-resolução baseada em exemplos, gera-se para cada imagem em alta resolução $I_j$ uma versão com componentes de baixa frequência, $I_j^B$, e uma versão de componentes de alta frequência, $I_j^A$, onde $I_j^A$ = $I_j$ - $I_j^B$, como ilustrado na Figura \ref{fig:exemplo_comp}. Assim considera-se a imagem interpolada $I_0$ correspondente somente as componentes de baixa frequência ($I_0 = I_0^B$ ), o que permite obter uma relação entre a imagem de entrada ($I_0$) e as imagens de referência ($I_j$) \cite{garcia2013tecnicas}.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1]{figuras/exemplo_equacao.png}
+	\caption{Exemplo de separação de quadro em componentes de baixa e alta frequência.}
+	\label{fig:exemplo_comp}
+\end{figure}
+
+
+A Figura \ref{fig:SR_exemp} ilustra a forma geral da super-resolução baseada em exemplos. Nela uma imagem ($I_0^B$) é dividida em vários macrobloco. A cada um desses blocos serão adicionadas informações de alta frequência. O dicionário com conteúdo de alta frequência é formado pelos blocos provenientes da compomente de alta frequência ($I_j^A$) das imagens do banco de dados e a extração da informação de alta frequência ocorre pelo processo de estimação de movimento.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.50]{figuras/super_resolucao_1.png}
+	\caption{Forma geral da super-resolução baseada em exemplos \cite{hung2013realce}.}
+	\label{fig:SR_exemp}
+\end{figure}
+
+A estimação de movimento é o processo realizado para encontrar os movimentos traslacionais resultantes que ocorrem entre pelo menos dois quadros. Este processo consiste em buscar o melhor casamento (\textit{matching}) de uma macrobloco de um quadro, geralmente chamado de atual, dentre um conjunto de blocos de referência \cite{hung2013realce}, como ilustrado pela Figura \ref{fig:SR_4}.
 
 \begin{figure}[h]
 	\centering
@@ -56,9 +76,12 @@ $I_0^B, I_j^B$ e $I_0^A$ são divididas em blocos regulares, e procura-se em $I^
 	\label{fig:SR_4}
 \end{figure}
 
-\section{Solução proposta}
+No caso da super-resolução por exemplos, este processo é aplicado entre os blocos da imgem interpolada e os blocos dos componentes  de baixa frequência das imagens do banco de dados, o que indicará quais informações de dicionário de alta frequência devem ser adicionadas em cada macrobloco da imagem interpolada.
 
-Devido a pequena largura de banda disponível para o envio dos dados, optou-se por enviar uma sequência de vídeo com quadros em resolução mista, como ilustrado pela Figura \ref{fig:resolucao_mista}. 
+\section{Solução proposta} 
+\label{algPropos}
+
+Devido a pequena largura de banda disponível para o envio dos dados, optou-se por enviar uma sequência de vídeo com quadros em resolução mista, como ilustrado pela Figura \ref{fig:resolucao_mista}.
 
 \begin{figure}[h]
 	\centering
@@ -68,9 +91,11 @@ Devido a pequena largura de banda disponível para o envio dos dados, optou-se p
 	\label{fig:resolucao_mista}
 \end{figure}
 
-A fim de recuperar as informações de baixa frequência dos quadros em baixa resolução, apresenta-se uma técnica baseada na super-resolução por exemplos. Assim, utiliza-se como banco de dados as imagens adjacentes ao quadro que será super-resolvido, que possuem alta correlação que com o mesmo.
+A fim de recuperar as informações de alta frequência dos quadros em baixa resolução, apresenta-se uma técnica baseada na super-resolução por exemplos. Assim, utiliza-se como banco de dados a imagem anterior ao quadro que será super-resolvido.
+    O aproveitamento de informação de quadros vizinhos se deve ao fato que normalmente  quadros vizinhos são altamente correlacionados \cite{silva2009super}.
 
-O fluxograma mostrado na Figura \ref{fig:algoritmo_proposto}, ilustra do algoritmo proposto. Dado um quadro original  decimado ($I_O^D$),  para ficar em baixa resolução, ele é interpolado à sua resolução original,  gerando $I_O^B$, este por usa vez constitui uma versão de baixa frequências do quadro original $I_O$. O objetivo final do algoritmo proposto é gerar uma versão super-resolvida  $I_O chapeu$ mais semelhante ao quadro original, a partir das estimativas $\widehat{I}_A$ de alta frequência $I_O^A$. Aqui, assume-se que:
+
+O fluxograma mostrado na Figura \ref{fig:algoritmo_proposto}, ilustra do algoritmo proposto. Dado um \textit{frame} original  decimado ($I_O^D$), que veio do transmissor, ele é interpolado a sua resolução original,  gerando então $I_O^B$, que constitui uma versão de baixa frequência de $I_O$.  Assim, de acordo com \cite{garcia2013tecnicas}, pode-se  assumir que  :
 
 \begin{equation}
 \widehat{I}_0 = I_O^B + \widehat{I}_O^A.
@@ -80,17 +105,20 @@ O fluxograma mostrado na Figura \ref{fig:algoritmo_proposto}, ilustra do algorit
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.30]{figuras/fluxo_super_resolucao.png}
-	\caption{Fluxograma do algoritmo de super-resolução proposta.}
+	\caption{Fluxograma do algoritmo de super-resolução proposta \cite{garcia2013tecnicas}.}
 	\label{fig:algoritmo_proposto}
 \end{figure}
 
-Definindo $I_R$ como o quadro adjacente é gerada sua versão de baixa frequências $I_R^B$, por um processo de decimação seguido de uma interpolação utilizando o mesmo fator $M$ que foi utilizado em $I_O$ em seguida aplica-se o processo de busca pelos blocos semelhantes descrita na Seção \ref{SR_exemp}, também chamado de estimação de movimento, entre $I_O^B$ e $I_R^B$. Assim para cada bloco $(u_i,v_i)$, obtêm-se vetores de movimento $(m_u,m_v)$ que representam a posição do bloco mais parecido com o procurado. 
+Defini-se  $I_R$ como o quadro anterior ao que será super-resolvido, que servirá como a imagem de alta resolução de referência. Para uma busca mais adequada das informações de alta frequência que serão adicionadas ao quadro decimado $I_O^B$ é gerada sua versão de baixa frequência $I_R^B$, simulando o mesmo processo de degradação que gerou $I_O^B$ através de $I_O$,  por um processo de decimação seguido de uma interpolação utilizando o mesmo fator $M$ que foi utilizado em $I_O$.
 
-    De posse desses vetores de movimento, gera-se a estimativa de alta frequência de $I_O$, realizando a compensação de movimento, que consistem em reorganizar os blocos da imagem de acordo com os vetores de movimento, na versão de altas frequências da imagem de referência ($I_R^{A}$) obtida de acordo com a equação Zeta, ou seja, $I_R^{A} = I_R - I_R^B$. Assim para cada bloco $(u_i,v_i)$, têm-se:
+     Em seguida, aplica-se o processo de busca pelos blocos semelhantes (foi utilizada a métrica MSE, discutida na Seção \ref{metricas}, para estipular a semelhança), como descrito na Seção \ref{SR_exemp}, entre $I_O^B$ e $I_R^B$.A busca de cada bloco do quadro $I_O^B$ é realizada nos blocos do quadro $I_R^B$ que estão dentro da janela de busca. Assim para cada bloco $(u_i,v_i)$, obtêm-se vetores de movimento $(m_u,m_v)$ que representam a posição do bloco mais parecido  com o procurado. 
+
+Com os vetores de movimento, gera-se a estimativa de alta frequência de $I_O$, realizando a compensação de movimento, que consiste em reorganizar os blocos da imagem de acordo com os vetores de movimento, na versão de altas frequências de $I_R$ ($I_R^{A}$) obtida de acordo com a equação \ref{eq_HF}, ou seja, $I_R^{A} = I_R - I_R^B$. Assim para cada bloco $(u_i,v_i)$, têm-se:
+
 
 \begin{equation}
 I_R^{A’} (u_i,v_i) = I_R^A(u_i+m_u, v_i+m_v).
 \end{equation}
 
 
-O quadro $I_R^{A’} $ já pode ser considerado uma estimativa de alta frequência de $I_O$. Ele busca correlação entre os blocos de baixa frequência $I_0^B$ e $I_R^B$, assumindo que as altas frequências de $I_R$ são uma boa estimativa para $I_O^A$. Restando assim, somar as componentes de baixa frequência com as de alta para ter a estimativa de $Î_O$.
+O quadro $I_R^{A’} $ já pode ser considerado uma estimativa de alta frequência de $I_O$, de acordo com \cite{garcia2013tecnicas}. Restando assim, somar as componentes de baixa e alta frequência para ter a estimativa de $Î_O$.
