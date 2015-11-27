@@ -1,6 +1,18 @@
-\chapter[Considerações Finais]{Considerações Finais}
+\chapter[Conclusão]{Conclusão}
 
-O presente trabalho teve como objetivo a implementação de um sistema de comunicação de imagens em baixo consumo, mesmo com uma largura de banda de transmissão muito baixa, permitindo o envio de informações vitais por operários presos na mina para equipes de resgate. Para isso, foram elaborados os objetivos específicos (produtos de trabalho) para que o objetivo geral fosse alcançado. Os objetivos específicos foram estudar técnicas rápidas de downsampling para codificar a imagem em resolução mais baixa possível, desenvolver um algoritmo para técnicas rápidas de downsampling, prototipar, desenvolver e validar \textit{hardware} e \textit{software}.
+O presente trabalho consiste na implementação de um tipo de codificação de imagens em baixo consumo, que viabiliza a comunicação mesmo com uma largura de banda de transmissão muito baixa, permitindo o envio de informações vitais por operários presos na mina para equipes de resgate. 
+Para isso, foram elaborados os objetivos específicos (produtos de trabalho) para que o objetivo geral fosse alcançado. Os objetivos específicos consistiam em estudar técnicas rápidas de \textit{downsampling} para codificar as imagens em resolução mais baixa possível, desenvolver um algoritmo para estas mesmas técnicas, estudar técnicas de super-resolução, desenvolver algoritmo para a técnica de super-resolução escolhida, prototipar, desenvolver e validar \textit{hardware} e \textit{software} visando a qualidade das sequências de vídeo no receptor.
+
+O \textit{hardware}, tanto do transmissor, quanto do receptor, foi pensado com base nas condições em que irão estar expostos em campo, sendo que o transmissor necessita de um \textit{hardware} mais específico devido às condições adversas de dentro da mina. O receptor, por sua vez, possui amplos recursos de computação e energia, pois estará na superfície.
+
+O \textit{software} do transmissor foi desenvolvido inteiramente em \textit{Python}, com o apoio do \textit{framework} FFmpeg para implementação do \textit{downsampling}. Já no receptor, o algoritmo proposto da super-resolução foi escrito em \textit{Octave}, com exceção do processo de estimação de movimento, que se encontra em um arquivo \textit{mex} (linguagem C padrão ANSI), pois trata-se de um processo complexo.  
+
+Os resultados obtidos foram favoráveis, especialmente para sequências mais estáticas. Isto acontece, porque a informação relevante 
+
+
+ mesmo para sequências com muito movimento e várias entradas de novos elementos nas cenas, os quadros super-resolvidos possuem maior qualidade que os interpolados. Com estes resultados satisfatórios, deu-se por cumprido o objetivo deste trabalho. 
+
+Para trabalhos futuros, sugeriu-se o projeto dos aspectos de comunicação do sistema (número de portadoras, tipo de modulação, codificação de linha e canal, dentro outros aspectos). Outra possibilidade para o aprimoramento da técnica desenvolvida, é a utilização de predições bidirecionais e filtragens nas informações de alta frequência, além de avaliar a distribuição das resoluções dos quadros enviados, já que pode ser factível a diminuição do número de quadros de alta resolução enviados.
 
 %
 %\section{Cronograma}

@@ -1,76 +1,86 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Cenas: (a) natural; (b) sint\IeC {\'e}tica. Fonte: \cite {imagensTeste}.\relax }}{18}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}{subfigure.1.2}
-\contentsline {figure}{\numberline {2}{\ignorespaces Amostragem espacial e temporal de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo.\relax }}{18}{figure.caption.8}
-\contentsline {figure}{\numberline {3}{\ignorespaces Imagens com mesmo tamanho real e diferentes resolu\IeC {\c c}\IeC {\~o}es. Fonte: \cite {scuri1999fundamentos}.\relax }}{19}{figure.caption.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}{subfigure.3.2}
-\contentsline {figure}{\numberline {4}{\ignorespaces Componentes no espa\IeC {\c c}o RBG: (a) imagem original; (b) vermelho; (c) verde; (d) azul. Fonte: \cite {imagensTeste}.\relax }}{20}{figure.caption.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{20}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{20}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{20}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{20}{subfigure.4.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces (a) decima\IeC {\c c}\IeC {\~a}o $I_D(u,v)$ de uma imagem $I^D(u,v)$ de tamanho 8x8 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de decima\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} convolu\IeC {\'\i }da com o filtro $H_D(z1,z2)$, gerando uma vers\IeC {\~a}o passabaixas $I^D_{PB1}$, e depois decimada por um fator M, gerando uma vers\IeC {\~a}o $I(u,v)$ de menor resolu\IeC {\c c}\IeC {\~a}o. Fonte: \cite {garcia2013tecnicas}. \relax }}{22}{figure.caption.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{22}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{22}{subfigure.5.2}
-\contentsline {figure}{\numberline {6}{\ignorespaces (a) interpola\IeC {\c c}\IeC {\~a}o $I^I(u,v)$ de uma imagem $I(u,v)$ de tamanho 2x2 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de interpola\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} interpolada por um fator $M$ e depois convolu\IeC {\'\i }da com o $H_I$, gerando uma vers\IeC {\~a}o em maior resolu\IeC {\c c}\IeC {\~a}o de $I(u,v)$. Fonte: \cite {garcia2013tecnicas}. \relax }}{23}{figure.caption.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{23}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{23}{subfigure.6.2}
-\contentsline {figure}{\numberline {7}{\ignorespaces Bloco 10x10 \textit {pixels} da imgem de teste Lena, equivalente a matriz \ref {lena}. Fonte: \cite {imagensTeste}.\relax }}{25}{figure.caption.13}
-\contentsline {figure}{\numberline {8}{\ignorespaces Escala arbitr\IeC {\'a}ria redimensionando com uma ou ambas as transformadas locais. Nota-se que a dimens\IeC {\~a}o \IeC {\'e} dada em blocos (por exemplo, o tamanho da primeira imagem \IeC {\'e} de $I$ blocos por $I$ blocos, onde cada cada bloco \IeC {\'e} de tamanho 8x8, o tamanho da segunda imagem ainda \IeC {\'e} $I$ blocos por $I$ blocos, mas o tamanho de cada bloco \IeC {\'e} $NxN$. Fonte: \cite {salazar2007complexity}.\relax }}{26}{figure.caption.14}
-\contentsline {figure}{\numberline {9}{\ignorespaces Etapas de codifica\IeC {\c c}\IeC {\~a}o baseada em DCT. Fonte: \cite {wallace1991jpeg}.\relax }}{28}{figure.caption.15}
-\contentsline {figure}{\numberline {10}{\ignorespaces Etapas de decodifica\IeC {\c c}\IeC {\~a}o baseada em DCT. Fonte: \cite {wallace1991jpeg}.\relax }}{29}{figure.caption.16}
-\contentsline {figure}{\numberline {11}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos coeficientes da DCT para o codificador de entropia. Fonte: \cite {wallace1991jpeg}.\relax }}{30}{figure.caption.17}
-\contentsline {figure}{\numberline {12}{\ignorespaces Estrutura t\IeC {\'\i }pica de um codificador H.264 \cite {richardson2011h}.\relax }}{31}{figure.caption.18}
-\contentsline {figure}{\numberline {13}{\ignorespaces Estrutura t\IeC {\'\i }pica de um decodificador H.264 \cite {richardson2011h}.\relax }}{31}{figure.caption.19}
-\contentsline {figure}{\numberline {14}{\ignorespaces (a) uma cena est\IeC {\'a}tica de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \IeC {\'e} capturada com baixa luminosidade; (b) ap\IeC {\'o}s equaliza\IeC {\c c}\IeC {\~a}o de histograma a placa do autom\IeC {\'o}vel continua ileg\IeC {\'\i }vel devido ao ru\IeC {\'\i }do natural da imagem. Fonte: \cite {kang2000digital}. \relax }}{33}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{33}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{33}{subfigure.14.2}
-\contentsline {figure}{\numberline {15}{\ignorespaces Legibilidade da placa como resultado da m\IeC {\'e}dia do conjunto cada vez maior de quadros. Fonte: \cite {kang2000digital}.\relax }}{34}{figure.caption.21}
-\contentsline {figure}{\numberline {16}{\ignorespaces (a) regi\IeC {\~a}o de interesse \IeC {\'e} capturada em uma cena din\IeC {\^a}mica; (b) a SR estima a cena subjacente a partir de 50 imagens. A reconstru\IeC {\c c}\IeC {\~a}o possui o triplo da resolu\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} imagem original. Fonte: \cite {kang2000digital}. \relax }}{34}{figure.caption.22}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{34}{subfigure.16.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{34}{subfigure.16.2}
-\contentsline {figure}{\numberline {17}{\ignorespaces Exemplo de separa\IeC {\c c}\IeC {\~a}o de quadro em componentes de baixa e alta frequ\IeC {\^e}ncia.\relax }}{35}{figure.caption.23}
-\contentsline {figure}{\numberline {18}{\ignorespaces Forma geral da super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos \cite {hung2013realce}.\relax }}{35}{figure.caption.24}
-\contentsline {figure}{\numberline {19}{\ignorespaces Super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos: a imagem interpolada $I_0^B$ recebe informa\IeC {\c c}\IeC {\~o}es de alta frequ\IeC {\^e}ncia a partir de uma imagem em alta resolu\IeC {\c c}\IeC {\~a}o $I_j$ separada em vers\IeC {\~o}es com componentes de baixa e alta frequ\IeC {\^e}ncia, $I_j^B$ e $I_j^A$. Fonte: \cite {garcia2013tecnicas}.\relax }}{36}{figure.caption.25}
-\contentsline {figure}{\numberline {20}{\ignorespaces Arquitetura de codifica\IeC {\c c}\IeC {\~a}o em resolu\IeC {\c c}\IeC {\~a}o mista.\relax }}{36}{figure.caption.26}
-\contentsline {figure}{\numberline {21}{\ignorespaces Fluxograma do algoritmo de super-resolu\IeC {\c c}\IeC {\~a}o proposta \cite {garcia2013tecnicas}.\relax }}{37}{figure.caption.27}
-\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{39}{figure.caption.28}
-\contentsline {figure}{\numberline {23}{\ignorespaces \textit {Kit} de desenvolvimentoto \textit {Raspberry Pi 2 Model B} \cite {element14}.\relax }}{40}{figure.caption.29}
-\contentsline {figure}{\numberline {24}{\ignorespaces Mapa de pinos do \textit {Raspberry Pi} 2 Modelo B \cite {element14}.\relax }}{41}{figure.caption.30}
-\contentsline {figure}{\numberline {25}{\ignorespaces Sequ\IeC {\^e}ncias de v\IeC {\'\i }deo : (a)\textit {akiyo}, (b)\textit {foreman}, (c)\textit {bowing}, (d)\textit {carphone}, (e)\textit {crew}, (f)\textit {flower}, (g)\textit {footbal} e (h)\textit {mobile}.\relax }}{44}{figure.caption.31}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{44}{subfigure.25.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{44}{subfigure.25.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{44}{subfigure.25.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{44}{subfigure.25.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{44}{subfigure.25.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{44}{subfigure.25.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{44}{subfigure.25.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{44}{subfigure.25.8}
-\contentsline {figure}{\numberline {26}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Football}, com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2.\relax }}{46}{figure.caption.32}
-\contentsline {figure}{\numberline {27}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Crew}, com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2.\relax }}{46}{figure.caption.33}
-\contentsline {figure}{\numberline {28}{\ignorespaces \textit {Foreman} - Quadro 6, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 21.950 dB), (c)Imagem Super-resolvida (PSNR = 21.776 dB).\relax }}{49}{figure.caption.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{49}{subfigure.28.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{49}{subfigure.28.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{49}{subfigure.28.3}
-\contentsline {figure}{\numberline {29}{\ignorespaces \textit {Football} - Quadro 4, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.847 dB), (c)Imagem Super-resolvida (PSNR = 17.176 dB).\relax }}{50}{figure.caption.37}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{50}{subfigure.29.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{50}{subfigure.29.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{50}{subfigure.29.3}
-\contentsline {figure}{\numberline {30}{\ignorespaces \textit {Mobile} - Quadro 4, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.532 dB), (c)Imagem Super-resolvida (PSNR = 17.902 dB).\relax }}{51}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{51}{subfigure.30.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{51}{subfigure.30.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{51}{subfigure.30.3}
-\contentsline {figure}{\numberline {31}{\ignorespaces \textit {Foreman} - Quadro 30, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 26.399 dB), (c)Imagem Super-resolvida (PSNR = 31.503 dB).\relax }}{52}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{subfigure.31.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}{subfigure.31.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{52}{subfigure.31.3}
-\contentsline {figure}{\numberline {32}{\ignorespaces \textit {Football} - Quadro 3, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 22.946 dB), (c)Imagem Super-resolvida (PSNR = 24.286 dB).\relax }}{53}{figure.caption.40}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}{subfigure.32.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}{subfigure.32.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{53}{subfigure.32.3}
-\contentsline {figure}{\numberline {33}{\ignorespaces \textit {Mobile} - Quadro 33, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 18.756 dB), (c)Imagem Super-resolvida (PSNR = 21.211 dB).\relax }}{54}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}{subfigure.33.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}{subfigure.33.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{54}{subfigure.33.3}
+\contentsline {figure}{\numberline {1}{\ignorespaces Cenas: (a) natural; (b) sint\IeC {\'e}tica. Fonte: \cite {imagensTeste}.\relax }}{24}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{24}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{24}{subfigure.1.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Amostragem espacial e temporal de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo.\relax }}{24}{figure.caption.11}
+\contentsline {figure}{\numberline {3}{\ignorespaces Imagens com mesmo tamanho real e diferentes resolu\IeC {\c c}\IeC {\~o}es. Fonte: \cite {scuri1999fundamentos}.\relax }}{25}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{25}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{25}{subfigure.3.2}
+\contentsline {figure}{\numberline {4}{\ignorespaces Componentes no espa\IeC {\c c}o RBG: (a) imagem original; (b) vermelho; (c) verde; (d) azul. Fonte: \cite {imagensTeste}.\relax }}{26}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{26}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{26}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{26}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{26}{subfigure.4.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces (a) decima\IeC {\c c}\IeC {\~a}o $I_D(u,v)$ de uma imagem $I^D(u,v)$ de tamanho 8x8 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de decima\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} convolu\IeC {\'\i }da com o filtro $H_D(z1,z2)$, gerando uma vers\IeC {\~a}o passabaixas $I^D_{PB1}$, e depois decimada por um fator M, gerando uma vers\IeC {\~a}o $I(u,v)$ de menor resolu\IeC {\c c}\IeC {\~a}o. Fonte: \cite {garcia2013tecnicas}. \relax }}{28}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{28}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{28}{subfigure.5.2}
+\contentsline {figure}{\numberline {6}{\ignorespaces (a) interpola\IeC {\c c}\IeC {\~a}o $I^I(u,v)$ de uma imagem $I(u,v)$ de tamanho 2x2 por um fator 4; (b) opera\IeC {\c c}\IeC {\~a}o geral de interpola\IeC {\c c}\IeC {\~a}o: a imagem $I(u,v)$ \IeC {\'e} interpolada por um fator $M$ e depois convolu\IeC {\'\i }da com o $H_I$, gerando uma vers\IeC {\~a}o em maior resolu\IeC {\c c}\IeC {\~a}o de $I(u,v)$. Fonte: \cite {garcia2013tecnicas}. \relax }}{29}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{29}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{29}{subfigure.6.2}
+\contentsline {figure}{\numberline {7}{\ignorespaces Bloco 10x10 \textit {pixels} da imgem de teste Lena, equivalente a matriz \ref {lena}. Fonte: \cite {imagensTeste}.\relax }}{31}{figure.caption.16}
+\contentsline {figure}{\numberline {8}{\ignorespaces Escala arbitr\IeC {\'a}ria redimensionando com uma ou ambas as transformadas locais. Nota-se que a dimens\IeC {\~a}o \IeC {\'e} dada em blocos (por exemplo, o tamanho da primeira imagem \IeC {\'e} de $I$ blocos por $I$ blocos, onde cada cada bloco \IeC {\'e} de tamanho 8x8, o tamanho da segunda imagem ainda \IeC {\'e} $I$ blocos por $I$ blocos, mas o tamanho de cada bloco \IeC {\'e} $NxN$. Fonte: \cite {salazar2007complexity}.\relax }}{32}{figure.caption.17}
+\contentsline {figure}{\numberline {9}{\ignorespaces Etapas de codifica\IeC {\c c}\IeC {\~a}o baseada em DCT. Fonte: \cite {wallace1991jpeg}.\relax }}{34}{figure.caption.18}
+\contentsline {figure}{\numberline {10}{\ignorespaces Etapas de decodifica\IeC {\c c}\IeC {\~a}o baseada em DCT. Fonte: \cite {wallace1991jpeg}.\relax }}{35}{figure.caption.19}
+\contentsline {figure}{\numberline {11}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos coeficientes da DCT para o codificador de entropia. Fonte: \cite {wallace1991jpeg}.\relax }}{36}{figure.caption.20}
+\contentsline {figure}{\numberline {12}{\ignorespaces Estrutura t\IeC {\'\i }pica de um codificador H.264 \cite {richardson2011h}.\relax }}{37}{figure.caption.21}
+\contentsline {figure}{\numberline {13}{\ignorespaces Estrutura t\IeC {\'\i }pica de um decodificador H.264 \cite {richardson2011h}.\relax }}{37}{figure.caption.22}
+\contentsline {figure}{\numberline {14}{\ignorespaces (a) uma cena est\IeC {\'a}tica de uma sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \IeC {\'e} capturada com baixa luminosidade; (b) ap\IeC {\'o}s equaliza\IeC {\c c}\IeC {\~a}o de histograma a placa do autom\IeC {\'o}vel continua ileg\IeC {\'\i }vel devido ao ru\IeC {\'\i }do natural da imagem. Fonte: \cite {kang2000digital}. \relax }}{39}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{39}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{39}{subfigure.14.2}
+\contentsline {figure}{\numberline {15}{\ignorespaces Legibilidade da placa como resultado da m\IeC {\'e}dia do conjunto cada vez maior de quadros. Fonte: \cite {kang2000digital}.\relax }}{40}{figure.caption.24}
+\contentsline {figure}{\numberline {16}{\ignorespaces (a) regi\IeC {\~a}o de interesse \IeC {\'e} capturada em uma cena din\IeC {\^a}mica; (b) a SR estima a cena subjacente a partir de 50 imagens. A reconstru\IeC {\c c}\IeC {\~a}o possui o triplo da resolu\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} imagem original. Fonte: \cite {kang2000digital}. \relax }}{40}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{40}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{40}{subfigure.16.2}
+\contentsline {figure}{\numberline {17}{\ignorespaces Exemplo de separa\IeC {\c c}\IeC {\~a}o de quadro em componentes de baixa e alta frequ\IeC {\^e}ncia.\relax }}{41}{figure.caption.26}
+\contentsline {figure}{\numberline {18}{\ignorespaces Forma geral da super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos \cite {hung2013realce}.\relax }}{41}{figure.caption.27}
+\contentsline {figure}{\numberline {19}{\ignorespaces Super-resolu\IeC {\c c}\IeC {\~a}o baseada em exemplos: a imagem interpolada $I_0^B$ recebe informa\IeC {\c c}\IeC {\~o}es de alta frequ\IeC {\^e}ncia a partir de uma imagem em alta resolu\IeC {\c c}\IeC {\~a}o $I_j$ separada em vers\IeC {\~o}es com componentes de baixa e alta frequ\IeC {\^e}ncia, $I_j^B$ e $I_j^A$. Fonte: \cite {garcia2013tecnicas}.\relax }}{42}{figure.caption.28}
+\contentsline {figure}{\numberline {20}{\ignorespaces Arquitetura de codifica\IeC {\c c}\IeC {\~a}o em resolu\IeC {\c c}\IeC {\~a}o mista.\relax }}{42}{figure.caption.29}
+\contentsline {figure}{\numberline {21}{\ignorespaces Fluxograma do algoritmo de super-resolu\IeC {\c c}\IeC {\~a}o proposta \cite {garcia2013tecnicas}.\relax }}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de blocos proposto para solu\IeC {\c c}\IeC {\~a}o.\relax }}{45}{figure.caption.31}
+\contentsline {figure}{\numberline {23}{\ignorespaces \textit {Kit} de desenvolvimentoto \textit {Raspberry Pi 2 Model B} \cite {element14}.\relax }}{46}{figure.caption.32}
+\contentsline {figure}{\numberline {24}{\ignorespaces Mapa de pinos do \textit {Raspberry Pi} 2 Modelo B \cite {element14}.\relax }}{47}{figure.caption.33}
+\contentsline {figure}{\numberline {25}{\ignorespaces Sequ\IeC {\^e}ncias de v\IeC {\'\i }deo : (a)\textit {akiyo}, (b)\textit {foreman}, (c)\textit {bowing}, (d)\textit {carphone}, (e)\textit {crew}, (f)\textit {flower}, (g)\textit {footbal} e (h)\textit {mobile}.\relax }}{50}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{50}{subfigure.25.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{50}{subfigure.25.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{50}{subfigure.25.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{50}{subfigure.25.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{50}{subfigure.25.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{50}{subfigure.25.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{50}{subfigure.25.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{50}{subfigure.25.8}
+\contentsline {figure}{\numberline {26}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Football}: (a) com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2, (b) com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 4.\relax }}{52}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}{subfigure.26.2}
+\contentsline {figure}{\numberline {27}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Akiyo}: (a)com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2, (b)com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 4.\relax }}{52}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{subfigure.27.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}{subfigure.27.2}
+\contentsline {figure}{\numberline {28}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Football}: (a) com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2, (b) com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 4.\relax }}{55}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}{subfigure.28.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}{subfigure.28.2}
+\contentsline {figure}{\numberline {29}{\ignorespaces Curva PSNR m\IeC {\'e}dio x Taxa, para a sequ\IeC {\^e}ncia de v\IeC {\'\i }deo \textit {Akiyo}: (a)com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 2, (b)com um fator de decima\IeC {\c c}\IeC {\~a}o $M$ = 4.\relax }}{56}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}{subfigure.29.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{56}{subfigure.29.2}
+\contentsline {figure}{\numberline {30}{\ignorespaces \textit {Foreman} - Quadro 6, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 21.950 dB), (c)Imagem Super-resolvida (PSNR = 21.776 dB).\relax }}{58}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}{subfigure.30.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}{subfigure.30.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{58}{subfigure.30.3}
+\contentsline {figure}{\numberline {31}{\ignorespaces \textit {Football} - Quadro 4, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.847 dB), (c)Imagem Super-resolvida (PSNR = 17.176 dB).\relax }}{59}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}{subfigure.31.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}{subfigure.31.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{59}{subfigure.31.3}
+\contentsline {figure}{\numberline {32}{\ignorespaces \textit {Mobile} - Quadro 4, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.532 dB), (c)Imagem Super-resolvida (PSNR = 17.902 dB).\relax }}{60}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}{subfigure.32.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{60}{subfigure.32.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{60}{subfigure.32.3}
+\contentsline {figure}{\numberline {33}{\ignorespaces \textit {Foreman} - Quadro 30, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 26.399 dB), (c)Imagem Super-resolvida (PSNR = 31.503 dB).\relax }}{61}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{61}{subfigure.33.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{61}{subfigure.33.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{61}{subfigure.33.3}
+\contentsline {figure}{\numberline {34}{\ignorespaces \textit {Football} - Quadro 3, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 22.946 dB), (c)Imagem Super-resolvida (PSNR = 24.286 dB).\relax }}{62}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{62}{subfigure.34.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{62}{subfigure.34.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{62}{subfigure.34.3}
+\contentsline {figure}{\numberline {35}{\ignorespaces \textit {Mobile} - Quadro 33, $M = 2$, \textit {Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 18.756 dB), (c)Imagem Super-resolvida (PSNR = 21.211 dB).\relax }}{63}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{63}{subfigure.35.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{63}{subfigure.35.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{63}{subfigure.35.3}
