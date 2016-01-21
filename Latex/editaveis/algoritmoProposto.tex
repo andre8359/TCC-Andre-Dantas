@@ -1,6 +1,6 @@
 \chapter[Algoritmo Proposto]{Algoritmo Proposto}
 
-O algoritmo proposto para a solução descrita neste sistema baseia-se em uma técnica clássica de super-resolução \cite{garcia2013tecnicas}. O termo super-resolução (SR) é usado para descrever processos que procuram acrescentar informações de alta frequência a uma imagem interpolada a partir de uma ou mais imagens disponíveis \cite{baker2002limits,park2003super,farsiu2004advances}. Este conjunto de imagens pode ser formado por imagens decimadas ou adquiridas por múltiplos sensores capturando uma mesma cena durante determinado período de tempo. Para cenas estáticas (Figuras \ref{fig:SR_1} e \ref{fig:SR_2}), as observações são relacionadas por deslocamentos globais em nível de \textit{subpixel}, geralmente ocorrendo devido a posições relativas das câmeras ou movimento do próprio sensor. Para cenas dinâmicas, as observações são relacionadas a deslocamentos de \textit{subpixel} devidos ao movimento local dos próprios objetos juntamente com os deslocamentos globais, conforme pode ser visualizado na Figura \ref{fig:SR_3}. Em ambos os casos, a super-resolução é utilizada para gerar uma imagem com maior resolução espacial a partir de um conjunto de imagens em baixa resolução ou de frames de uma sequência de vídeo \cite{figueira2013super}\cite{milanfar2010super}.
+O algoritmo proposto para a solução descrita neste sistema baseia-se em uma técnica clássica de super-resolução \cite{garcia2013tecnicas}. O termo super-resolução (SR) é usado para descrever processos que procuram acrescentar informações de alta frequência a uma imagem interpolada a partir de uma ou mais imagens disponíveis \cite{baker2002limits,park2003super,farsiu2004advances}. Este conjunto de imagens pode ser formado por imagens decimadas ou adquiridas por múltiplos sensores capturando uma mesma cena durante determinado período de tempo. Para cenas estáticas (Figuras \ref{fig:SR_1} e \ref{fig:SR_2}), as observações são relacionadas por deslocamentos globais em nível de \textit{subpixel}, geralmente ocorrendo devido a posições relativas das câmeras ou movimento do próprio sensor. Para cenas dinâmicas, as observações são relacionadas a deslocamentos de \textit{subpixel} devido ao movimento local dos próprios objetos juntamente com os deslocamentos globais, conforme pode ser visualizado na Figura \ref{fig:SR_3}. Em ambos os casos, a super-resolução é utilizada para gerar uma imagem com maior resolução espacial a partir de um conjunto de imagens em baixa resolução ou de \textit{frames} de uma sequência de vídeo \cite{figueira2013super}\cite{milanfar2010super}.
 \\
 
 \begin{figure}[h]
@@ -12,7 +12,7 @@ O algoritmo proposto para a solução descrita neste sistema baseia-se em uma t�
     \subfloat[]{
     	\includegraphics[width=0.4\linewidth]{figuras/SR_img_1b.png}\label{fig:SR_1b}
     }
-    \caption{(a) uma cena estática de uma sequência de vídeo é capturada com baixa luminosidade; (b) após equalização de histograma a placa do automóvel continua ilegível devido ao ruído natural da imagem. Fonte: \cite{kang2000digital}. }%
+    \caption{(a) uma cena estática de uma sequência de vídeo é capturada com baixa luminosidade; (b) após equalização de histograma, a placa do automóvel continua ilegível devido ao ruído natural da imagem. Fonte: \cite{kang2000digital}. }%
 	    \label{fig:SR_1}
 \end{figure}
 
@@ -37,7 +37,7 @@ O algoritmo proposto para a solução descrita neste sistema baseia-se em uma t�
 	    \label{fig:SR_3}
 \end{figure}
 
-    Pressupõe-se que a simples interpolação dessas imagens não seja suficiente para representar a cena de interesse com nitidez, fazendo-se necessário processar e combinar as diversas imagens disponíveis. É possível que todas as imagens possuam a mesma resolução, de forma que a super-resolução seja através da combinação dessas imagens (super-resolução por combinação de múltiplas imagens), ou que a imagem de interesse em baixa resolução seja processada a partir de um banco de imagens em alta resolução (super-resolução por exemplos) \cite{garcia2013tecnicas}. Neste trabalho trataremos apenas do segundo tipo de super-resolução.
+    Pressupõe-se que a simples interpolação dessas imagens não seja suficiente para representar a cena de interesse com nitidez, fazendo-se necessário processar e combinar as diversas imagens disponíveis. É possível que todas as imagens possuam a mesma resolução, de forma que a super-resolução seja através da combinação dessas imagens (super-resolução por combinação de múltiplas imagens), ou que a imagem de interesse em baixa resolução seja processada a partir de um banco de imagens em alta resolução (super-resolução por exemplos) \cite{garcia2013tecnicas}. Neste trabalho, será abordado o segundo tipo de super-resolução.
 
 
 \section{Super-resolução por exemplos}
@@ -45,7 +45,7 @@ O algoritmo proposto para a solução descrita neste sistema baseia-se em uma t�
 No método de super-resolução baseado em exemplos, o objetivo consiste em estimar as informações, que não estão presentes na imagem original de baixa resolução, a partir de um conjunto de amostras de imagens \cite{rezio2013superresoluccao}. A princípio, não há relação direta entre a base de dados e a imagem de entrada, de forma que o algoritmo pode atender a uma ampla gama de imagens em baixa resolução, com um grande banco de dados \cite{freeman2002example}.
 
 
-Na super-resolução baseada em exemplos, gera-se para cada imagem em alta resolução $I_j$ uma versão com componentes de baixa frequência, $I_j^B$, e uma versão de componentes de alta frequência, $I_j^A$, onde $I_j^A$ = $I_j$ - $I_j^B$, como ilustrado na Figura \ref{fig:exemplo_comp}. Assim considera-se a imagem interpolada $I_0$ correspondente somente as componentes de baixa frequência ($I_0 = I_0^B$ ), o que permite obter uma relação entre a imagem de entrada ($I_0$) e as imagens de referência ($I_j$) \cite{garcia2013tecnicas}.
+Na super-resolução baseada em exemplos, gera-se para cada imagem em alta resolução $I_j$ uma versão com componentes de baixa frequência, $I_j^B$, e uma versão de componentes de alta frequência, $I_j^A$, onde $I_j^A$ = $I_j$ - $I_j^B$, como ilustrado na Figura \ref{fig:exemplo_comp}. Assim, considera-se a imagem interpolada $I_0$, correspondente somente às componentes de baixa frequência ($I_0 = I_0^B$ ), o que permite obter uma relação entre a imagem de entrada ($I_0$) e as imagens de referência ($I_j$) \cite{garcia2013tecnicas}.
 
 
 \begin{figure}[h]
@@ -56,7 +56,7 @@ Na super-resolução baseada em exemplos, gera-se para cada imagem em alta resol
 \end{figure}
 
 
-A Figura \ref{fig:SR_exemp} ilustra a forma geral da super-resolução baseada em exemplos. Nela uma imagem ($I_0^B$) é dividida em vários macrobloco. A cada um desses blocos serão adicionadas informações de alta frequência. O dicionário com conteúdo de alta frequência é formado pelos blocos provenientes da compomente de alta frequência ($I_j^A$) das imagens do banco de dados e a extração da informação de alta frequência ocorre pelo processo de estimação de movimento.
+A Figura \ref{fig:SR_exemp} ilustra a forma geral da super-resolução baseada em exemplos. Nela uma imagem ($I_0^B$) é dividida em vários blocos. A cada um desses blocos serão adicionadas informações de alta frequência. O dicionário com conteúdo de alta frequência é formado pelos blocos provenientes da componente de alta frequência ($I_j^A$) das imagens do banco de dados e a extração da informação de alta frequência ocorre pelo processo de estimação de movimento.
 
 
 \begin{figure}[h]
@@ -66,7 +66,7 @@ A Figura \ref{fig:SR_exemp} ilustra a forma geral da super-resolução baseada e
 	\label{fig:SR_exemp}
 \end{figure}
 
-A estimação de movimento é o processo realizado para encontrar os movimentos traslacionais resultantes que ocorrem entre pelo menos dois quadros. Este processo consiste em buscar o melhor casamento (\textit{matching}) de uma macrobloco de um quadro, geralmente chamado de atual, dentre um conjunto de blocos de referência \cite{hung2013realce}, como ilustrado pela Figura \ref{fig:SR_4}.
+A estimação de movimento é o processo realizado para encontrar os movimentos translacionais resultantes que ocorrem entre pelo menos dois quadros. Este processo consiste em buscar o melhor casamento (\textit{matching}) de um bloco de um quadro, geralmente chamado de atual, dentre um conjunto de blocos de referência \cite{hung2013realce}, como ilustrado pela Figura \ref{fig:SR_4}.
 
 \begin{figure}[h]
 	\centering
@@ -92,7 +92,7 @@ Devido a pequena largura de banda disponível para o envio dos dados, optou-se p
 \end{figure}
 
 A fim de recuperar as informações de alta frequência dos quadros em baixa resolução, apresenta-se uma técnica baseada na super-resolução por exemplos. Assim, utiliza-se como banco de dados a imagem anterior ao quadro que será super-resolvido.
-    O aproveitamento de informação de quadros vizinhos se deve ao fato que normalmente  quadros vizinhos são altamente correlacionados \cite{silva2009super}.
+    O aproveitamento de informação de quadros vizinhos se deve ao fato que normalmente  os mesmos são altamente correlacionados \cite{silva2009super}.
 
 
 O fluxograma mostrado na Figura \ref{fig:algoritmo_proposto}, ilustra do algoritmo proposto. Dado um \textit{frame} original  decimado ($I_O^D$), que veio do transmissor, ele é interpolado a sua resolução original,  gerando então $I_O^B$, que constitui uma versão de baixa frequência de $I_O$.  Assim, de acordo com \cite{garcia2013tecnicas}, pode-se  assumir que  :
@@ -109,7 +109,7 @@ O fluxograma mostrado na Figura \ref{fig:algoritmo_proposto}, ilustra do algorit
 	\label{fig:algoritmo_proposto}
 \end{figure}
 
-Defini-se  $I_R$ como o quadro anterior ao que será super-resolvido, que servirá como a imagem de alta resolução de referência. Para uma busca mais adequada das informações de alta frequência que serão adicionadas ao quadro decimado $I_O^B$ é gerada sua versão de baixa frequência $I_R^B$, simulando o mesmo processo de degradação que gerou $I_O^B$ através de $I_O$,  por um processo de decimação seguido de uma interpolação utilizando o mesmo fator $M$ que foi utilizado em $I_O$.
+Define-se  $I_R$ como o quadro anterior ao que será super-resolvido, que servirá como a imagem de alta resolução de referência. Para uma busca mais adequada das informações de alta frequência que serão adicionadas ao quadro decimado $I_O^B$ é gerada sua versão de baixa frequência $I_R^B$, simulando o mesmo processo de degradação que gerou $I_O^B$ através de $I_O$,  por um processo de decimação seguido de uma interpolação utilizando o mesmo fator $M$ que foi utilizado em $I_O$.
 
      Em seguida, aplica-se o processo de busca pelos blocos semelhantes (foi utilizada a métrica MSE, discutida na Seção \ref{metricas}, para estipular a semelhança), como descrito na Seção \ref{SR_exemp}, entre $I_O^B$ e $I_R^B$.A busca de cada bloco do quadro $I_O^B$ é realizada nos blocos do quadro $I_R^B$ que estão dentro da janela de busca. Assim para cada bloco $(u_i,v_i)$, obtêm-se vetores de movimento $(m_u,m_v)$ que representam a posição do bloco mais parecido  com o procurado. 
 

@@ -1,33 +1,35 @@
 \chapter[Introdução]{Introdução}
 
-O presente capítulo evidencia a contextualização/justificativa e objetivos deste trabalho.
-
 \section{Contextualização e Justificativa}
 
-A mineração consiste na extração, elaboração e beneficiamento de minerais que se encontram em estado natural sólido, líquido ou gasoso. Esta atividade é uma atividade comum no cotidiano das pessoas, desde artigos em vidro (areia) e cerâmica (argila) até a fabricação de remédios e aparelhos eletrônicos \cite{forooshani2013survey}.
+A mineração consiste na extração, elaboração e beneficiamento de minerais que se encontram em estado natural sólido, líquido ou gasoso. Esta atividade gera insumos para confecção de vários artigos comuns no cotidiano das pessoas, desde artigos em vidro (areia) e cerâmica (argila) até a fabricação de remédios e aparelhos eletrônicos \cite{forooshani2013survey}.
 
 Ainda de acordo com \cite{forooshani2013survey}, a indústria de mineração tem um papel vital na economia global. Em 2014, a capitalização de mercado estimada de empresas mineradoras globais é de cerca de 962 bilhões dólares americanos. Uma grande parte destas operações é subterrânea e envolvem equipamentos e processos especializados. Os sistemas de comunicação possuem o papel de garantir a segurança dos operários e otimizar o processo de mineração. O tamanho estimado do mercado de equipamentos de mineração subterrânea por si só foi calculado em cerca de 45 milhões dólares em 2014. Parte desse montante é atribuído aos sistemas de comunicação.
 
 
-De acordo com \cite{barkand2006through}, os sistemas de comunicação atuais usados em minas subterrâneas empregam sistemas com fio. No entanto, estes sistemas de comunicação a cabo podem parar de operar devido a diversas complicações (incêndios, desabamentos, explosões, inundações, entre outras desastres). Os sistemas de comunicação sem fio tem melhor probabilidade de sobreviver a desastres. Isso se dá pelo fato de terem pouca ou nenhuma dependência de um condutor sólido que deve permanecer intacto. Entretanto, os desafios técnicos tornam difícil estabelecer um sistema de comunicação prático sem fio em minas subterrâneas.
+Os sistemas de comunicação atuais usados em minas subterrâneas empregam sistemas com fio. No entanto, estes sistemas de comunicação a cabo podem parar de operar devido a diversas complicações (incêndios, desabamentos, explosões, inundações, entre outras desastres) \cite{barkand2006through}.
 
-A ideia de usar a terra como um meio comum para a comunicação volta a Nicola Tesla, já em 1899, através do uso de ondas com frequências extremamente baixas \cite{wheeler1961radio}. Segundo \cite{barkand2006through}, a maioria dos sistemas de comunicação sem fio utilizam topologias de comunicação em radiofrequência que exigem um caminho claro ou ao ar livre para a propagação do sinal, o que limita a comunicação para as entradas de minas adjacentes ou em torno dos pilares dos túneis. Durante emergências, o desabamento do telhado também pode bloquear ou limitar severamente a propagação de sinal de rádio convencional. No caso em que rochas (entre outros materiais de condutividade elétrica não desprezível) se tornam o meio de propagação, a alta atenuação de ondas eletromagnéticas em altas frequências não permitem o uso desses sistemas supracitados \cite{raab1995signal}.
+Os sistemas de comunicação sem fio têm melhor probabilidade de sobreviver a desastres. Isso se dá pelo fato de terem pouca ou nenhuma dependência de um condutor sólido que deve permanecer intacto. Entretanto, os desafios técnicos tornam difícil estabelecer um sistema de comunicação prático sem fio em minas subterrâneas.
 
-Utilizar sinais similares aos utilizados para transmissões em ar livre é inviável, pois esses sinais são incapazes de penetrar nas rochas e demais materiais. No entanto, a atenuação de sinais eletromagnéticos em comunicações através da terra (\textit{Through-the-earth}) diminui com a frequência, e em frequências muito baixas (abaixo de 30 kHz) é possível realizar uma comunicação entre o subterrâneo e a superfície diretamente \cite{bandyopadhyay2010wireless}.
+A ideia de usar a terra como um meio comum para a comunicação volta a Nicola Tesla, já em 1899, através do uso de ondas com frequências extremamente baixas \cite{wheeler1961radio}. Segundo \cite{barkand2006through}, a maioria dos sistemas de comunicação sem fio utiliza topologias de comunicação em radiofrequência que exigem um caminho claro ou ao ar livre para a propagação do sinal, o que limita a comunicação para as entradas de minas adjacentes ou em torno dos pilares dos túneis. Durante emergências, o desabamento do telhado também pode bloquear ou limitar severamente a propagação de sinal de rádio convencional. No caso em que rochas (entre outros materiais de condutividade elétrica não desprezível) se tornam o meio de propagação, a alta atenuação de ondas eletromagnéticas em altas frequências não permitem o uso desses sistemas supracitados \cite{raab1995signal}.
+
+Utilizar sinais similares aos utilizados para transmissões em ar livre é inviável, pois esses sinais são incapazes de penetrar nas rochas e demais materiais. No entanto, a atenuação de sinais eletromagnéticos em comunicações através da terra (TTE, do inglês \textit{Through-The-Earth}) diminui com a frequência, e em frequências muito baixas (abaixo de 30 kHz) é possível realizar uma comunicação entre o subterrâneo e a superfície diretamente \cite{bandyopadhyay2010wireless}.
+
+A maioria dos sistemas de comunicação sem fio desenvolvidos especialmente do tipo TTE para comunicação em minas subterâneas, e estes são projetados para transmitir exclusivamente voz e texto \cite{link}. O sistema proposto neste trabalho se diferencia pela intenção de transmitir imagens do interior da mina, assim, no decorrer deste trabalho será apresentado um método para reduzir a banda de transmissão, assim como o tempo de processamento e o consumo energético do transmissor afim de tornar a transmissão desses dados possível.  
 
 \section{Objetivos}
 \label{OBJETIVOS}
-\subsection{Objetivos Gerais}
+\subsection{Objetivo Geral}
 
-	O presente trabalho consiste na implementação de um tipo de codificação de imagens em baixo consumo, que viabiliza a comunicação mesmo com uma largura de banda de transmissão muito baixa, permitindo o envio de informações vitais por operários presos na mina para equipes de resgate.
+	O presente trabalho consiste na implementação de um tipo de codificação de imagens em baixo consumo, que viabiliza a comunicação mesmo com uma largura de banda de transmissão muito baixa, permitindo o envio de informações críticas por operários presos na mina para equipes de resgate.
 
 
 \subsection{Objetivos Específicos}
 \begin{itemize}
-\item[•]Estudar técnicas rápidas de downsampling para codificar a imagem em resolução mais baixa possível;
-\item[•]Desenvolvimento do algoritmo para estas mesmas técnicas;
+\item[•]Estudar técnicas rápidas de redimensionamento espacial para codificar a imagem na resolução mais baixa possível;
+\item[•]Desenvolver um algoritmo para estas mesmas técnicas;
 \item[•]Estudar técnicas de super-resolução;
-\item[•]Desenvolver algoritmo para a tecníca de super-resolução escolhida;
-\item[•]Prototipar \textit{hardware} e \textit{software};
-\item[•]Testes de \textit{hardware} e de {software}, visando medir a qualidade das sequências de vídeo no que chegam receptor;
+\item[•]Desenvolver algoritmo para a técnica de super-resolução escolhida;
+\item[•]Prototipar \textit{hardware} e \textit{software}, para codificação do vídeo previamente adquirido, tanto no transmissor quanto no receptor;
+\item[•]Testar \textit{hardware} e \textit{software}, visando medir a qualidade das sequências de vídeo no receptor e o consumo no transmissor.
 \end{itemize}

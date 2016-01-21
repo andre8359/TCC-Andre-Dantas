@@ -90,41 +90,41 @@ para implementar a codificação no padrão JPEG.
 	\label{fig:akiyo}
 \end{figure}
 
-Os gráficos das Figuras \ref{fig:football} e \ref{fig:akiyo}, incluem duas curvas de referência: a inferior que representa a qualidade dos quadros interpolados e a superior que representa a qualidade dos quadros originais ambos codificados pelo padrão JPEG. As curvas destas duas Figuras representam o comportamento característico das curvas geradas pelas oito sequências de vídeo testadas. As sequências de vídeo mais estáticas como \textit{Akiyo} e \textit{Carphone} apresentaram os melhores resultados, como esperado, consequentemente os maiores ganhos. As sequências que possuem um pouco mais de movimento como \textit{Foreman} e \textit{Crew} obtiveram resultados satisfatórios. Para as sequências que apresentam muito movimento e a várias entradas de novos elementos nas cenas, como \textit{Mobile} e \textit{Flower}, obteu-se resultados mais sigelos, mas que ainda assim são melhores que os dos quadros interpolados.
+Os gráficos das Figuras \ref{fig:football} e \ref{fig:akiyo}, incluem duas curvas de referência: a inferior que representa a qualidade dos quadros interpolados e a superior que representa a qualidade dos quadros originais ambos codificados pelo padrão JPEG. As curvas destas duas Figuras representam o comportamento característico das curvas geradas pelas oito sequências de vídeo testadas. As sequências de vídeo mais estáticas como \textit{Akiyo} e \textit{Carphone}, apresentaram os melhores resultados, como esperado, e, consequentemente os maiores ganhos. As sequências que possuem um pouco mais de movimento como \textit{Foreman} e \textit{Crew} obtiveram resultados satisfatórios. Para as sequências que apresentam muito movimento e a várias entradas de novos elementos nas cenas, como \textit{Mobile} e \textit{Flower}, obteu-se resultados mais singelos, mas que ainda assim são melhores que os dos quadros interpolados.
 
 \begin{table}[hbt]
 \centering
-\caption{Tabela de ganhos médios para sequências codificas no padrão JPEG com fator de decimação $M$ = 2.}
+\caption{Tabela de ganhos médios para sequências codificadas no padrão JPEG com fator de decimação $M$ = 2.}
 \label{GanhoJpeg2}
-\begin{tabular}{l|c}
+\begin{tabular}{|l|c|}
 \hline
-\multicolumn{2}{c}{\textbf{Tabela de Ganhos}}\\
+\multicolumn{2}{|c|}{\textbf{Tabela de Ganhos}}\\
 \hline
 \hline
-\multicolumn{2}{c}{\textbf{Para fator de decimação $M$ = 2}}\\
+\multicolumn{2}{|c|}{\textbf{Para fator de decimação $M$ = 2}}\\
 \hline
 \hline			
 Sequência	    & Ganho (dB)\\
 \hline
 \hline
-\textit{Akiyo}		&2.0724\\
+\textit{Akiyo}		&2.1\\
 \hline
-\textit{Foreman}		&1.5590\\
+\textit{Foreman}		&1.6\\
 \hline
-\textit{Bowing}		&1.6443\\
+\textit{Bowing}		&1.6\\
 \hline
-\textit{Carphone}		&1.8277\\
+\textit{Carphone}		&1.8\\
 \hline
-\textit{Crew}		&1.7288\\
+\textit{Crew}		&1.7\\
 \hline
-\textit{Flower}		&1.3928\\
+\textit{Flower}		&1.4\\
 \hline
-\textit{Football}		&1.5712\\
+\textit{Football}		&1.6\\
 \hline
-\textit{Mobile}	&1.2845\\
+\textit{Mobile}	&1.3\\
 \hline
 \hline
-Média		&1.6351\\
+Média		&1.6\\
 \hline
 \end{tabular}
 
@@ -134,35 +134,35 @@ Média		&1.6351\\
 \centering
 \caption{Tabela de ganhos médios para sequências codificas no padrão JPEG com fator de decimação $M$ = 4.}	
 \label{GanhoJpeg4}
-\begin{tabular}{l|c}
+\begin{tabular}{|l|c|}
 \hline
-\multicolumn{2}{c}{\textbf{Tabela de Ganhos}}\\
+\multicolumn{2}{|c|}{\textbf{Tabela de Ganhos}}\\
 \hline
 \hline
-\multicolumn{2}{c}{\textbf{Para fator de decimação $M$ = 4}}\\
+\multicolumn{2}{|c|}{\textbf{Para fator de decimação $M$ = 4}}\\
 \hline
 \hline			
 Sequência	    & Ganho (dB)\\
 \hline
 \hline
-\textit{Akiyo}		&2.1661\\
+\textit{Akiyo}		&2.7\\
 \hline
-\textit{Foreman}		&1.5593 \\
+\textit{Foreman}		&1.6 \\
 \hline
-\textit{Bowing}		&1.2851\\
+\textit{Bowing}		&1.3\\
 \hline
-\textit{Carphone}	& 2.0060\\
+\textit{Carphone}	& 2.1\\
 \hline
-\textit{Crew}		& 1.9427\\
+\textit{Crew}		& 1.9\\
 \hline
-\textit{Flower}		&1.2137\\
+\textit{Flower}		&1.2\\
 \hline
-\textit{Football}		&1.5794\\
+\textit{Football}		&1.6\\
 \hline
-\textit{Mobile}	&1.0615\\
+\textit{Mobile}	&1.1\\
 \hline
 \hline
-Média	&1.0617\\
+Média	&1.1\\
 \hline
 \end{tabular}
 \end{table}
@@ -181,36 +181,37 @@ A fim de avaliar o desempenho do algoritmo proposto, sobre o padrão H.264/AVC, 
 \begin{table}[hbt]
 \centering
 \caption{Tabela de ganhos médios para sequências codificas no padrão H.264 com fator de decimação $M$ = 2.}
+
 \label{GanhoH2642}
-\begin{tabular}{l|c}
+\begin{tabular}{|l|c|}
 \hline
-\multicolumn{2}{c}{\textbf{Tabela de Ganhos}}\\
+\multicolumn{2}{|c|}{\textbf{Tabela de Ganhos}}\\
 \hline
 \hline
-\multicolumn{2}{c}{\textbf{Para fator de decimação $M$ = 2}}\\
+\multicolumn{2}{|c|}{\textbf{Para fator de decimação $M$ = 2}}\\
 \hline
 \hline			
 Sequência	    & Ganho (dB)\\
 \hline
 \hline
-\textit{Akiyo}		&3.2273\\
+\textit{Akiyo}		&3.2\\
 \hline
-\textit{Foreman}		&2.0085\\
+\textit{Foreman}		&2.0\\
 \hline
-\textit{Bowing}		&2.5412\\
+\textit{Bowing}		&2.5\\
 \hline
-\textit{Carphone}	&2.4535\\
+\textit{Carphone}	&2.5\\
 \hline
-\textit{Crew}		&2.5024\\
+\textit{Crew}		&2.5\\
 \hline
-\textit{Flower}		&1.8606\\
+\textit{Flower}		&1.9\\
 \hline
-\textit{Football}	&2.3817\\
+\textit{Football}	&2.4\\
 \hline
-\textit{Mobile}	&1.8949\\
+\textit{Mobile}	&1.9\\
 \hline
 \hline
-Média		&2.3587\\
+Média		&2.4\\
 \hline
 \end{tabular}
 
@@ -220,40 +221,40 @@ Média		&2.3587\\
 \centering
 \caption{Tabela de ganhos médios para sequências codificas no padrão H.264 com fator de decimação $M$ = 4.}	
 \label{GanhoH2644}
-\begin{tabular}{l|c}
+\begin{tabular}{|l|c|}
 \hline
-\multicolumn{2}{c}{\textbf{Tabela de Ganhos}}\\
+\multicolumn{2}{|c|}{\textbf{Tabela de Ganhos}}\\
 \hline
 \hline
-\multicolumn{2}{c}{\textbf{Para fator de decimação $M$ = 4}}\\
+\multicolumn{2}{|c|}{\textbf{Para fator de decimação $M$ = 4}}\\
 \hline
 \hline			
 Sequência	    & Ganho (dB)\\
 \hline
 \hline
-\textit{Akiyo}		&2.2735\\
+\textit{Akiyo}		&2.3\\
 \hline
-\textit{Foreman}		&1.6583 \\
+\textit{Foreman}		&1.7 \\
 \hline
-\textit{Bowing}		&2.0681\\
+\textit{Bowing}		&2.1\\
 \hline
-\textit{Carphone}	& 2.0180\\
+\textit{Carphone}	& 2.0\\
 \hline
-\textit{Crew}		& 2.0091\\
+\textit{Crew}		& 2.0\\
 \hline
-\textit{Flower}		&1.5670\\
+\textit{Flower}		&1.6\\
 \hline
-\textit{Football}	&2.0459\\
+\textit{Football}	&2.0\\
 \hline
-\textit{Mobile}	&1.7302\\
+\textit{Mobile}	&1.7\\
 \hline
 \hline
-Média	&1.9213\\
+Média	&1.9\\
 \hline
 \end{tabular}
 \end{table}
 
-As Figuras \ref{fig:footballh264} e \ref{fig:akiyoh264} apresentam o desempenho da super-resolução proposta em termos de taxa e distorção para as sequêcias \textit{Football} e \textit{Akiyo} respectivamente. Estas curvas são representativas do comportamento típico das sequências testadas. Assim, verificou-se uma diferença no desmpenho do algoritmo de acordo com o nível do escalonamento aplicado as quadros interpolados e de referência. Notou-se também que para taxas mais baixas, a qualidade dos quadros super-resolvidos é superior a dos quadros originas degradados apenas pelo codificação, o que já justifica a aplicação da técnica proposta.
+As Figuras \ref{fig:footballh264} e \ref{fig:akiyoh264} apresentam o desempenho da super-resolução proposta em termos de taxa e distorção para as sequêcias \textit{Football} e \textit{Akiyo} respectivamente. Estas curvas são representativas do comportamento típico das sequências testadas. Assim, verificou-se uma diferença no desempenho do algoritmo de acordo com o nível do escalonamento aplicado as quadros interpolados e de referência. Notou-se também que para taxas mais baixas, a qualidade dos quadros super-resolvidos é superior a dos quadros originas degradados apenas pelo codificação, o que já justifica a aplicação da técnica proposta.
 
 
 \begin{figure}[H]
@@ -281,11 +282,137 @@ As Figuras \ref{fig:footballh264} e \ref{fig:akiyoh264} apresentam o desempenho 
 	\label{fig:akiyoh264}
 \end{figure}
 \clearpage
-\subsection{Resultados Subjetivos}
+
+
+
+
+\subsection{Teste de consumo}
+
+Esta Seção tratará sobre os resultados provenientes de medições da potência consumida pelo processo de codificação realizado.
+
+\textit{PowerTOP} é um\textit{ framework} concebido para medir, explicar e minimizar o consumo de energia elétrica de um computador. Foi lançado pela \textit{Intel} em 2007 sob a licença \textit{GPLv2} . Ele trabalha em processadores \textit{Intel}, \textit{AMD}, \textit{ARM} e \textit{UltraSPARC} \cite{powertop}. 
+ Todas as medições foram realizadas com o \textit{software Powertop}. sob as seguintes condições:
+\begin{itemize}
+\item Todas as sequências de vídeo tem 300 quadros e tamanho CIF (352x288 \textit{pixels}) originalmente.
+\item Mediu-se a potência do processo de codificação completo (quadros em alta e baixa resolução).
+\item Todas as medidas foram realizadas após o período de 72 horas de calibração do \textit{software}.
+\end{itemize}
+
+
+A Tabela \ref{akiyoConsumo} mostra a relação entre consumo do processo de codificação JPEG e o parâmetro que define o coeficiente de quantização. Nota-se  que para o valor \textit{Qscale} = 0, obtêm-se o maior consumo como esperado, pois este valor equivale a melhor taxa de compressão possível para este codificador, o que implica diretamente no esforço computacional envolvido na operação. 
+
+\begin{table}[hbt]
+\centering
+\caption{Tabela de consumos para sequência \textit{Akiyo} codifica no padrão JPEG com diferentes fatores de qualidade (\textit{Qscale}).}	
+\label{akiyoConsumo}
+\begin{tabular}{|l|c|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Tabela de Consumos}}\\
+\hline
+\hline			
+Fator \textit{Qscale}	    & Consumo[W]  \\
+\hline
+\hline
+1 & 1.7\\
+\hline
+6 & 1.0\\
+\hline
+10 & 1.3\\
+\hline
+14 & 1.2\\
+\hline
+18 & 1.1\\
+\hline
+22 & 1.2\\
+\hline
+26 & 1.0\\
+\hline
+30 & 1.0\\ 
+\hline
+\end{tabular}
+\end{table}
+
+
+As Tabelas \ref{comsumoJpeg} e \ref{consumoH264} trazem as médias das medidas realizadas utilizando os parâmetos \textit{Qscale}={2-31} e \textit{QP} = {16-51} para a codificação JPEG e H.264 respectivamente. Pode-se ver que as sequências de vídeo codificadas com resolução mista expressão um consumo menor que as codificadas com a resolução original, como esperado, afinal há menos informação para ser codificada nessas sequências.
+
+Percebe-se que existe uma relação entre a potência consumida e a quantidade de compressão obtida, observando os resultados das Tabelas \ref{GanhoJpeg2}, \ref{GanhoJpeg4}, \ref{GanhoH2642}, \ref{GanhoH2644}, \ref{comsumoJpeg} e \ref{consumoH264} conclui-se que a codificação JPEG resulta em taxas de compressão mais elevadas, no entanto é energeticamente mais econômica. 
+
+É interessante notar que para determinados casos, principalmente nas sequências com maior dificuldade de codificação devido a quantidade de movimento e aparição de novos elementos nas cenas, a economia chega a ser superior a 75\% (como para a sequência \textit{Mobile} codificada em H.264).
+
+\begin{table}[hbt]
+\centering
+\caption{Tabela de consumos médios para sequências codificas no padrão JPEG com diferentes resoluções.}	
+\label{comsumoJpeg}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Tabela  de Consumos Médios}}\\
+\hline
+\hline
+\multicolumn{4}{|c|}{\textbf{Consumos em direfentes resoluções. [W]}}\\
+\hline
+\hline			
+Sequência  & Res. Original [W]& $M = 2$ [W]&$M = 4$ [W] \\
+\hline
+\hline
+\textit{Akiyo}		&1.18  &1.12   &1.12\\
+\hline
+\textit{Foreman}		&1.44 &1.33   &1.30\\
+\hline
+\textit{Bowing}		&1.19 &1.10   &1.08\\
+\hline
+\textit{Carphone}	& 0.90 &0.73   &0.76\\
+\hline
+\textit{Crew}		& 1.38 &1.27   &1.21\\
+\hline
+\textit{Flower}		&1.50 &1.28   &1.20\\
+\hline
+\textit{Football}	&1.28 &1.19   &1.15\\
+\hline
+\textit{Mobile}	&2.01 &1.74   &1.63\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[hbt]
+\centering
+\caption{Tabela de consumos médios para sequências codificas no padrão H.264 com diferentes resoluções.}	
+\label{consumoH264}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Tabela  de Consumos Médios}}\\
+\hline
+\hline
+\multicolumn{4}{|c|}{\textbf{Consumos em direfentes resoluções. }}\\
+\hline
+\hline			
+Sequência  & Res. Original [W]& $M = 2$ [W]&$M = 4$ [W]  \\
+\hline
+\hline
+\textit{Akiyo}		&7.80  &2.35   &2.72\\
+\hline
+\textit{Foreman}		&10.03 &2.92   &2.77\\
+\hline
+\textit{Bowing}		&7.90 &2.28   &2.06\\
+\hline
+\textit{Carphone}	& 3.50 & 0.93   &0.91\\
+\hline
+\textit{Crew}		& 9.60 & 2.76   &2.43\\
+\hline
+\textit{Flower}		&10.14 &3.04   &2.82\\
+\hline
+\textit{Football}	&9.37 &2.55  &2.31\\
+\hline
+\textit{Mobile}	&11.85 &4.56   &4.13\\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Resultados Subjetivos}
 
 Observando as imagens desta Seção, pode-se perceber que mesmo para as sequências de vídeo com grande quantidade de movimento e novos elementos a cada cena, as imagens super-resolvidas são apresentadas sem detalhes visualmente incômodos. 
 
-Em geral as bordas, letras, algumas texturas e detalhes são difíceis de se ver nos quadros interpolados, no entanto ficam claramente visíveis nos quadros super-resolvidos, o que mostra que as informações de alta frequência adicionadas aos quadros interpolados possuem um bom \textit{mathing}. 
+Em geral, as bordas, letras, algumas texturas e detalhes são difíceis de se ver nos quadros interpolados, no entanto ficam claramente visíveis nos quadros super-resolvidos, o que mostra que as informações de alta frequência adicionadas aos quadros interpolados possuem um bom \textit{mathing}. 
 \clearpage
 \subsection{Teste com codificação JPEG}
 \begin{figure}[H]
@@ -302,7 +429,7 @@ Em geral as bordas, letras, algumas texturas e detalhes são difíceis de se ver
     	\includegraphics[width=0.5\linewidth]{figuras/foreman_SP.png}
     }
 
-    \caption{\textit{Foreman} - Quadro 6, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 21.950 dB), (c)Imagem Super-resolvida (PSNR = 21.776 dB).}
+    \caption{\textit{Foreman} - Quadro 6, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 22.0 dB), (c)Imagem Super-resolvida (PSNR = 21.8 dB).}
 	    
     \label{fig:1}
 \end{figure}
@@ -321,7 +448,7 @@ Em geral as bordas, letras, algumas texturas e detalhes são difíceis de se ver
     	\includegraphics[width=0.5\linewidth]{figuras/football_SP.png}
     }
 
-    \caption{\textit{Football} - Quadro 4, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.847 dB), (c)Imagem Super-resolvida (PSNR = 17.176 dB).}
+    \caption{\textit{Football} - Quadro 4, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 30.9 dB), (c)Imagem Super-resolvida (PSNR = 33.2 dB).}
 	    
     \label{fig:2}
 \end{figure}
@@ -340,7 +467,7 @@ Em geral as bordas, letras, algumas texturas e detalhes são difíceis de se ver
     	\includegraphics[width=0.5\linewidth]{figuras/mobile_SP.png}
     }
 
-    \caption{\textit{Mobile} - Quadro 4, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 16.532 dB), (c)Imagem Super-resolvida (PSNR = 17.902 dB).}
+    \caption{\textit{Mobile} - Quadro 4, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 28.5 dB), (c)Imagem Super-resolvida (PSNR = 32.9 dB).}
 	    
     \label{fig:3}
 \end{figure}
@@ -360,7 +487,7 @@ Em geral as bordas, letras, algumas texturas e detalhes são difíceis de se ver
     	\includegraphics[width=0.5\linewidth]{figuras/foreman_SP_h264.png}
     }
 
-    \caption{\textit{Foreman} - Quadro 30, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 26.399 dB), (c)Imagem Super-resolvida (PSNR = 31.503 dB).}
+    \caption{\textit{Foreman} - Quadro 30, $M = 2$, \textit{Qscale} = 20 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 26.4 dB), (c)Imagem Super-resolvida (PSNR = 31.5 dB).}
 	    
     \label{fig:4}
 \end{figure}
@@ -379,7 +506,7 @@ Em geral as bordas, letras, algumas texturas e detalhes são difíceis de se ver
     	\includegraphics[width=0.5\linewidth]{figuras/football_SP_h264.png}
     }
 
-    \caption{\textit{Football} - Quadro 3, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 22.946 dB), (c)Imagem Super-resolvida (PSNR = 24.286 dB).}
+    \caption{\textit{Football} - Quadro 3, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 23.0 dB), (c)Imagem Super-resolvida (PSNR = 24.3 dB).}
 	    
     \label{fig:5}
 \end{figure}
@@ -397,7 +524,14 @@ Em geral as bordas, letras, algumas texturas e detalhes são difíceis de se ver
     \subfloat[]{
     	\includegraphics[width=0.5\linewidth]{figuras/mobile_SP_h264.png}
     }
-    \caption{\textit{Mobile} - Quadro 33, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 18.756 dB), (c)Imagem Super-resolvida (PSNR = 21.211 dB).}
-	    
+    \caption{\textit{Mobile} - Quadro 33, $M = 2$, \textit{Qscale} = 10 : (a) Imagem Original, (b)Imagem Interpolada (PSNR = 26.8 dB), (c)Imagem Super-resolvida (PSNR = 30.1 dB).}
+	  
     \label{fig:6}
 \end{figure}
+
+
+
+
+
+
+

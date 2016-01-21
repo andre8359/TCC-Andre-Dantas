@@ -1,67 +1,16 @@
 \chapter[Conclusão]{Conclusão}
 
 O presente trabalho consiste na implementação de um tipo de codificação de imagens em baixo consumo, que viabiliza a comunicação mesmo com uma largura de banda de transmissão muito baixa, permitindo o envio de informações vitais por operários presos na mina para equipes de resgate. 
-Para isso, foram elaborados os objetivos específicos (produtos de trabalho) para que o objetivo geral fosse alcançado. Os objetivos específicos consistiam em estudar técnicas rápidas de \textit{downsampling} para codificar as imagens em resolução mais baixa possível, desenvolver um algoritmo para estas mesmas técnicas, estudar técnicas de super-resolução, desenvolver algoritmo para a técnica de super-resolução escolhida, prototipar, desenvolver e validar \textit{hardware} e \textit{software} visando a qualidade das sequências de vídeo no receptor.
+Para isso, foram elaborados os objetivos específicos (produtos de trabalho) para que o objetivo geral fosse alcançado. Os objetivos específicos consistiam em estudar técnicas rápidas de redimensionamento para codificar as imagens em resolução mais baixa possível, desenvolver um algoritmo para estas mesmas técnicas, estudar técnicas de super-resolução, desenvolver algoritmo para a técnica de super-resolução escolhida, prototipar, desenvolver e validar \textit{hardware} e \textit{software} visando a qualidade das sequências de vídeo no receptor.
 
 O \textit{hardware}, tanto do transmissor, quanto do receptor, foi pensado com base nas condições em que irão estar expostos em campo, sendo que o transmissor necessita de um \textit{hardware} mais específico devido às condições adversas de dentro da mina. O receptor, por sua vez, possui amplos recursos de computação e energia, pois estará na superfície.
 
-O \textit{software} do transmissor foi desenvolvido inteiramente em \textit{Python}, com o apoio do \textit{framework} FFmpeg para implementação do \textit{downsampling}. Já no receptor, o algoritmo proposto da super-resolução foi escrito em \textit{Octave}, com exceção do processo de estimação de movimento, que se encontra em um arquivo \textit{mex} (linguagem C padrão ANSI), pois trata-se de um processo complexo.  
+O \textit{software} do transmissor foi desenvolvido inteiramente em \textit{Python}, com o apoio do \textit{framework} FFmpeg para implementação do redimensionamento e codificação. Já no receptor, o algoritmo proposto da super-resolução foi escrito em \textit{Octave}, com exceção do processo de estimação de movimento, que se encontra em um arquivo \textit{mex} (linguagem C padrão ANSI).  
 
-Os resultados obtidos foram favoráveis, especialmente para sequências mais estáticas. Isto acontece, porque a informação relevante 
+Os resultados obtidos são melhores para sequências mais estáticas. Isto acontece, porque a informação relevante mesmo para sequências com muito movimento e várias entradas de novos elementos nas cenas, os quadros super-resolvidos possuem maior qualidade que os interpolados. 
+
+As observações realizadas sobre as medições de consumo aferidas demostram que o consumo será reduzido para as sequências codificadas em resolução mista em relação às codificadas em resolução original. Para codificação H.264, têm-se economias de 61\% a 75\% em relação a codificação com resolução original. Com estes resultados satisfatórios, deu-se por cumprido o objetivo deste trabalho. 
 
 
- mesmo para sequências com muito movimento e várias entradas de novos elementos nas cenas, os quadros super-resolvidos possuem maior qualidade que os interpolados. Com estes resultados satisfatórios, deu-se por cumprido o objetivo deste trabalho. 
+Para trabalhos futuros, sugere-se o projeto dos aspectos de comunicação do sistema (número de portadoras, tipo de modulação, codificação de linha e canal, dentro outros aspectos). Outra possibilidade para o aprimoramento da técnica desenvolvida, é a utilização de predições bidirecionais e filtragens nas informações de alta frequência, além de avaliar a distribuição das resoluções dos quadros enviados, já que pode ser factível a diminuição do número de quadros de alta resolução enviados.
 
-Para trabalhos futuros, sugeriu-se o projeto dos aspectos de comunicação do sistema (número de portadoras, tipo de modulação, codificação de linha e canal, dentro outros aspectos). Outra possibilidade para o aprimoramento da técnica desenvolvida, é a utilização de predições bidirecionais e filtragens nas informações de alta frequência, além de avaliar a distribuição das resoluções dos quadros enviados, já que pode ser factível a diminuição do número de quadros de alta resolução enviados.
-
-%
-%\section{Cronograma}
-%
-%O cronograma para as atividades que serão realizadas para a continuação deste trabalho é apresentado na tabela \ref{cronograma}. As atividades planejadas são:
-%\begin{enumerate}
-%
-%	\item Estudo dos tipos de comunicação existentes atualmente nas minas subterrâneas a fim de identificar qual é o que mais se adapta às circunstancias exigidas;
-%	\item  Estudar técnicas rápidas de \textit{downsampling} para codificar a imagem em resolução mais baixa;
-%	\item  Desenvolvimento do algoritmo para estas mesmas técnicas;
-%	\item  Prototipagem de \texit{hardware} e de \texit{software};
-%	\item  Testes de \texit{hardware} e de \texit{software};
-%	\item  Redação do texto final para o trabalho de conclusão de curso;
-%	\item Apresentação do trabalho de conclusão de curso.
-%\end{enumerate}
-%
-%\newpage
-%
-%\begin{table}[h]
-%    \centering
-%    \begin{tabular}{|c|c|c|c|c|c|c|c|}
-%        \hline
-%        \textbf{Ativ.} & \textbf{Jun 2015}&\textbf{Jul 2015} & \textbf{Ago 2015} & \textbf{Set 2015}
-%        & \textbf{Out 2015} & \textbf{Nov 2015} & \textbf{Dez 2015} \\
-%        \hline\hline
-%
-%        \hline
-%        1   & •& • &  &   &   &   &   \\
-%
-%        \hline
-%        2   &•& • &   &&   &   &   \\
-%
-%        \hline
-%        3   &   &  • & • & &   &   &   \\
-%
-%        \hline
-%        4   &  &   & • &• & &   &   \\
-%
-%        \hline
-%        5   & &  &   & • &•  &   &   \\
-%
-%        \hline
-%        6   &  & &   &   &  & • &   \\
-%
-%        \hline
-%        7   &   &&   &   & &  & •  \\
-%        \hline
-%    \end{tabular}
-%
-%    \caption{Cronograma de atividades para TCC2}
-%    \label{cronograma}
-%\end{table}

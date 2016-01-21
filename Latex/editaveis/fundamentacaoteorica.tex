@@ -2,9 +2,9 @@
 
 \section{Imagens Digitais}
 
-Segundo \cite{young1998fundamentals}, uma imagem pode ser representada como uma função de duas variáveis reais, por exemplo, \textit{a(x,y)} com \textit{a} sendo a amplitude (ex.: brilho) da imagem nas coordenadas reais de posição \textit{(x,y)}. As amplitudes da imagem serão sempre dadas por um conjunto de números reais ou inteiros, sendo este último o resultado de um processo de quantização, que converte uma faixa de números reais, por exemplo de 0,0 a 100,0\%, em um número discreto de níveis.
+Segundo \cite{young1998fundamentals}, uma imagem pode ser representada como uma função de duas variáveis reais, por exemplo, \textit{a(x,y)} com \textit{a} sendo a amplitude (ex.: a intensidade do brilho) da imagem nas coordenadas reais de posição, ilustrado pela Equação \ref{eq1}. As amplitudes da imagem serão dadas por um conjunto de números reais ou inteiros, sendo este último o resultado de um processo de quantização, que converte uma faixa de números reais, por exemplo de 0,0 a 100,0\%, em um número discreto de níveis.
 
-De acordo com o mesmo autor, imagens digitais a(m,n), descritas em um espaço discreto, são obtidas a partir de imagens analógicas a(x,y), por sua vez descritas em um espaço contínuo,  através do processo de amostragem. A equação \ref{eq1} ilustra uma possível representação matricial para uma imagem digital.
+De acordo com o mesmo autor, imagens digitais a[m,n], descritas em um espaço discreto, são obtidas a partir de imagens analógicas a(x,y), por sua vez descritas em um espaço contínuo,  através do processo de amostragem. A equação \ref{eq1} ilustra uma possível representação matricial para uma imagem digital.
 \vspace{-1cm}
 \begin{center}
 	\begin{equation}
@@ -22,14 +22,14 @@ De acordo com o mesmo autor, imagens digitais a(m,n), descritas em um espaço di
 
 \subsection{Imagens Monocromáticas}
 	
-	De acordo com \cite{gonzalez2004digital}, o processo de digitalização das imagens requer uma amostragem espacial, este processo irá definir as quantidades $M$ de linhas e $N$ de colunas que caracterizam o espaço discreto em que a imagem está contida, além do número $L$, que no caso das imagens monocromáticas é o número de tons de cinza que cada \textit{pixel} (elemento da imagem) pode assumir. $M$ e $N$ devem ser números inteiros e positivos. Entretanto, devido ao processamento, armazenamento e considerações do hardware de amostragem, o número de níveis de cinza é tipicamente uma potência inteira de 2:
+	De acordo com \cite{gonzalez2004digital}, o processo de digitalização das imagens requer uma amostragem espacial. Este processo irá definir as quantidades $M$ de linhas e $N$ de colunas que caracterizam o espaço discreto em que a imagem está contida, além do número $L$, que no caso das imagens monocromáticas é o número de tons de cinza que cada \textit{pixel} (elemento da imagem) pode assumir. $M$ e $N$ devem ser números inteiros e positivos. Entretanto, devido ao processamento, armazenamento e considerações do hardware de amostragem, o número de níveis de cinza é tipicamente uma potência inteira de 2:
 \vspace{-1cm}
 \begin{center}
 	\begin{equation}
 		L = 2^K,
 	\end{equation}
 \end{center}	 
-\noindent onde $K$ é um valor inteiro positivo. Assumindo que os níveis de cinza são representados por números inteiros igualmente espaçados no intervalo [0,L-1], o número de \textit{bits} $B$ necessários para armazenar uma imagem digitalizada é:
+\noindent onde $K$ é um valor inteiro positivo. Assumindo que os níveis de cinza são representados por números inteiros igualmente espaçados no intervalo [0,L-1], o número de \textit{bits} $B$ necessários para armazenar uma imagem digitalizada é
 
 \begin{equation}
 	b = M \times N \times K.
@@ -37,7 +37,7 @@ De acordo com o mesmo autor, imagens digitais a(m,n), descritas em um espaço di
 
 \subsection{Representação de Cenas Naturais e Sintéticas}
 
-Uma cena de vídeo natural é geralmente composta de vários objetos, cada um com suas características próprias (forma, profundidade, textura e iluminação). A cor e o brilho de uma cena de vídeo natural mudam com diferentes graus de intensidade em toda a cena, ou seja, tem tons contínuos. Uma cena sintética, por sua vez, procura emular uma cena real ou apresentar uma cena virtual, e é geralmente desenvolvida com métodos de computação gráfica \cite{scharstein2002taxonomy}. 
+Uma cena de vídeo natural é geralmente composta de vários objetos, cada um com suas características próprias (forma, profundidade, textura e iluminação). A cor e o brilho de uma cena de vídeo natural mudam com diferentes graus de intensidade em toda a cena, ou seja, tem tons contínuos. Uma cena sintética, por sua vez, procura emular uma cena real ou apresentar uma cena virtual, e é geralmente desenvolvida com métodos de computação gráfica \cite{scharstein2002taxonomy}. Na Figura \ref{fig:Cenas} pode-se observar exemplos dessas representações.
 
 \begin{figure}[h]
     \centering
@@ -50,7 +50,7 @@ Uma cena de vídeo natural é geralmente composta de vários objetos, cada um co
     }
     \caption{Cenas: (a) natural; (b) sintética. Fonte: \cite{imagensTeste}.}%
 	    
-    \label{fig:RGB}%
+    \label{fig:Cenas}%
 \end{figure}
 
 Segundo \cite{garcia2013tecnicas}, para se representar cenas naturais e sintéticas de forma digital é necessário amostrá-las no espaço e no tempo, como mostrado na Figura \ref{AMOSTRAGEM_VIDEO}. Para isso, são obtidas fotografias digitais das cenas (quadros) entre intervalos regulares.
@@ -66,7 +66,7 @@ Segundo \cite{garcia2013tecnicas}, para se representar cenas naturais e sintéti
 \label{resolucao}
 
 
-De acordo com \cite{scuri1999fundamentos}, ao ser digitalizada a imagem assume um tamanho adimensional, em \textit{pixels}. Mas, pode-se conhecer uma medida de qualidade da amostragem, conhecendo-se a razão entre o número de \textit{pixels} obtido e o tamanho real da imagem. A esta medida dar-se o nome de resolução espacial. Em geral, é medida em pontos por polegada ou DPI (do inglês, \textit{dots per inch}), mas pode ser também em pontos por centímetro, ou ainda em qualquer outra unidade equivalente. Quando duas imagens com tamanhos reais iguais são capturadas com resoluções espaciais diferentes, naturalmente terão o número de \textit{pixels} diferentes e na tela aparecerão com tamanhos diferentes, como ilustrado na Figura \ref{fig:res1}.
+De acordo com \cite{scuri1999fundamentos}, ao ser digitalizada, a imagem assume um tamanho adimensional, em \textit{pixels}. Mas, pode-se conhecer uma medida de qualidade da amostragem, conhecendo-se a razão entre o número de \textit{pixels} obtidos e o tamanho real da imagem. A esta medida da-se o nome de resolução espacial. Em geral, é medida em pontos por polegada ou DPI (do inglês, \textit{dots per inch}), mas pode ser também em pontos por centímetro, ou ainda em qualquer outra unidade equivalente. Quando duas imagens com tamanhos reais iguais são capturadas com resoluções espaciais diferentes, naturalmente terão o número de \textit{pixels} diferentes e na tela aparecerão com tamanhos diferentes, como ilustrado na Figura \ref{fig:res1}.
 
 \begin{figure}[h]
     \centering
@@ -81,16 +81,16 @@ De acordo com \cite{scuri1999fundamentos}, ao ser digitalizada a imagem assume u
 	    \label{fig:res1}
 \end{figure}
 
- Já a resolução de tons de cinza (\textit{Gray-level resolution}) é definida como a menor mudança discernível entre os tons de cinza. No entanto medir essas mudanças é um processo com um nível de subjetividade maior. Devido a considerações sobre o \textit{hardware}, tem-se que o número de níveis de cinza é uma potência de 2, como já foi dito. Na maioria dos casos utilizam-se 8 \textit{bits} ou 16 \textit{bits} (em aplicações em que é necessária uma gama maior de níveis). Em certos casos pode-se deparar com imagens digitalizadas com 10 ou 12 \textit{bits} de precisão, mas estes casos são exceções a regra geral.
+ Já a resolução no eixo da intensidade do sinal (\textit{Gray-level resolution}) é definida como a menor mudança discernível entre os tons de cinza. No entanto, medir essas mudanças é um processo com um nível de subjetividade maior. Devido as considerações sobre o \textit{hardware}, tem-se que o número de níveis de cinza é uma potência de 2, como já foi dito. Na maioria dos casos utilizam-se 8 \textit{bits} ou 16 \textit{bits} (em aplicações em que é necessária uma gama maior de níveis). Em certos casos pode-se deparar com imagens digitalizadas com 10 ou 12 \textit{bits} de precisão, mas estes casos são exceções à regra geral.
 
 
 \subsection{Espaço de Cores}
 
-De acordo com \cite{richardson2011h}, na maioria das aplicações com vídeos e imagens digitais é necessário trabalhar e exibir imagens coloridas, o que faz necessário um mecanismo para capturar e representar a informação das cores. Uma imagem monocromática requer apenas um número que indique o brilho ou a luminância de cada amostra espacial. Imagens coloridas, por outro lado, requerem no mínimo três números por pixel para representar com precisão a cor. O método escolhido para representar o brilho, luminância e cores é chamado espaço de cores.
+De acordo com \cite{richardson2011h}, na maioria das aplicações com vídeos e imagens digitais é necessário trabalhar e exibir imagens coloridas, o que faz necessário um mecanismo para capturar e representar a informação das cores. Uma imagem monocromática requer apenas um número que indique o brilho ou a luminância de cada amostra espacial. Imagens coloridas, por outro lado, requerem no mínimo três números por pixel para representar com precisão a cor. O método escolhido para representar o brilho, luminância e a cor é chamado espaço de cores.
 
 \subsubsection{O sistema de cores RGB}
 
-No espaço de cores RGB, a cor das amostras da imagem é representadas por três números que significam proporções relativas de vermelho (\textit{\textbf{R}ed}), verde (\textit{\textbf{G}reen}) e azul (\textit{\textbf{B}lue}), essas são as três cores primárias aditivas da luz \cite{richardson2011h}.	Combinando vermelho, verde e azul em variadas proporções pode-se criar qualquer cor. A Figura \ref{fig:RGB} é um exemplo de representação dos componentes vermelho, verde e azul de uma imagem colorida. A componente vermelha (Figura \ref{fig:red}) consistem em todas as amostras vermelhas da imagem, a componente verde (Figura \ref{fig:green}) consistem em todas as componentes verdes das imagem e por fim a componente azul contendo todos os amostras azuis da imagem (Figura \ref{fig:blue}).
+No espaço de cores RGB, a cor das amostras da imagem é representada por três números que significam proporções relativas de vermelho (\textit{\textbf{R}ed}), verde (\textit{\textbf{G}reen}) e azul (\textit{\textbf{B}lue}), essas são as três cores primárias aditivas da luz \cite{richardson2011h}.	Combinando vermelho, verde e azul em variadas proporções pode-se criar qualquer cor. A Figura \ref{fig:RGB} é um exemplo de representação dos componentes vermelho, verde e azul de uma imagem colorida. A componente vermelha (Figura \ref{fig:red}) consiste em todas as amostras vermelhas da imagem, a componente verde (Figura \ref{fig:green}) consiste em todas as componentes verdes das imagem e, por fim, a componente azul contém todos os amostras azuis da imagem (Figura \ref{fig:blue}).
 
 \begin{figure}[h]
     \centering
@@ -114,12 +114,12 @@ No espaço de cores RGB, a cor das amostras da imagem é representadas por três
     \label{fig:RGB}%EMPREGOS ODONTOLOGIA BRASILIA
 \end{figure}
 
-Para o mesmo autor, o espaço de cor RGB é bem adequado para capturar e exibir imagens coloridas. Obter uma imagem RGB envolve filtrar os componentes vermelho, verde e azul da cena e capturar cada um com um conjunto de sensores separado. Para exibir as cores de uma imagem RGB ilumina-se separadamente as componentes vermelha, verde e azul de cada \textit{pixel} de acordo com a intensidade de cada componente. A partir de uma certa distância de visualização, os componentes separados se fundem para dar a aparência da cor \enquote{verdadeira}. 
+Para o mesmo autor, o espaço de cor RGB é bem adequado para capturar e exibir imagens coloridas. Obter uma imagem RGB envolve filtrar os componentes vermelho, verde e azul da cena e capturar cada um com um conjunto de sensores separado. Para exibir as cores de uma imagem RGB, ilumina-se separadamente as componentes vermelha, verde e azul de cada \textit{pixel} de acordo com a intensidade de cada componente. A partir de uma certa distância de visualização, os componentes separados se fundem para dar a aparência da cor \enquote{verdadeira}. 
 
 \subsubsection{O sistema de cores YCrCb}
-O sistema visual humano é menos sensível a cor do que à luminância. No espaço RGB as três cores são igualmente importantes e, assim, são normalmente armazenadas todas com a mesma resolução, mas é possível representar uma imagem colorida mais eficientemente através da separação da luminância a partir da informação da cor \cite{richardson2011h}.
+O sistema visual humano é menos sensível à cor do que à luminância. No espaço RGB, as três cores são igualmente importantes e, assim, são normalmente armazenadas todas com a mesma resolução, mas é possível representar uma imagem colorida mais eficientemente através da separação da luminância a partir da informação da cor \cite{richardson2011h}.
 
-O YCrCb é um espaço de cor definido pela CCIR (\textit{International Consultative Committee on Broadcasting}), também referido como o espaço de cor CCIR 601 \cite{acharya2002integrated}. YCrCb define a informação  das imagens coloridas  em termos da luminância (componente Y) e de dois valores de crominância diferentes (Cr-crominância de cores vermelhas e Cb-crominância de cores azul) e não como uma combinação de cores como no espaço RGB. Quando cada \textit{pixel} é representado assim, ao contrário do espaço de cor RGB em que cada \textit{pixel} tem, tipicamente, 24 \textit{bits} de informação (8 \textit{bits} para cada plano de cor), cada \textit{pixel} pode ser representado por apenas 12 \textit{bits} devido a redundância da informação de crominância. Para isso, primeiro deve-se converter do espaço RGB (24 \textit{bits}/\textit{pixel}) para YCrCb (24 \textit{bits}/\textit{pixel}), da seguinte maneira:
+O YCrCb é um espaço de cor definido pela CCIR (\textit{International Consultative Committee on Broadcasting}), também referido como o espaço de cor CCIR 601. Em \cite{acharya2002integrated}, define-se YCrCb como a informação  das imagens coloridas em termos da luminância (componente Y) e de dois valores de crominância diferentes (Cr-crominância de cores vermelhas e Cb-crominância de cores azul) e não como uma combinação de cores como no espaço RGB. Quando cada \textit{pixel} é representado assim, ao contrário do espaço de cor RGB em que cada \textit{pixel} tem, tipicamente, 24 \textit{bits} de informação (8 \textit{bits} para cada plano de cor), cada \textit{pixel} pode ser representado por apenas 12 \textit{bits} devido a redundância da informação de crominância. Para isso, primeiro deve-se converter do espaço RGB (24 \textit{bits}/\textit{pixel}) para YCrCb (24 \textit{bits}/\textit{pixel}), da seguinte maneira:
 
 \begin{center}
 	\begin{equation}
@@ -142,28 +142,26 @@ O YCrCb é um espaço de cor definido pela CCIR (\textit{International Consultat
 
 \end{center}
 
-\noindent Após o processo de conversão, pode-se dizimar os \textit{pixels} de Cr e Cb de modo que só um a cada quatro \textit{pixels} permaneça representando os quatro. Ainda é possível subamostrar Cr e Cb com fator de 2, tanto na horizontal como na vertical.
+\noindent Após o processo de conversão, pode-se dicimar os \textit{pixels} de Cr e Cb de modo que só um a cada quatro \textit{pixels} permaneça representando os quatro. Ainda é possível subamostrar Cr e Cb com fator de 2, tanto na horizontal como na vertical.
 
-Como o sistema visual humano é mais sensível à luminância do que às cores, pode-se representar as crominâncias Cr e Cb com menor resolução sem prejuízo visual aparente, reduzindo assim a quantidade de dados necessária para representar uma imagem ou \textit{frame}, diminuindo conseguentimente o tamanho do vídeo \cite{itu16601}.
+Como o sistema visual humano é mais sensível à luminância do que às cores, pode-se representar as crominâncias Cr e Cb com menor resolução sem prejuízo visual aparente, reduzindo assim a quantidade de amostras necessárias para representar uma imagem ou \textit{frame}, diminuindo consequentemente o tamanho do vídeo \cite{itu16601}.
 
 \section{Mudança de resolução de imagens}
 
-
-
-A mudança arbitrária de resolução de imagens, surge com bastante frequência em diversas aplicações. Por exemplo, imagens e vídeos muitas vezes precisam ser redimensionados espacialmente, a fim de garantir que os dados possam trafegar nas redes de comunicações sobre as quais eles viajam e serem exibidos nos dispositivos de exibição do usuário final sobre o qual eles vão ser apresentados \cite{salazar2007complexity}.
+A mudança arbitrária de resolução de imagens surge com bastante frequência em diversas aplicações. Por exemplo, imagens e vídeos muitas vezes precisam ser redimensionados espacialmente, a fim de garantir que os dados possam trafegar nas redes de comunicações sobre as quais eles viajam e serem exibidos nos dispositivos do usuário final sobre o qual eles vão ser apresentados \cite{salazar2007complexity}.
 
 O aumento ou redução da resolução de imagens são obtidas através de processos de decimação ou interpolação \cite{diniz2010digital}. 
 
 \subsection{Decimação}
 
-O processo de decimação de uma imagem por um fator $M$ consiste em manter uma linha a cada $M$ linhas e o mesmo para as colunas. Definindo $u$ e $v$ como sendo as coordenadas de largura e comprimento de uma dada imagem, cada \textit{pixel} da imagem original é indicada por $I(u,v)$ , e cada \textit{pixel} da imagem decimada por $M$ é indicado por $I^D(u,v)$  (garcia2013tecnicas). Assim, temos:
+O processo de decimação de uma imagem por um fator $M$ consiste em manter uma linha a cada $M$ linhas e o mesmo para as colunas. Definindo $u$ e $v$ como sendo as coordenadas de largura e comprimento de uma dada imagem, cada \textit{pixel} da imagem original é indicada por $I(u,v)$ , e cada \textit{pixel} da imagem decimada por $M$ é indicado por $I^D(u,v)$  \cite{garcia2013tecnicas}. Assim, temos:
 
 \begin{equation}
 I^D(u,v) = I(uM,uV) 
 \label{eq_decimacao}
 \end{equation}
 
-Aplicando a transformada de Fourier sobre a equação \ref{eq_decimacao} prova-se que $I^D(u,v)$ sofrerá superposição espectral ( ou \textit{aliasing}, em inglês), se a largura da faixa da transformada discreta de Fourier  de $I(u,v)$ estiver fora do intervalo $\left[-\frac{\pi}{M},\frac{\pi}{M} \right]$. Para evitar que isso aconteça, o processo de decimação é geralmente precedido por uma filtragem que preserve o intervalo, como mostrado no diagrama de blocos da Figura \ref{fig:deci2} \cite{garcia2013tecnicas} . \\
+Aplicando a transformada de Fourier sobre a equação \ref{eq_decimacao}, prova-se que $I^D(u,v)$ sofrerá superposição espectral (ou \textit{aliasing}, em inglês), se a largura da faixa da transformada discreta de Fourier  de $I(u,v)$ estiver fora do intervalo $\left[-\frac{\pi}{M},\frac{\pi}{M} \right]$. Para evitar que isso aconteça, o processo de decimação é geralmente precedido por uma filtragem que preserve o intervalo, como mostrado no diagrama de blocos da Figura \ref{fig:deci2} \cite{garcia2013tecnicas} . 
 
 \begin{figure}[h]
     \centering
@@ -212,22 +210,22 @@ Aplicando a transformada de Fourier sobre a equação \ref{eq_inter}, prova-se q
 
 \subsection{Transformadas Discretas de Cosseno}
  \label{DCT}
-Desde que muito material multimídia passou a ser comprimido usando as populares transformadas discretas de cosseno (DCT, do inglês \textit({Discrete cosine transform}), como nos padrões JPEG, MPEG e H.26X, uma operação de redimensionamento espacial que seja eficiente, flexível computacionalmente e que possa ser realizado no domínio da DCT é desejável. Flexibilidade computacional é especialmente importante porque uma ampla gama de opções de projeto muitas vezes se faz necessária, a fim de atender requisitos como consumo energético \cite{salazar2007complexity}.
+Desde que muito material multimídia passou a ser comprimido usando as populares transformadas discretas de cosseno (DCT, do inglês \textit{Discrete cosine transform}), como nos padrões JPEG, MPEG e H.26X, uma operação de redimensionamento espacial que seja eficiente, flexível computacionalmente e que possa ser realizado no domínio da DCT é desejável. Flexibilidade computacional é especialmente importante porque uma ampla gama de opções de projeto muitas vezes se faz necessária, a fim de atender requisitos como consumo energético \cite{salazar2007complexity}.
 
 Segundo \cite{T.81}, a transformada discreta de cosseno, é uma transformada matemática que tem como funções de base os cossenos, por meio dela converte-se um bloco de amostras em um bloco correspondente de coeficientes da transformada. Essa operação é dividida em duas operações, a transformada direta (ou FDCT, do inglês \textit{Forward discrete cosine transform}), mostrada abaixo:
 
 \vspace{-3mm}
 \begin{equation}
 	\label{FDCT}
-	Y = AXA^T \hspace{5mm} (FDCT),
+	Y = AXA^T, \hspace{5mm} (FDCT),
 \end{equation}
 \noindent onde a matriz $X$ é a imagem no domínio espacial, a $Y$ são os respectivos coeficientes das transformada e a matriz $A$ é a matriz de transformação.
 
-E a transformada inversa (ou IDCT, do inglês \textit{Inverse discrete cosine transform}), descrita pela seguinte operação:
+A transformada inversa (ou IDCT, do inglês \textit{Inverse discrete cosine transform}) é descrita pela seguinte operação:
 \vspace{-3mm}
 \begin{equation}
 	\label{IDCT}
-	X = A^TYA \hspace{5mm} (IDCT)
+	X = A^TYA, \hspace{5mm} (IDCT)
 \end{equation}
 
 \noindent onde a matriz $X$ é a imagem no domínio espacial, a $Y$ são os respectivos coeficientes das transformada e a matriz $A$ é a matriz de transformação. Os elementos de $A$ podem ser calculados como mostrado abaixo: \cite{richardson2011h}
@@ -246,21 +244,24 @@ E a transformada inversa (ou IDCT, do inglês \textit{Inverse discrete cosine tr
 Assim, escrevendo as equações \ref{FDCT} e \ref{IDCT}, no formato de somatórios para um espaço 2D, temos:
 \vspace{-3mm}
 \begin{equation}
-	Y_{xy} = C_x \cdot  C_y \cdot  \sum_{i=0}^{N-1} \sum_{j=0}^{N-1} \hspace{1mm} X_{ij} \cdot  cos \left( \frac{(2j+1)y\pi}{2N} \right) \cdot cos \left( \frac{(2i+1)x\pi}{2N} \right)
+	Y_{xy} = C_x \cdot  C_y \cdot  \sum_{i=0}^{N-1} \sum_{j=0}^{N-1} \hspace{1mm} X_{ij} \cdot  cos \left( \frac{(2j+1)y\pi}{2N} \right) \cdot cos \left( \frac{(2i+1)x\pi}{2N} \right),
 \end{equation}
 \vspace{-3mm}
 \begin{equation}
-	X_{ij} =   \sum_{x=0}^{N-1} \sum_{y=0}^{N-1} C_x \cdot  C_y \cdot Y_{xy} \cdot  cos \left( \frac{(2j+1)y\pi}{2N} \right) \cdot cos \left( \frac{(2i+1)x\pi}{2N} \right)
+	X_{ij} =   \sum_{x=0}^{N-1} \sum_{y=0}^{N-1} C_x \cdot  C_y \cdot Y_{xy} \cdot  cos \left( \frac{(2j+1)y\pi}{2N} \right) \cdot cos \left( \frac{(2i+1)x\pi}{2N} \right).
 \end{equation}
 
 A DCT possui a interessante propriedade de concentrar em poucos elementos a maior parte da energia, para imagens de cenas naturais \cite{khayam2003discrete}. Por exemplo, considere o seguinte bloco de $10 \times 10$ \textit{pixels} (Figura \ref{PEDACO_LENA}):
+\clearpage
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.4]{figuras/lena_quadrado.jpg}
-	\caption{Bloco 10x10 \textit{pixels} da imgem de teste Lena, equivalente a matriz \ref{lena}. Fonte: \cite{imagensTeste}.}
+	\caption{Bloco 10x10 \textit{pixels} da imagem de teste Lena, equivalente a matriz \ref{lena}. Fonte: \cite{imagensTeste}.}
 	\label{PEDACO_LENA}
 \end{figure}
 \begin{center}
+
+
 \begin{equation}
 \label{lena}
 \begin{bmatrix}
@@ -273,11 +274,11 @@ A DCT possui a interessante propriedade de concentrar em poucos elementos a maio
   103&  109&  109&  108&  104&  111&  103&  104&  103\\
   100&  106&  106&  106&  106&  102&  109&  104&  104\\
   101&  102&  107&  114&  102&   99&  106&  106&  105\\
-\end{bmatrix}
+\end{bmatrix}.
 \end{equation}
 \end{center}
 
-\noindent Aplicando-se a transformada sobre essa matriz, temos:
+Aplicando-se a transformada sobre essa matriz, temos:
 
 
 \begin{center}
@@ -292,18 +293,17 @@ A DCT possui a interessante propriedade de concentrar em poucos elementos a maio
 0.86&	-8.80&	-0.22&	0.48&	7.29&	1.22&	4.61&	3.55&	-6.01\\
 1.70&	-6.77&	-0.60&	2.25&	4.92&	1.95&	2.62&	-1.41&	-1.25\\
 -0.79&	-2.94&	-2.37&	-0.16&	-0.10&	0.41&	0.40&	-0.68&	-4.85\\
-\end{bmatrix}	
+\end{bmatrix},	
 	\end{equation}
 \end{center}
 
 \noindent Assim, pode-se notar que os coeficientes de maior módulo tendem a se concentrar no canto superior esquerdo. 
 
-Hoje, na literatura, há várias propostas de algoritmos de redimensionamento no domínio transformado da DCT \cite{patil2006fast2,chang1995manipulation,wang2010adaptive}. Especialmente, \cite{dugad2001fast} que sugerem uma técnica computacional simples e rápida para dobrar ou reduzir pela metade o tamanho da imagem usando as componentes de baixa frequência. \cite{mukherjee2002image}, propoem algumas alterações a esta técnica. Embora o esquema modificado proporciona uma melhor qualidade de imagens redimensionadas, é computacionalmente mais intenso do que o anterior. \cite{patil2006fast2} desenvolveu-se um algoritmo rápido para o fator arbitrário redução do tamanho do vídeo pré-codificado. Assim como expressa o redimensionamento espacial com uma multiplicação de matrizes entre a imagem e uma matriz construída a partir do coeficientes do bloco 8x8 da DCT.
+Hoje, na literatura, há várias propostas de algoritmos de redimensionamento no domínio transformado da DCT \cite{patil2006fast2,chang1995manipulation,wang2010adaptive}. Especialmente em \cite{dugad2001fast} onde se sugere uma técnica computacional simples e rápida para dobrar ou reduzir pela metade o tamanho da imagem usando as componentes de baixa frequência. Em \cite{mukherjee2002image} propoem-se algumas alterações a esta técnica. Embora o esquema modificado proporciona uma melhor qualidade de imagens redimensionadas, é computacionalmente mais intenso do que o anterior. Em \cite{patil2006fast2} desenvolveu-se um algoritmo rápido para o fator arbitrário redução do tamanho do vídeo pré-codificado. Assim como expressa o redimensionamento espacial com uma multiplicação de matrizes entre a imagem e uma matriz construída a partir do coeficientes do bloco 8x8 da DCT.
 
-De acordo com \cite{martucci1995image}, a DCT utilizada na compressão de imagens é apenas um membro da família de 16 transformadas discretas de senos e cossenos, comumente chamadas de transformadas discretas trigonométricas (DTTs). A forma convolucional dessas transformadas é chamada de convolução simétrica. \cite{park2003m} propõe um solução através da convolução simétrica (não mais no domínio transformado)em que pode realizar o redimensionamento com um fator arbitrário produzindo uma imagem final com qualidade melhor que o método proposto por \cite{dugad2001fast}, no entanto, exige um maior esforço computacional.
+De acordo com \cite{martucci1995image}, a DCT utilizada na compressão de imagens é apenas um membro da família de 16 transformadas discretas de senos e cossenos, comumente chamadas de transformadas discretas trigonométricas (DTTs). A forma convolucional dessas transformadas é chamada de convolução simétrica. Em \cite{park2003m} propõe-se uma solução através da convolução simétrica (não mais no domínio transformado) em que pode realizar o redimensionamento com um fator arbitrário produzindo uma imagem final com qualidade melhor que o método proposto por \cite{dugad2001fast}, no entanto, exige um maior esforço computacional.
 
-\cite {salazar2007complexity} propõe um método de redimensionamento arbitrário (descrito pela Figura \ref{DCT_RES}) com base na generalização da técnica proposta por \cite{dugad2001fast}. Nessa abordagem proposta (Figura \ref{DCT_RES}), um mapeamento simples é construído, envolvendo uma manipulação na transformada inversa (ao voltar para o domínio espacial), seguido de um aumento combinado com uma transformada direta no domínio 8x8 DCT. Devido ao fato do método proposto redimensionar a transformada inversa e a transformada direta, é possível obter qualquer fator de escala (ao invés de somente potências de 2). Escolhendo N pontos diferentes da transformada inversa e M pontos diferentes da transformada direta, mais ou menos da imagem original pode ser usada para variar a qualidade da imagem final para um fator de escala dado por $S$ = $O/I$ = $M/N$.  Um algoritmo semelhante a este será utilizado para o redimensionamento de imagens durante este trabalho. 
-
+Outro estudo propõe um método de redimensionamento arbitrário (descrito pela Figura \ref{DCT_RES}) com base na generalização da técnica proposta por \cite{dugad2001fast}. Nessa abordagem proposta (Figura \ref{DCT_RES}), um mapeamento simples é construído, envolvendo uma manipulação na transformada inversa (ao voltar para o domínio espacial), seguido de um aumento combinado com uma transformada direta no domínio 8x8 DCT. Devido ao fato do método proposto redimensionar a transformada inversa e a transformada direta, é possível obter qualquer fator de escala (em vez de somente potências de 2). Escolhendo N pontos diferentes da transformada inversa e M pontos diferentes da transformada direta, mais ou menos da imagem original pode ser usada para variar a qualidade da imagem final para um fator de escala dado por $S$ = $O/I$ = $M/N$. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.6]
@@ -314,24 +314,24 @@ De acordo com \cite{martucci1995image}, a DCT utilizada na compressão de imagen
 
 \section{Compressão e Codificação de Imagens e Vídeos Digitais}
 
-O termo \enquote{compressão de dados} refere-se ao processo de redução do montante de dados exigidos para representar uma dada quantidade de informação. Deve-se esclarecer que denominamos \enquote{dados} aos meios pelos quais uma informação é transmitida \cite{richardson2011h}.
+O termo \enquote{compressão de dados} refere-se ao processo de redução do montante de símbolos exigidos para representar uma dada quantidade de informação. Deve-se esclarecer que denominamos \enquote{dados} aos meios pelos quais uma informação é transmitida \cite{richardson2011h}.
 
 \subsection{Compressão Sem Perdas}
 Técnicas de compressão sem perdas, como o seu nome indica, não envolvem perda de informações. Se os dados sofreram compressão do tipo sem perdas, pode-se recuperar exatamente os dados originais a partir  os dados comprimidos \cite{ukrit2011survey}.
 
-Compressão de texto é uma área importante para a compressão sem perdas. É muito importante que a reconstrução seja idêntica a do texto original, pois diferenças muito pequenas podem resultar em orações com significados muito diferentes. Considere as frases \enquote{Não, enviem dinheiro} e \enquote{Não enviem dinheiro}. Um argumento semelhante vale para arquivos de computador e para certos tipos de dados, tais como registros bancários \cite{sayood2012introduction}.
+Compressão de texto é uma área importante para a compressão sem perdas. É muito importante que a reconstrução seja idêntica a do texto original, pois diferenças pequenas podem resultar em orações com significados diferentes. Considere as frases \enquote{Não, enviem dinheiro} e \enquote{Não enviem dinheiro}. Um argumento semelhante vale para arquivos de computador e para certos tipos de dados, tais como registros bancários \cite{sayood2012introduction}.
 
-Se os dados comprimidos vão ser processados (para se obter mais informação) ou \enquote{melhorados} é importante que a integridade seja preservada. Por exemplo, suponhamos que uma imagem radiológica seja comprimida de uma forma com perdas, e a diferença entre a imagem reconstruída e o original seja visualmente indetectável. Se esta imagem foi mais tarde reforçada, as diferenças anteriormente indetectáveis podem causar o aparecimento de artefatos que poderiam enganar seriamente o radiologista \cite{sayood2012introduction}.
+Se os dados comprimidos vão ser processados (para se obter mais informação) ou \enquote{melhorados} é importante que a integridade seja preservada. Por exemplo, supondo que uma imagem radiológica seja comprimida de uma forma com perdas, e a diferença entre a imagem reconstruída e o original seja visualmente indetectável. Se esta imagem foi mais tarde reforçada, as diferenças anteriormente indetectáveis podem causar o aparecimento de artefatos que poderiam confundir seriamente o radiologista \cite{sayood2012introduction}.
 
 \subsubsection{Entropia}
 
-Segundo \cite{shannon2001mathematical}, considerando uma fonte discreta de informação, para cada estado possível $i$ haverá um conjunto de probabilidades ($P_i$) de produzir os $j$ possíveis símbolos . Assim, há uma entropia ($H(j)$) para cada estado. A entropia média da fonte $H$ será definida como a média ponderada de $H_i(j)$ usando como ponderações as probabilidades $P_i$, como mostrado a seguir:
+Segundo \cite{shannon2001mathematical}, considerando uma fonte discreta de informação, para cada estado possível $i$ haverá um conjunto de probabilidades ($P_i$) de produzir os $j$ possíveis símbolos. Assim, há uma entropia ($H(j)$) para cada estado. A entropia média da fonte $H$ será definida como a média ponderada de $H_i(j)$ usando como ponderações as probabilidades $P_i$, como mostrado a seguir
 
 \begin{equation}
 \label{ENTROPIA}
 	\begin{split}
 		H = \sum_i P_iH_i\\
-		= - \sum_{i,j} P_i(j) log(P_i(j))
+		= - \sum_{i,j} P_i(j) log(P_i(j)).
 	\end{split}
 \end{equation}
 
@@ -344,12 +344,12 @@ mais informações com um número menor de \textit{bits}. A codificação de ent
 
 Técnicas de compressão com perdas provocam alguma perda de informações, assim, dados que tenham sido comprimidos utilizando técnicas com perdas geralmente não podem ser recuperados ou reconstruídos exatamente. Em troca de aceitar essa distorção na reconstrução, podemos geralmente obter taxas de compressão muito mais elevadas do que com compressão sem perdas  \cite{sayood2012introduction}.
 
-De acordo com o mesmo autor, em muitas aplicações nota-se que a diferença entre a informação reconstruída e a original pode ser aceitável. Por exemplo, na compressão de vídeo, diferenças entre os sinais original e reconstruído podem ser toleradas, contanto que elas não resultem em artefatos inconvenientes. Assim, sequências de vídeo são geralmente comprimidas usando compressão com perdas.
+De acordo com o mesmo autor, em muitas aplicações nota-se que a diferença entre a informação reconstruída e a original pode ser aceitável. Por exemplo, na compressão de vídeo, diferenças entre os sinais originais e os reconstruídos podem ser toleradas, contanto que elas não resultem em artefatos inconvenientes. Assim, sequências de vídeo são geralmente comprimidas usando compressão com perdas.
 
 \subsection{Padrão JPEG} \label{JPEG}
  O padrão JPEG é um método de compressão com perdas, comumente empregado para imagens de tons contínuos, devido à sua alta eficácia e baixa complexidade computacional \cite{wang2008jpeg}.
  
-Este padrão é definido pelo \cite{T.81}, sendo largamente utilizado em máquinas fotográficas, scanners e páginas da internet. 
+Este padrão é definido pelo \cite{T.81}, sendo largamente utilizado em máquinas fotográficas, \textit{scanners} e páginas da internet. 
 
 De acordo \cite{wallace1991jpeg}, o algoritmo do padrão JPEG é descrito pelo fluxograma nas Figuras \ref{ENCODER_JPEG} e \ref{DECODER_JPEG}.
 
@@ -369,13 +369,13 @@ De acordo \cite{wallace1991jpeg}, o algoritmo do padrão JPEG é descrito pelo f
   
  A primeira etapa pela qual a imagem passa na codificação é a FDCT. Já na última etapa, na saída do decodificador, a IDCT, que de acordo com o mesmo autor, nada mais é que uma outra transformada matemática que faz o inverso da FDCT, converte coeficientes em amostras da imagem. 
 
-De acordo \cite{wallace1991jpeg}, após a saída do FDCT, cada um dos 64 coeficientes (blocos 8x8) da DCT  é quantizado uniformemente em conjunto com uma matriz de normalização de 64 elementos, que deve ser indicada pela aplicação (ou usuário) como uma entrada para o codificador. Cada elemento pode variar entre 1 e 255, o que indica o tamanho de degrau do quantizador do seu coeficiente DCT respectivo. A finalidade de quantização (\textit{quantizer}) é conseguir uma compressão adicional, apenas por representar os coeficientes de DCT com uma precisão suficiente para atingir a desejada qualidade de imagem. Dito de outra forma, o objetivo desta etapa de processamento é descartar informações que não são visualmente significativas. 
+De acordo \cite{wallace1991jpeg}, após a saída do FDCT, cada um dos 64 coeficientes (blocos 8x8) da DCT  é quantizado uniformemente em conjunto com uma matriz de normalização de 64 elementos, que deve ser indicada pela aplicação (ou usuário) como uma entrada para o codificador. Cada elemento pode variar entre 1 e 255, o que indica o tamanho de degrau do quantizador do seu coeficiente DCT respectivo. A finalidade de quantização (\textit{quantizer}) é viabilizar uma compressão adicional, apenas por representar os coeficientes de DCT com uma precisão suficiente para atingir a desejada qualidade de imagem. Dito de outra forma, o objetivo desta etapa de processamento é descartar informações que não são visualmente significativas. 
 
 A quantização de uma matriz é definida como a divisão de cada um de seus elementos por um respectivo coeficiente de quantização (definido pela matriz de normalização), seguido de arredondamento para o inteiro mais próximo:
 \vspace{-3mm}
 \begin{flushleft}
 	\begin{equation}
-		F^Q(u,v)=\left \lfloor \frac{F(u,v)}{Q(u,v)} +0,5 \right \rfloor
+		F^Q(u,v)=\left \lfloor \frac{F(u,v)}{Q(u,v)} +0,5 \right \rfloor,
 	\end{equation}
 \end{flushleft}
 onde:
@@ -391,7 +391,7 @@ Ainda de acordo com \cite{wallace1991jpeg}, a inversão da quantização (\texti
 \begin{center}
 	\begin{equation}
 		\begin{split}
-			F^{Q'}(u,v) =F^Q(u,v) * Q(u,v) \\
+			F^{Q'}(u,v) =F^Q(u,v) * Q(u,v), \\
 		\end{split}
 	\end{equation}
 \end{center} 
@@ -435,14 +435,13 @@ Ainda, conforme o mesmo autor, sabe-se que a predição do macrobloco atual gera
 	\label{H264_DECODER}
 \end{figure}
 
-No decodificador, um macrobloco é decodificado (operação inversa à codificação de entropia), desquantizado e passa pela transformada inversa de modo a formar um macrobloco residual descodificado (similar ao macrobloco residual gerado no codificador). Ainda no decodificador é gerada a mesma predição que foi criada no codificador que é somada ao macrobloco residual decodificado para então produzir uma aproximação do macrobloco original da imagem \cite{richardson2011h}.
+No decodificador, um macrobloco é decodificado (operação inversa à codificação de entropia), escalonado e passa pela transformada inversa de modo a formar um macrobloco residual descodificado (similar ao macrobloco residual gerado no codificador). Ainda no decodificador é gerada a mesma predição que foi criada no codificador que é somada ao macrobloco residual decodificado para então produzir uma aproximação do macrobloco original da imagem \cite{richardson2011h}.
 
 \section{Métricas de Qualidade}
 \label{metricas}
-Uma vez que tenhamos desenvolvido um esquema de compressão de dados, precisamos ser capazes de medir o seu desempenho. Devido ao grande número de diferentes áreas de aplicação, condições diferentes têm sido desenvolvidas para descrever e medir o desempenho \cite{sayood2012introduction}.
+Uma vez que se tenha desenvolvido um esquema de compressão de dados, precisa-se medir o seu desempenho. Devido ao grande número de diferentes áreas de aplicação, condições diferentes têm sido desenvolvidas para descrever e medir o desempenho \cite{sayood2012introduction}.
 
-Um método comum utilizado como medida de desempenho para diversas técnicas de compressão de imagens é a relação sinal de pico/ruído (PSNR, do inglês \textit{Peak Signal Noise Ratio}), que é a relação entre o máximo possível de potência de um sinal pela potência do ruído, quando comparamos um sinal antes e depois de um
-processo de degradação, ou seja, a imagem original e a imagem comprimida. Um valor alto de PSNR significa uma alta relação entre a potência da imagem original pela potência da imagem comprimida, ou seja, uma melhor qualidade da imagem reconstruída. Em termos matemáticos, o valor do PSNR entre uma imagem original  e uma imagem reconstruída é dado pela Eq. \ref{PSNR} \cite{vergutz2013combinaccao} : 
+Um método comum utilizado como medida de desempenho para diversas técnicas de compressão de imagens é a relação sinal de pico/ruído (PSNR, do inglês \textit{peak signal-to-noise-ratio}), que é o pico da relação entre o pico  potência de um sinal pela potência do ruído, quando compara-se um sinal antes e depois de um processo de degradação, ou seja, a imagem original e a imagem comprimida. Um valor alto de PSNR significa uma alta relação entre a potência da imagem original pela potência da imagem comprimida, ou seja, uma melhor qualidade da imagem reconstruída. Em termos matemáticos, o valor do PSNR entre uma imagem original  e uma imagem reconstruída é dado pela Eq. \ref{PSNR} \cite{vergutz2013combinaccao} : 
 \vspace{-3mm}
 \begin{center}
 	\begin{equation}

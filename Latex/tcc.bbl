@@ -3,11 +3,13 @@
 \begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.2 }
+\abntbstabout{v-1.9.5 }
 
 \bibitem{imagensTeste}
 \abntrefinfo{Maimone}{MAIMONE}{2014}
-{MAIMONE, M. \emph{The Computer Vision Homepage}. 2014.}
+{MAIMONE, M. \emph{The Computer Vision Homepage}.
+[S.l.], 2014. Dispon{\'\i}vel em:
+  \url{http://www.cs.cmu.edu/~cil/v-images.html}.}
 
 \bibitem{scuri1999fundamentos}
 \abntrefinfo{Scuri}{SCURI}{1999}
@@ -22,14 +24,14 @@
 
 \bibitem{salazar2007complexity}
 \abntrefinfo{Salazar e Tran}{SALAZAR; TRAN}{2007}
-{SALAZAR, C.; TRAN, T.~D. A complexity scalable universal dct domain image
+{SALAZAR, C.; TRAN, T.~D. A complexity scalable universal {DCT} domain image
   resizing algorithm.
 \emph{Circuits and Systems for Video Technology, IEEE Transactions on}, IEEE,
   v.~17, n.~4, p. 495--499, 2007.}
 
 \bibitem{wallace1991jpeg}
 \abntrefinfo{Wallace}{WALLACE}{1991}
-{WALLACE, G.~K. The jpeg still picture compression standard.
+{WALLACE, G.~K. The {JPEG} still picture compression standard.
 \emph{Communications of the ACM}, AcM, v.~34, n.~4, p. 30--44, 1991.}
 
 \bibitem{richardson2011h}
@@ -52,7 +54,8 @@
 
 \bibitem{element14}
 \abntrefinfo{Community}{COMMUNITY}{2015}
-{COMMUNITY, E. \emph{Raspberry pi 2 Model B GPIO Header}. 2015.}
+{COMMUNITY, E. \emph{Raspberry {PI} 2 Model B {GPIO} Header}.
+[S.l.], 2015. Dispon{\'\i}vel em: \url{http://www.element14.com/}.}
 
 \bibitem{forooshani2013survey}
 \abntrefinfo{Forooshani et al.}{FOROOSHANI et al.}{2013}
@@ -88,6 +91,13 @@
   underground mines.
 \emph{RFID-Based Sensor Networking}, Springer, 2010.}
 
+\bibitem{link}
+\abntrefinfo{Communication}{COMMUNICATION}{2015}
+{COMMUNICATION, I. V.~A. \emph{Vital Alert Communication - Mining Communication
+  Systems}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.mining-technology.com/contractors/communications/vital-alert-communication/}.}
+
 \bibitem{young1998fundamentals}
 \abntrefinfo{Young, Gerbrands e Vliet}{YOUNG; GERBRANDS; VLIET}{1998}
 {YOUNG, I.~T.; GERBRANDS, J.~J.; VLIET, L.~J. V. \emph{Fundamentals of image
@@ -97,7 +107,7 @@
 \bibitem{gonzalez2004digital}
 \abntrefinfo{Gonzalez, Woods e Eddins}{GONZALEZ; WOODS; EDDINS}{2004}
 {GONZALEZ, R.~C.; WOODS, R.~E.; EDDINS, S.~L. \emph{Digital image processing
-  using MATLAB}. [S.l.]: Pearson Education India, 2004.}
+  using {MATLAB}}. [S.l.]: Pearson Education India, 2004.}
 
 \bibitem{scharstein2002taxonomy}
 \abntrefinfo{Scharstein e Szeliski}{SCHARSTEIN; SZELISKI}{2002}
@@ -109,7 +119,7 @@
 \bibitem{acharya2002integrated}
 \abntrefinfo{Acharya}{ACHARYA}{2002}
 {ACHARYA, T. \emph{Integrated color interpolation and color space conversion
-  algorithm from 8-bit bayer pattern RGB color space to 12-bit YCrCb color
+  algorithm from 8-bit bayer pattern {RGB} color space to 12-bit {YCrCb}s color
   space}. Google Patents, 2002.
 US Patent 6,392,699.
 Dispon{\'\i}vel em: \url{https://www.google.com/patents/US6392699}.}
@@ -132,7 +142,7 @@ Dispon{\'\i}vel em: \url{http://www.w3.org/Graphics/JPEG/itu-t81.pdf}.}
 
 \bibitem{khayam2003discrete}
 \abntrefinfo{Khayam}{KHAYAM}{2003}
-{KHAYAM, S.~A. The discrete cosine transform (dct): theory and application.
+{KHAYAM, S.~A. The discrete cosine transform ({DCT}): theory and application.
 \emph{Michigan State University}, 2003.}
 
 \bibitem{patil2006fast2}
@@ -143,7 +153,7 @@ Dispon{\'\i}vel em: \url{http://www.w3.org/Graphics/JPEG/itu-t81.pdf}.}
 
 \bibitem{chang1995manipulation}
 \abntrefinfo{Chang e Messerschmitt}{CHANG; MESSERSCHMITT}{1995}
-{CHANG, S.-F.; MESSERSCHMITT, D.~G. Manipulation and compositing of mc-dct
+{CHANG, S.-F.; MESSERSCHMITT, D.~G. Manipulation and compositing of {MC-DCT}
   compressed video.
 \emph{Selected Areas in Communications, IEEE Journal on}, IEEE, v.~13, n.~1, p.
   1--11, 1995.}
@@ -164,7 +174,7 @@ Dispon{\'\i}vel em: \url{http://www.w3.org/Graphics/JPEG/itu-t81.pdf}.}
 \bibitem{mukherjee2002image}
 \abntrefinfo{Mukherjee e Mitra}{MUKHERJEE; MITRA}{2002}
 {MUKHERJEE, J.; MITRA, S.~K. Image resizing in the compressed domain using
-  subband dct.
+  subband {DCT}.
 \emph{Circuits and Systems for Video Technology, IEEE Transactions on}, IEEE,
   v.~12, n.~7, p. 620--627, 2002.}
 
@@ -176,7 +186,7 @@ Dispon{\'\i}vel em: \url{http://www.w3.org/Graphics/JPEG/itu-t81.pdf}.}
 
 \bibitem{park2003m}
 \abntrefinfo{Park, Park e Oh}{PARK; PARK; OH}{2003}
-{PARK, H.; PARK, Y.; OH, S.-K. L/m-fold image resizing in block-dct domain
+{PARK, H.; PARK, Y.; OH, S.-K. L/m-fold image resizing in {block-DCT} domain
   using symmetric convolution.
 \emph{Image Processing, IEEE Transactions on}, IEEE, v.~12, n.~9, p.
   1016--1034, 2003.}
@@ -266,11 +276,24 @@ Tese (Doutorado) --- UNIVERSIDADE CAT{\'O}LICA DE PELOTAS, 2007.}
 
 \bibitem{raspberryOrg}
 \abntrefinfo{Foundation}{FOUNDATION}{2015}
-{FOUNDATION, R.~P. \emph{Raspberry pi}. 2015.}
+{FOUNDATION, R.~P. \emph{Raspberry {PI}}.
+[S.l.], 2015. Dispon{\'\i}vel em: \url{https://www.raspberrypi.org/}.}
+
+\bibitem{repo}
+\abntrefinfo{Dantas}{DANTAS}{2015}
+{DANTAS, A. M.~R. \emph{Repositório da Sistema de Codificação de Imagens em
+  Baixo Consumo}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{https://github.com/andre8359/CodigosTCC}.}
 
 \bibitem{bjontegaard2001calcuation}
 \abntrefinfo{Bjontegaard}{BJONTEGAARD}{2001}
-{BJONTEGAARD, G. Calcuation of average psnr differences between rd-curves.
+{BJONTEGAARD, G. Calcuation of average {PSNR} differences between rd-curves.
 \emph{Doc. VCEG-M33 ITU-T Q6/16, Austin, TX, USA, 2-4 April 2001}, 2001.}
+
+\bibitem{powertop}
+\abntrefinfo{Corporation}{CORPORATION}{2015}
+{CORPORATION, I. \emph{POWERTOP USER'S GUIDE}.
+[S.l.], 2015. Dispon{\'\i}vel em: \url{https://01.org/powertop}.}
 
 \end{thebibliography}
